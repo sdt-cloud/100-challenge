@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Challenge</title>
+    <meta name="description" content="Kişisel ilerleme takip platformu - yıllık 100'lük listeler">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Tema Değiştir">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+    </button>
+
+    <div id="app">
+        <!-- Login/Register Page -->
+        <div id="auth-page" class="page">
+            <div class="auth-container">
+                <div class="logo">
+                    <span class="logo-number">100</span>
+                    <span class="logo-text">Challenge</span>
+                </div>
+                <p class="tagline">Ne yapacağını sen belirlersin.<br>Biz sadece neredesin onu gösteririz.</p>
+
+                <div class="auth-tabs">
+                    <button class="auth-tab active" data-tab="login">Giriş Yap</button>
+                    <button class="auth-tab" data-tab="register">Kayıt Ol</button>
+                </div>
+
+                <form id="login-form" class="auth-form">
+                    <div class="form-group">
+                        <label for="login-email">E-posta</label>
+                        <input type="email" id="login-email" required placeholder="ornek@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Şifre</label>
+                        <input type="password" id="login-password" required placeholder="••••••••">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Giriş Yap</button>
+                </form>
+
+                <form id="register-form" class="auth-form hidden">
+                    <div class="form-group">
+                        <label for="register-email">E-posta</label>
+                        <input type="email" id="register-email" required placeholder="ornek@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password">Şifre</label>
+                        <input type="password" id="register-password" required placeholder="En az 6 karakter">
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password-confirm">Şifre Tekrar</label>
+                        <input type="password" id="register-password-confirm" required placeholder="••••••••">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+                </form>
+
+                <div id="auth-error" class="error-message hidden"></div>
+            </div>
+        </div>
+
+        <!-- Dashboard Page -->
+        <div id="dashboard-page" class="page hidden">
+            <header class="header">
+                <div class="header-left">
+                    <span class="logo-small">100 Challenge</span>
+                </div>
+                <div class="header-right">
+                    <span id="current-year" class="year-badge">2026</span>
+                    <button id="logout-btn" class="btn btn-ghost">Çıkış</button>
+                </div>
+            </header>
+
+            <main class="dashboard-main">
+                <div class="welcome-section">
+                    <h1>Merhaba! 👋</h1>
+                    <p class="subtitle">Bugün ne yapmak istersin?</p>
+                </div>
+
+                <div class="stats-overview">
+                    <div class="stat-card">
+                        <span class="stat-number" id="total-challenges">0</span>
+                        <span class="stat-label">Aktif Liste</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="total-completed">0</span>
+                        <span class="stat-label">Tamamlanan</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="overall-progress">0%</span>
+                        <span class="stat-label">Genel İlerleme</span>
+                    </div>
+                </div>
+
+                <div class="section-header">
+                    <h2>Listelerim</h2>
+                    <button id="add-challenge-btn" class="btn btn-primary">+ Yeni Liste</button>
+                </div>
+
+                <div id="challenges-grid" class="challenges-grid">
+                    <!-- Challenge cards will be rendered here -->
+                </div>
+
+                <div id="empty-state" class="empty-state hidden">
+                    <div class="empty-icon">📋</div>
+                    <h3>Henüz liste yok</h3>
+                    <p>İlk 100'lük listeni oluşturarak başla!</p>
+                    <button class="btn btn-primary" onclick="showNewChallengeModal()">+ Yeni Liste Oluştur</button>
+                </div>
+            </main>
+        </div>
+
+        <!-- Challenge Detail Page -->
+        <div id="challenge-page" class="page hidden">
+            <header class="header">
+                <div class="header-left">
+                    <button id="back-btn" class="btn btn-ghost">← Geri</button>
+                </div>
+                <div class="header-right">
+                    <button id="random-pick-btn" class="btn btn-secondary">🎲 Rastgele Seç</button>
+                    <button id="delete-challenge-btn" class="btn btn-ghost btn-danger">Sil</button>
+                </div>
+            </header>
+
+            <main class="challenge-main">
+                <div class="challenge-header">
+                    <span id="challenge-emoji" class="challenge-emoji">🎬</span>
+                    <h1 id="challenge-title">100 Films</h1>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div id="challenge-progress-bar" class="progress-fill"></div>
+                        </div>
+                        <span id="challenge-progress-text" class="progress-text">0/100</span>
+                    </div>
+                </div>
+
+                <div class="items-section">
+                    <div class="items-header">
+                        <input type="text" id="search-items" class="search-input" placeholder="Madde ara...">
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-filter="all">Tümü</button>
+                            <button class="filter-btn" data-filter="pending">Bekleyen</button>
+                            <button class="filter-btn" data-filter="completed">Tamamlanan</button>
+                        </div>
+                    </div>
+
+                    <div class="add-item-form">
+                        <input type="text" id="new-item-input" class="item-input" placeholder="Yeni madde ekle...">
+                        <button id="add-item-btn" class="btn btn-primary">Ekle</button>
+                    </div>
+
+                    <ul id="items-list" class="items-list">
+                        <!-- Items will be rendered here -->
+                    </ul>
+                </div>
+            </main>
+        </div>
+
+        <!-- New Challenge Modal -->
+        <div id="new-challenge-modal" class="modal hidden">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <h2>Yeni Liste Oluştur</h2>
+                <form id="new-challenge-form">
+                    <div class="form-group">
+                        <label for="challenge-category">Kategori</label>
+                        <select id="challenge-category">
+                            <option value="films">🎬 Filmler</option>
+                            <option value="books">📚 Kitaplar</option>
+                            <option value="music">🎧 Müzik</option>
+                            <option value="custom">⭐ Özel</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="challenge-name">Liste Adı</label>
+                        <input type="text" id="challenge-name" required placeholder="örn: 100 Klasik Film"
+                            autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="challenge-emoji-input">Emoji (opsiyonel)</label>
+                        <input type="text" id="challenge-emoji-input" placeholder="🎬" maxlength="2">
+                    </div>
+                    <div class="modal-actions">
+                        <button type="button" class="btn btn-ghost" onclick="hideNewChallengeModal()">İptal</button>
+                        <button type="submit" class="btn btn-primary">Oluştur</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Random Pick Modal -->
+        <div id="random-modal" class="modal hidden">
+            <div class="modal-overlay"></div>
+            <div class="modal-content random-modal-content">
+                <div class="random-result">
+                    <img id="random-poster" class="random-poster" src="" alt="Film Afişi">
+                    <span class="random-label">Bugünkü Seçimin</span>
+                    <h2 id="random-item-name">Film Adı</h2>
+                </div>
+                <button class="btn btn-primary" onclick="hideRandomModal()">Tamam</button>
+            </div>
+        </div>
+
+        <!-- Edit Item Modal -->
+        <div id="edit-item-modal" class="modal hidden">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <h2>Madde Düzenle</h2>
+                <form id="edit-item-form">
+                    <div class="form-group">
+                        <label for="edit-item-name">Madde Adı</label>
+                        <input type="text" id="edit-item-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-item-note">Not (opsiyonel)</label>
+                        <textarea id="edit-item-note" rows="3"
+                            placeholder="Bu madde hakkında bir not ekle..."></textarea>
+                    </div>
+                    <div class="modal-actions">
+                        <button type="button" class="btn btn-ghost" onclick="hideEditItemModal()">İptal</button>
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

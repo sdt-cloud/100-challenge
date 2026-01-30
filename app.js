@@ -111,6 +111,80 @@ const MOVIE_API = {
     }
 };
 
+// ============ Jikan API Configuration (MyAnimeList) ============
+const ANIME_API = {
+    BASE_URL: 'https://api.jikan.moe/v4',
+    cache: {},
+    lastRequestTime: 0,
+    MIN_REQUEST_INTERVAL: 350, // Jikan has rate limit of ~3 requests/second
+
+    // Wait to respect rate limits
+    async waitForRateLimit() {
+        const now = Date.now();
+        const timeSinceLastRequest = now - this.lastRequestTime;
+        if (timeSinceLastRequest < this.MIN_REQUEST_INTERVAL) {
+            await new Promise(resolve =>
+                setTimeout(resolve, this.MIN_REQUEST_INTERVAL - timeSinceLastRequest)
+            );
+        }
+        this.lastRequestTime = Date.now();
+    },
+
+    // Search for anime by name
+    async searchAnime(query) {
+        try {
+            // Check cache first
+            const cacheKey = query.toLowerCase().trim();
+            if (this.cache[cacheKey]) {
+                return this.cache[cacheKey];
+            }
+
+            // Extract English name from parentheses if present: "Title (English Title)"
+            let searchQuery = query;
+            const parenthesesMatch = query.match(/\(([^)]+)\)\s*$/);
+            if (parenthesesMatch) {
+                searchQuery = parenthesesMatch[1];
+            }
+
+            // Remove common suffixes for better search
+            searchQuery = searchQuery
+                .replace(/\s*\(.*?\)\s*/g, '')
+                .replace(/:\s*Season\s*\d+/gi, '')
+                .replace(/\s+/g, ' ')
+                .trim();
+
+            await this.waitForRateLimit();
+
+            const response = await fetch(
+                `${this.BASE_URL}/anime?q=${encodeURIComponent(searchQuery)}&limit=1&sfw=true`
+            );
+
+            if (!response.ok) {
+                console.log('Jikan API error:', response.status);
+                return null;
+            }
+
+            const data = await response.json();
+
+            if (data.data && data.data.length > 0) {
+                const anime = data.data[0];
+                const imageUrl = anime.images?.jpg?.image_url ||
+                    anime.images?.webp?.image_url ||
+                    null;
+
+                // Cache the result
+                this.cache[cacheKey] = imageUrl;
+                return imageUrl;
+            }
+
+            return null;
+        } catch (error) {
+            console.log('Jikan API error:', error);
+            return null;
+        }
+    }
+};
+
 // ============ Data Layer (LocalStorage) ============
 const Storage = {
     KEYS: {
@@ -616,10 +690,13 @@ function renderItems() {
     }
 
     const isFilmCategory = challenge.category === 'films';
+    const isAnimeCategory = challenge.category === 'anime';
+    const showPoster = isFilmCategory || isAnimeCategory;
+    const posterEmoji = isAnimeCategory ? '🎌' : '🎬';
 
     DOM.itemsList.innerHTML = items.map((item, index) => `
         <li class="item ${item.completed ? 'completed' : ''}" data-id="${item.id}">
-            ${isFilmCategory ? `<div class="item-poster loading" data-item-id="${item.id}"></div>` : ''}
+            ${showPoster ? `<div class="item-poster loading" data-item-id="${item.id}" data-category="${challenge.category}"></div>` : ''}
             <span class="item-number">${index + 1}.</span>
             <input type="checkbox" class="item-checkbox" ${item.completed ? 'checked' : ''}>
             <div class="item-content">
@@ -633,9 +710,11 @@ function renderItems() {
         </li>
     `).join('');
 
-    // Load movie posters for film category
+    // Load posters for film or anime category
     if (isFilmCategory) {
         loadMoviePosters(items);
+    } else if (isAnimeCategory) {
+        loadAnimePosters(items);
     }
 
     // Add event listeners
@@ -685,19 +764,46 @@ async function loadMoviePosters(items) {
     }
 }
 
-function displayPoster(element, url) {
+function displayPoster(element, url, fallbackEmoji = '🎬') {
     const img = document.createElement('img');
     img.src = url;
-    img.alt = 'Film Afişi';
+    img.alt = 'Afiş';
     img.className = 'item-poster';
     img.onerror = () => {
         element.classList.remove('loading');
         element.classList.add('no-poster');
-        element.textContent = '🎬';
+        element.textContent = fallbackEmoji;
     };
     img.onload = () => {
         element.replaceWith(img);
     };
+}
+
+// ============ Anime Poster Loading ============
+async function loadAnimePosters(items) {
+    for (const item of items) {
+        const posterEl = document.querySelector(`.item-poster[data-item-id="${item.id}"]`);
+        if (!posterEl) continue;
+
+        // Check cache first (using ANIME_API cache)
+        const cacheKey = item.name.toLowerCase().trim();
+        if (ANIME_API.cache[cacheKey]) {
+            displayPoster(posterEl, ANIME_API.cache[cacheKey], '🎌');
+            continue;
+        }
+
+        // Fetch from Jikan API
+        const posterUrl = await ANIME_API.searchAnime(item.name);
+
+        if (posterUrl) {
+            displayPoster(posterEl, posterUrl, '🎌');
+        } else {
+            // No poster found - show anime emoji
+            posterEl.classList.remove('loading');
+            posterEl.classList.add('no-poster');
+            posterEl.textContent = '🎌';
+        }
+    }
 }
 
 // ============ Random Pick ============

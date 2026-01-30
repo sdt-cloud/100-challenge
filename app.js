@@ -1191,6 +1191,21 @@ const CuratedLists = {
                 await this.loadAndRenderGrid('anime-genre-grid', animeSubs['genre'].lists);
             }
         }
+
+        // Game lists
+        if (index.categories.games?.subcategories) {
+            const gameSubs = index.categories.games.subcategories;
+
+            if (gameSubs['must-play']?.lists) {
+                await this.loadAndRenderGrid('games-must-play-grid', gameSubs['must-play'].lists);
+            }
+            if (gameSubs['genre']?.lists) {
+                await this.loadAndRenderGrid('games-genre-grid', gameSubs['genre'].lists);
+            }
+            if (gameSubs['platform']?.lists) {
+                await this.loadAndRenderGrid('games-platform-grid', gameSubs['platform'].lists);
+            }
+        }
     },
 
     // Preview a list (show items modal)
@@ -1368,23 +1383,33 @@ function initDashboardTabs() {
             const filmSection = document.getElementById('film-lists-section');
             const bookSection = document.getElementById('book-lists-section');
             const animeSection = document.getElementById('anime-lists-section');
+            const gamesSection = document.getElementById('games-lists-section');
 
             if (category === 'all') {
                 filmSection?.classList.remove('hidden');
                 bookSection?.classList.remove('hidden');
                 animeSection?.classList.remove('hidden');
+                gamesSection?.classList.remove('hidden');
             } else if (category === 'films') {
                 filmSection?.classList.remove('hidden');
                 bookSection?.classList.add('hidden');
                 animeSection?.classList.add('hidden');
+                gamesSection?.classList.add('hidden');
             } else if (category === 'books') {
                 filmSection?.classList.add('hidden');
                 bookSection?.classList.remove('hidden');
                 animeSection?.classList.add('hidden');
+                gamesSection?.classList.add('hidden');
             } else if (category === 'anime') {
                 filmSection?.classList.add('hidden');
                 bookSection?.classList.add('hidden');
                 animeSection?.classList.remove('hidden');
+                gamesSection?.classList.add('hidden');
+            } else if (category === 'games') {
+                filmSection?.classList.add('hidden');
+                bookSection?.classList.add('hidden');
+                animeSection?.classList.add('hidden');
+                gamesSection?.classList.remove('hidden');
             }
         });
     });

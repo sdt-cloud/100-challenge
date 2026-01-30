@@ -1,0 +1,597 @@
+{
+    "id": "100-console-games",
+    "title": "Konsol için En İyi 100 Oyun",
+    "description": "PlayStation, Xbox ve Nintendo konsollarında oynamanız gereken en iyi exclusive ve konsol deneyimleri.",
+    "category": "games",
+    "subcategory": "platform",
+    "tags": [
+        "🎮 Konsol",
+        "🏠 Oturma Odası",
+        "🎯 Exclusive"
+    ],
+    "cover": "console-games-cover.jpg",
+    "items": [
+        {
+            "tr": "The Last of Us Part II",
+            "en": "The Last of Us Part II",
+            "year": 2020,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "God of War Ragnarök",
+            "en": "God of War Ragnarök",
+            "year": 2022,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "Horizon Forbidden West",
+            "en": "Horizon Forbidden West",
+            "year": 2022,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "Spider-Man 2",
+            "en": "Marvel's Spider-Man 2",
+            "year": 2023,
+            "platform": "PS5"
+        },
+        {
+            "tr": "Demon's Souls",
+            "en": "Demon's Souls",
+            "year": 2020,
+            "platform": "PS5"
+        },
+        {
+            "tr": "Returnal",
+            "en": "Returnal",
+            "year": 2021,
+            "platform": "PS5"
+        },
+        {
+            "tr": "Ratchet & Clank: Rift Apart",
+            "en": "Ratchet & Clank: Rift Apart",
+            "year": 2021,
+            "platform": "PS5"
+        },
+        {
+            "tr": "Astro's Playroom",
+            "en": "Astro's Playroom",
+            "year": 2020,
+            "platform": "PS5"
+        },
+        {
+            "tr": "Ghost of Tsushima",
+            "en": "Ghost of Tsushima",
+            "year": 2020,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "Bloodborne",
+            "en": "Bloodborne",
+            "year": 2015,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Uncharted 4",
+            "en": "Uncharted 4: A Thief's End",
+            "year": 2016,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Shadow of the Colossus",
+            "en": "Shadow of the Colossus",
+            "year": 2018,
+            "platform": "PS4"
+        },
+        {
+            "tr": "The Last Guardian",
+            "en": "The Last Guardian",
+            "year": 2016,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Final Fantasy XVI",
+            "en": "Final Fantasy XVI",
+            "year": 2023,
+            "platform": "PS5"
+        },
+        {
+            "tr": "Final Fantasy VII Rebirth",
+            "en": "Final Fantasy VII Rebirth",
+            "year": 2024,
+            "platform": "PS5"
+        },
+        {
+            "tr": "Gran Turismo 7",
+            "en": "Gran Turismo 7",
+            "year": 2022,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "The Legend of Zelda: Tears of the Kingdom",
+            "en": "The Legend of Zelda: Tears of the Kingdom",
+            "year": 2023,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "The Legend of Zelda: Breath of the Wild",
+            "en": "The Legend of Zelda: Breath of the Wild",
+            "year": 2017,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Super Mario Odyssey",
+            "en": "Super Mario Odyssey",
+            "year": 2017,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Super Mario Bros. Wonder",
+            "en": "Super Mario Bros. Wonder",
+            "year": 2023,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Metroid Dread",
+            "en": "Metroid Dread",
+            "year": 2021,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Metroid Prime Remastered",
+            "en": "Metroid Prime Remastered",
+            "year": 2023,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Splatoon 3",
+            "en": "Splatoon 3",
+            "year": 2022,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Xenoblade Chronicles 3",
+            "en": "Xenoblade Chronicles 3",
+            "year": 2022,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Fire Emblem: Three Houses",
+            "en": "Fire Emblem: Three Houses",
+            "year": 2019,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Fire Emblem Engage",
+            "en": "Fire Emblem Engage",
+            "year": 2023,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Animal Crossing: New Horizons",
+            "en": "Animal Crossing: New Horizons",
+            "year": 2020,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Pokemon Legends: Arceus",
+            "en": "Pokemon Legends: Arceus",
+            "year": 2022,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Pokemon Scarlet/Violet",
+            "en": "Pokemon Scarlet/Violet",
+            "year": 2022,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Super Smash Bros. Ultimate",
+            "en": "Super Smash Bros. Ultimate",
+            "year": 2018,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Mario Kart 8 Deluxe",
+            "en": "Mario Kart 8 Deluxe",
+            "year": 2017,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Luigi's Mansion 3",
+            "en": "Luigi's Mansion 3",
+            "year": 2019,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Pikmin 4",
+            "en": "Pikmin 4",
+            "year": 2023,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Kirby and the Forgotten Land",
+            "en": "Kirby and the Forgotten Land",
+            "year": 2022,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Bayonetta 3",
+            "en": "Bayonetta 3",
+            "year": 2022,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Halo Infinite",
+            "en": "Halo Infinite",
+            "year": 2021,
+            "platform": "Xbox Series X/S"
+        },
+        {
+            "tr": "Forza Horizon 5",
+            "en": "Forza Horizon 5",
+            "year": 2021,
+            "platform": "Xbox Series X/S"
+        },
+        {
+            "tr": "Forza Motorsport",
+            "en": "Forza Motorsport",
+            "year": 2023,
+            "platform": "Xbox Series X/S"
+        },
+        {
+            "tr": "Gears 5",
+            "en": "Gears 5",
+            "year": 2019,
+            "platform": "Xbox One/Series X"
+        },
+        {
+            "tr": "Ori and the Will of the Wisps",
+            "en": "Ori and the Will of the Wisps",
+            "year": 2020,
+            "platform": "Xbox One"
+        },
+        {
+            "tr": "Sea of Thieves",
+            "en": "Sea of Thieves",
+            "year": 2018,
+            "platform": "Xbox One"
+        },
+        {
+            "tr": "Grounded",
+            "en": "Grounded",
+            "year": 2022,
+            "platform": "Xbox Series X/S"
+        },
+        {
+            "tr": "Pentiment",
+            "en": "Pentiment",
+            "year": 2022,
+            "platform": "Xbox Series X/S"
+        },
+        {
+            "tr": "Hi-Fi Rush",
+            "en": "Hi-Fi Rush",
+            "year": 2023,
+            "platform": "Xbox Series X/S"
+        },
+        {
+            "tr": "Starfield",
+            "en": "Starfield",
+            "year": 2023,
+            "platform": "Xbox Series X/S"
+        },
+        {
+            "tr": "Red Dead Redemption 2",
+            "en": "Red Dead Redemption 2",
+            "year": 2018,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Grand Theft Auto V",
+            "en": "Grand Theft Auto V",
+            "year": 2013,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "The Witcher 3: Wild Hunt",
+            "en": "The Witcher 3: Wild Hunt",
+            "year": 2015,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Elden Ring",
+            "en": "Elden Ring",
+            "year": 2022,
+            "platform": "PS5/Xbox Series X"
+        },
+        {
+            "tr": "Final Fantasy VII Remake",
+            "en": "Final Fantasy VII Remake",
+            "year": 2020,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Persona 5 Royal",
+            "en": "Persona 5 Royal",
+            "year": 2019,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Kingdom Hearts III",
+            "en": "Kingdom Hearts III",
+            "year": 2019,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Tales of Arise",
+            "en": "Tales of Arise",
+            "year": 2021,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Dragon Quest XI S",
+            "en": "Dragon Quest XI S",
+            "year": 2019,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "NieR: Automata",
+            "en": "NieR: Automata",
+            "year": 2017,
+            "platform": "PS4"
+        },
+        {
+            "tr": "NieR Replicant",
+            "en": "NieR Replicant ver.1.22474487139...",
+            "year": 2021,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Yakuza: Like a Dragon",
+            "en": "Yakuza: Like a Dragon",
+            "year": 2020,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Like a Dragon: Infinite Wealth",
+            "en": "Like a Dragon: Infinite Wealth",
+            "year": 2024,
+            "platform": "PS5/Xbox Series X"
+        },
+        {
+            "tr": "Resident Evil 4 Remake",
+            "en": "Resident Evil 4",
+            "year": 2023,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "Resident Evil Village",
+            "en": "Resident Evil Village",
+            "year": 2021,
+            "platform": "PS5/Xbox Series X"
+        },
+        {
+            "tr": "Devil May Cry 5",
+            "en": "Devil May Cry 5",
+            "year": 2019,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Monster Hunter Rise",
+            "en": "Monster Hunter Rise",
+            "year": 2021,
+            "platform": "Switch"
+        },
+        {
+            "tr": "Monster Hunter World",
+            "en": "Monster Hunter: World",
+            "year": 2018,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Street Fighter 6",
+            "en": "Street Fighter 6",
+            "year": 2023,
+            "platform": "PS5/Xbox Series X"
+        },
+        {
+            "tr": "Tekken 8",
+            "en": "Tekken 8",
+            "year": 2024,
+            "platform": "PS5/Xbox Series X"
+        },
+        {
+            "tr": "Mortal Kombat 1",
+            "en": "Mortal Kombat 1",
+            "year": 2023,
+            "platform": "PS5/Xbox Series X"
+        },
+        {
+            "tr": "Guilty Gear Strive",
+            "en": "Guilty Gear Strive",
+            "year": 2021,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "It Takes Two",
+            "en": "It Takes Two",
+            "year": 2021,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "A Way Out",
+            "en": "A Way Out",
+            "year": 2018,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Overcooked! 2",
+            "en": "Overcooked! 2",
+            "year": 2018,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Sackboy: A Big Adventure",
+            "en": "Sackboy: A Big Adventure",
+            "year": 2020,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "LittleBigPlanet 3",
+            "en": "LittleBigPlanet 3",
+            "year": 2014,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Dreams",
+            "en": "Dreams",
+            "year": 2020,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Death Stranding",
+            "en": "Death Stranding",
+            "year": 2019,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Control",
+            "en": "Control",
+            "year": 2019,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Sekiro: Shadows Die Twice",
+            "en": "Sekiro: Shadows Die Twice",
+            "year": 2019,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Dark Souls III",
+            "en": "Dark Souls III",
+            "year": 2016,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Dark Souls Remastered",
+            "en": "Dark Souls Remastered",
+            "year": 2018,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Nioh 2",
+            "en": "Nioh 2",
+            "year": 2020,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Wo Long: Fallen Dynasty",
+            "en": "Wo Long: Fallen Dynasty",
+            "year": 2023,
+            "platform": "PS5/Xbox Series X"
+        },
+        {
+            "tr": "Armored Core VI",
+            "en": "Armored Core VI: Fires of Rubicon",
+            "year": 2023,
+            "platform": "PS5/Xbox Series X"
+        },
+        {
+            "tr": "Sifu",
+            "en": "Sifu",
+            "year": 2022,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "Kena: Bridge of Spirits",
+            "en": "Kena: Bridge of Spirits",
+            "year": 2021,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "Stray",
+            "en": "Stray",
+            "year": 2022,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "Hades",
+            "en": "Hades",
+            "year": 2020,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Hollow Knight",
+            "en": "Hollow Knight",
+            "year": 2017,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Celeste",
+            "en": "Celeste",
+            "year": 2018,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Dead Cells",
+            "en": "Dead Cells",
+            "year": 2018,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Cuphead",
+            "en": "Cuphead",
+            "year": 2017,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Shovel Knight",
+            "en": "Shovel Knight",
+            "year": 2014,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Undertale",
+            "en": "Undertale",
+            "year": 2015,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Disco Elysium",
+            "en": "Disco Elysium: The Final Cut",
+            "year": 2021,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "Divinity: Original Sin 2",
+            "en": "Divinity: Original Sin 2",
+            "year": 2018,
+            "platform": "PS4/Switch"
+        },
+        {
+            "tr": "Baldur's Gate 3",
+            "en": "Baldur's Gate 3",
+            "year": 2023,
+            "platform": "PS5"
+        },
+        {
+            "tr": "DOOM Eternal",
+            "en": "DOOM Eternal",
+            "year": 2020,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Crash Bandicoot 4",
+            "en": "Crash Bandicoot 4: It's About Time",
+            "year": 2020,
+            "platform": "PS4/Xbox One"
+        },
+        {
+            "tr": "Spyro Reignited Trilogy",
+            "en": "Spyro Reignited Trilogy",
+            "year": 2018,
+            "platform": "PS4/Xbox One"
+        }
+    ]
+}

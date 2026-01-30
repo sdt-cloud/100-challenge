@@ -1,0 +1,315 @@
+{
+    "id": "50-indie-games",
+    "title": "En İyi 50 İndie Oyun",
+    "description": "Küçük stüdyoların büyük başarıları. Yaratıcılık ve tutkuyla yapılmış bağımsız oyunlar.",
+    "category": "games",
+    "subcategory": "genre",
+    "tags": [
+        "🎨 İndie",
+        "💎 Gizli Hazine",
+        "🌟 Yaratıcı"
+    ],
+    "cover": "indie-games-cover.jpg",
+    "items": [
+        {
+            "tr": "Hollow Knight",
+            "en": "Hollow Knight",
+            "year": 2017,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Hades",
+            "en": "Hades",
+            "year": 2020,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Celeste",
+            "en": "Celeste",
+            "year": 2018,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Undertale",
+            "en": "Undertale",
+            "year": 2015,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Stardew Valley",
+            "en": "Stardew Valley",
+            "year": 2016,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Cuphead",
+            "en": "Cuphead",
+            "year": 2017,
+            "platform": "PC/Xbox"
+        },
+        {
+            "tr": "Dead Cells",
+            "en": "Dead Cells",
+            "year": 2018,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Outer Wilds",
+            "en": "Outer Wilds",
+            "year": 2019,
+            "platform": "PC/PS4"
+        },
+        {
+            "tr": "Disco Elysium",
+            "en": "Disco Elysium",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "Inscryption",
+            "en": "Inscryption",
+            "year": 2021,
+            "platform": "PC"
+        },
+        {
+            "tr": "Slay the Spire",
+            "en": "Slay the Spire",
+            "year": 2019,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Into the Breach",
+            "en": "Into the Breach",
+            "year": 2018,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "FTL: Faster Than Light",
+            "en": "FTL: Faster Than Light",
+            "year": 2012,
+            "platform": "PC"
+        },
+        {
+            "tr": "Papers, Please",
+            "en": "Papers, Please",
+            "year": 2013,
+            "platform": "PC"
+        },
+        {
+            "tr": "Return of the Obra Dinn",
+            "en": "Return of the Obra Dinn",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Shovel Knight",
+            "en": "Shovel Knight",
+            "year": 2014,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Ori and the Blind Forest",
+            "en": "Ori and the Blind Forest",
+            "year": 2015,
+            "platform": "PC/Xbox"
+        },
+        {
+            "tr": "Ori and the Will of the Wisps",
+            "en": "Ori and the Will of the Wisps",
+            "year": 2020,
+            "platform": "PC/Xbox"
+        },
+        {
+            "tr": "Limbo",
+            "en": "Limbo",
+            "year": 2010,
+            "platform": "PC"
+        },
+        {
+            "tr": "Inside",
+            "en": "Inside",
+            "year": 2016,
+            "platform": "PC/PS4"
+        },
+        {
+            "tr": "Braid",
+            "en": "Braid",
+            "year": 2008,
+            "platform": "PC/Xbox 360"
+        },
+        {
+            "tr": "Super Meat Boy",
+            "en": "Super Meat Boy",
+            "year": 2010,
+            "platform": "PC"
+        },
+        {
+            "tr": "The Binding of Isaac: Rebirth",
+            "en": "The Binding of Isaac: Rebirth",
+            "year": 2014,
+            "platform": "PC"
+        },
+        {
+            "tr": "Spelunky 2",
+            "en": "Spelunky 2",
+            "year": 2020,
+            "platform": "PC/PS4"
+        },
+        {
+            "tr": "Terraria",
+            "en": "Terraria",
+            "year": 2011,
+            "platform": "PC"
+        },
+        {
+            "tr": "Minecraft",
+            "en": "Minecraft",
+            "year": 2011,
+            "platform": "PC"
+        },
+        {
+            "tr": "Cult of the Lamb",
+            "en": "Cult of the Lamb",
+            "year": 2022,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Tunic",
+            "en": "Tunic",
+            "year": 2022,
+            "platform": "PC/Xbox"
+        },
+        {
+            "tr": "Sifu",
+            "en": "Sifu",
+            "year": 2022,
+            "platform": "PC/PS5"
+        },
+        {
+            "tr": "Vampire Survivors",
+            "en": "Vampire Survivors",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "Hades II",
+            "en": "Hades II",
+            "year": 2024,
+            "platform": "PC"
+        },
+        {
+            "tr": "Silksong",
+            "en": "Hollow Knight: Silksong",
+            "year": 2024,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Katana Zero",
+            "en": "Katana Zero",
+            "year": 2019,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Gris",
+            "en": "Gris",
+            "year": 2018,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Journey",
+            "en": "Journey",
+            "year": 2012,
+            "platform": "PS3/PC"
+        },
+        {
+            "tr": "Subnautica",
+            "en": "Subnautica",
+            "year": 2018,
+            "platform": "PC/PS4"
+        },
+        {
+            "tr": "Valheim",
+            "en": "Valheim",
+            "year": 2021,
+            "platform": "PC"
+        },
+        {
+            "tr": "RimWorld",
+            "en": "RimWorld",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Factorio",
+            "en": "Factorio",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Noita",
+            "en": "Noita",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Risk of Rain 2",
+            "en": "Risk of Rain 2",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Enter the Gungeon",
+            "en": "Enter the Gungeon",
+            "year": 2016,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Hotline Miami",
+            "en": "Hotline Miami",
+            "year": 2012,
+            "platform": "PC"
+        },
+        {
+            "tr": "Darkest Dungeon",
+            "en": "Darkest Dungeon",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Night in the Woods",
+            "en": "Night in the Woods",
+            "year": 2017,
+            "platform": "PC"
+        },
+        {
+            "tr": "Oxenfree",
+            "en": "Oxenfree",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "What Remains of Edith Finch",
+            "en": "What Remains of Edith Finch",
+            "year": 2017,
+            "platform": "PC/PS4"
+        },
+        {
+            "tr": "Firewatch",
+            "en": "Firewatch",
+            "year": 2016,
+            "platform": "PC/PS4"
+        },
+        {
+            "tr": "Baba Is You",
+            "en": "Baba Is You",
+            "year": 2019,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "The Witness",
+            "en": "The Witness",
+            "year": 2016,
+            "platform": "PC/PS4"
+        }
+    ]
+}

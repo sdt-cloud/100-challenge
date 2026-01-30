@@ -90,6 +90,36 @@
                 }
             }
         },
+        "games": {
+            "name": "Oyunlar",
+            "emoji": "🎮",
+            "subcategories": {
+                "must-play": {
+                    "name": "Mutlaka Oynaman Gerekenler",
+                    "emoji": "⭐",
+                    "lists": [
+                        "games-must-play.json"
+                    ]
+                },
+                "genre": {
+                    "name": "Tür Bazlı",
+                    "emoji": "🎭",
+                    "lists": [
+                        "games-story.json",
+                        "games-indie.json",
+                        "games-multiplayer.json"
+                    ]
+                },
+                "platform": {
+                    "name": "Platform Bazlı",
+                    "emoji": "💻",
+                    "lists": [
+                        "games-pc.json",
+                        "games-console.json"
+                    ]
+                }
+            }
+        },
         "expandable": {
             "name": "Yakında",
             "emoji": "🔮",
@@ -99,11 +129,6 @@
                     "id": "music",
                     "title": "100 Albüm – Müzik Tarihi",
                     "emoji": "🎧"
-                },
-                {
-                    "id": "games",
-                    "title": "100 Oyun – Oynamadan Geçme",
-                    "emoji": "🎮"
                 },
                 {
                     "id": "documentaries",
@@ -203,6 +228,36 @@
             "file": "anime-romance.json",
             "category": "anime",
             "subcategory": "genre"
+        },
+        {
+            "file": "games-must-play.json",
+            "category": "games",
+            "subcategory": "must-play"
+        },
+        {
+            "file": "games-story.json",
+            "category": "games",
+            "subcategory": "genre"
+        },
+        {
+            "file": "games-indie.json",
+            "category": "games",
+            "subcategory": "genre"
+        },
+        {
+            "file": "games-multiplayer.json",
+            "category": "games",
+            "subcategory": "genre"
+        },
+        {
+            "file": "games-pc.json",
+            "category": "games",
+            "subcategory": "platform"
+        },
+        {
+            "file": "games-console.json",
+            "category": "games",
+            "subcategory": "platform"
         }
     ]
 }

@@ -1,0 +1,603 @@
+{
+    "id": "100-must-play-games",
+    "title": "Ölmeden Önce Oynaman Gereken 100 Oyun",
+    "description": "Oyun tarihinin en önemli ve etkili yapıtları. Her oyuncunun deneyimlemesi gereken başyapıtlar.",
+    "category": "games",
+    "subcategory": "must-play",
+    "tags": [
+        "⭐ Efsane",
+        "🏆 Başyapıt",
+        "🎮 Mutlaka Oyna"
+    ],
+    "cover": "must-play-games-cover.jpg",
+    "items": [
+        {
+            "tr": "The Legend of Zelda: Breath of the Wild",
+            "en": "The Legend of Zelda: Breath of the Wild",
+            "year": 2017,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "The Witcher 3: Wild Hunt",
+            "en": "The Witcher 3: Wild Hunt",
+            "year": 2015,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Red Dead Redemption 2",
+            "en": "Red Dead Redemption 2",
+            "year": 2018,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "God of War",
+            "en": "God of War",
+            "year": 2018,
+            "platform": "PS4/PC"
+        },
+        {
+            "tr": "The Last of Us",
+            "en": "The Last of Us",
+            "year": 2013,
+            "platform": "PS3/PS4"
+        },
+        {
+            "tr": "Dark Souls",
+            "en": "Dark Souls",
+            "year": 2011,
+            "platform": "PC/PS3/Xbox 360"
+        },
+        {
+            "tr": "Elden Ring",
+            "en": "Elden Ring",
+            "year": 2022,
+            "platform": "PC/PS5/Xbox"
+        },
+        {
+            "tr": "Portal 2",
+            "en": "Portal 2",
+            "year": 2011,
+            "platform": "PC/PS3/Xbox 360"
+        },
+        {
+            "tr": "Half-Life 2",
+            "en": "Half-Life 2",
+            "year": 2004,
+            "platform": "PC"
+        },
+        {
+            "tr": "Minecraft",
+            "en": "Minecraft",
+            "year": 2011,
+            "platform": "Tüm Platformlar"
+        },
+        {
+            "tr": "Grand Theft Auto V",
+            "en": "Grand Theft Auto V",
+            "year": 2013,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "The Elder Scrolls V: Skyrim",
+            "en": "The Elder Scrolls V: Skyrim",
+            "year": 2011,
+            "platform": "PC/PS3/Xbox 360"
+        },
+        {
+            "tr": "Super Mario Odyssey",
+            "en": "Super Mario Odyssey",
+            "year": 2017,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Hollow Knight",
+            "en": "Hollow Knight",
+            "year": 2017,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Hades",
+            "en": "Hades",
+            "year": 2020,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Celeste",
+            "en": "Celeste",
+            "year": 2018,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Undertale",
+            "en": "Undertale",
+            "year": 2015,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Stardew Valley",
+            "en": "Stardew Valley",
+            "year": 2016,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Terraria",
+            "en": "Terraria",
+            "year": 2011,
+            "platform": "PC/Mobile"
+        },
+        {
+            "tr": "BioShock",
+            "en": "BioShock",
+            "year": 2007,
+            "platform": "PC/PS3/Xbox 360"
+        },
+        {
+            "tr": "BioShock Infinite",
+            "en": "BioShock Infinite",
+            "year": 2013,
+            "platform": "PC/PS3/Xbox 360"
+        },
+        {
+            "tr": "Mass Effect 2",
+            "en": "Mass Effect 2",
+            "year": 2010,
+            "platform": "PC/PS3/Xbox 360"
+        },
+        {
+            "tr": "Baldur's Gate 3",
+            "en": "Baldur's Gate 3",
+            "year": 2023,
+            "platform": "PC/PS5"
+        },
+        {
+            "tr": "Disco Elysium",
+            "en": "Disco Elysium",
+            "year": 2019,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Sekiro: Shadows Die Twice",
+            "en": "Sekiro: Shadows Die Twice",
+            "year": 2019,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Bloodborne",
+            "en": "Bloodborne",
+            "year": 2015,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Horizon Zero Dawn",
+            "en": "Horizon Zero Dawn",
+            "year": 2017,
+            "platform": "PS4/PC"
+        },
+        {
+            "tr": "Ghost of Tsushima",
+            "en": "Ghost of Tsushima",
+            "year": 2020,
+            "platform": "PS4/PS5"
+        },
+        {
+            "tr": "Spider-Man",
+            "en": "Marvel's Spider-Man",
+            "year": 2018,
+            "platform": "PS4/PS5/PC"
+        },
+        {
+            "tr": "Uncharted 4: A Thief's End",
+            "en": "Uncharted 4: A Thief's End",
+            "year": 2016,
+            "platform": "PS4"
+        },
+        {
+            "tr": "Death Stranding",
+            "en": "Death Stranding",
+            "year": 2019,
+            "platform": "PS4/PC"
+        },
+        {
+            "tr": "Metal Gear Solid V",
+            "en": "Metal Gear Solid V: The Phantom Pain",
+            "year": 2015,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Resident Evil 4",
+            "en": "Resident Evil 4",
+            "year": 2005,
+            "platform": "PC/PS2/GameCube"
+        },
+        {
+            "tr": "Resident Evil 2 Remake",
+            "en": "Resident Evil 2",
+            "year": 2019,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Silent Hill 2",
+            "en": "Silent Hill 2",
+            "year": 2001,
+            "platform": "PS2/PC"
+        },
+        {
+            "tr": "DOOM (2016)",
+            "en": "DOOM",
+            "year": 2016,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "DOOM Eternal",
+            "en": "DOOM Eternal",
+            "year": 2020,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Cuphead",
+            "en": "Cuphead",
+            "year": 2017,
+            "platform": "PC/Switch/Xbox"
+        },
+        {
+            "tr": "Ori and the Blind Forest",
+            "en": "Ori and the Blind Forest",
+            "year": 2015,
+            "platform": "PC/Xbox/Switch"
+        },
+        {
+            "tr": "Inside",
+            "en": "Inside",
+            "year": 2016,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Limbo",
+            "en": "Limbo",
+            "year": 2010,
+            "platform": "PC/PS3/Xbox 360"
+        },
+        {
+            "tr": "Journey",
+            "en": "Journey",
+            "year": 2012,
+            "platform": "PS3/PS4/PC"
+        },
+        {
+            "tr": "Shadow of the Colossus",
+            "en": "Shadow of the Colossus",
+            "year": 2005,
+            "platform": "PS2/PS4"
+        },
+        {
+            "tr": "Ico",
+            "en": "Ico",
+            "year": 2001,
+            "platform": "PS2"
+        },
+        {
+            "tr": "The Last Guardian",
+            "en": "The Last Guardian",
+            "year": 2016,
+            "platform": "PS4"
+        },
+        {
+            "tr": "NieR: Automata",
+            "en": "NieR: Automata",
+            "year": 2017,
+            "platform": "PC/PS4"
+        },
+        {
+            "tr": "Final Fantasy VII",
+            "en": "Final Fantasy VII",
+            "year": 1997,
+            "platform": "PS1/PC"
+        },
+        {
+            "tr": "Final Fantasy X",
+            "en": "Final Fantasy X",
+            "year": 2001,
+            "platform": "PS2"
+        },
+        {
+            "tr": "Chrono Trigger",
+            "en": "Chrono Trigger",
+            "year": 1995,
+            "platform": "SNES"
+        },
+        {
+            "tr": "Persona 5 Royal",
+            "en": "Persona 5 Royal",
+            "year": 2019,
+            "platform": "PS4/PC"
+        },
+        {
+            "tr": "Dragon Quest XI",
+            "en": "Dragon Quest XI S",
+            "year": 2017,
+            "platform": "PS4/PC/Switch"
+        },
+        {
+            "tr": "Kingdom Hearts",
+            "en": "Kingdom Hearts",
+            "year": 2002,
+            "platform": "PS2"
+        },
+        {
+            "tr": "Ocarina of Time",
+            "en": "The Legend of Zelda: Ocarina of Time",
+            "year": 1998,
+            "platform": "N64"
+        },
+        {
+            "tr": "Super Mario 64",
+            "en": "Super Mario 64",
+            "year": 1996,
+            "platform": "N64"
+        },
+        {
+            "tr": "Super Mario World",
+            "en": "Super Mario World",
+            "year": 1990,
+            "platform": "SNES"
+        },
+        {
+            "tr": "Super Metroid",
+            "en": "Super Metroid",
+            "year": 1994,
+            "platform": "SNES"
+        },
+        {
+            "tr": "Metroid Prime",
+            "en": "Metroid Prime",
+            "year": 2002,
+            "platform": "GameCube"
+        },
+        {
+            "tr": "Castlevania: Symphony of the Night",
+            "en": "Castlevania: Symphony of the Night",
+            "year": 1997,
+            "platform": "PS1"
+        },
+        {
+            "tr": "Mega Man X",
+            "en": "Mega Man X",
+            "year": 1993,
+            "platform": "SNES"
+        },
+        {
+            "tr": "Street Fighter II",
+            "en": "Street Fighter II",
+            "year": 1991,
+            "platform": "Arcade/SNES"
+        },
+        {
+            "tr": "Tekken 3",
+            "en": "Tekken 3",
+            "year": 1997,
+            "platform": "PS1/Arcade"
+        },
+        {
+            "tr": "Super Smash Bros. Ultimate",
+            "en": "Super Smash Bros. Ultimate",
+            "year": 2018,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Mortal Kombat 11",
+            "en": "Mortal Kombat 11",
+            "year": 2019,
+            "platform": "PC/PS4/Xbox/Switch"
+        },
+        {
+            "tr": "Counter-Strike 2",
+            "en": "Counter-Strike 2",
+            "year": 2023,
+            "platform": "PC"
+        },
+        {
+            "tr": "Valorant",
+            "en": "Valorant",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Overwatch",
+            "en": "Overwatch",
+            "year": 2016,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Team Fortress 2",
+            "en": "Team Fortress 2",
+            "year": 2007,
+            "platform": "PC"
+        },
+        {
+            "tr": "Left 4 Dead 2",
+            "en": "Left 4 Dead 2",
+            "year": 2009,
+            "platform": "PC/Xbox 360"
+        },
+        {
+            "tr": "World of Warcraft",
+            "en": "World of Warcraft",
+            "year": 2004,
+            "platform": "PC"
+        },
+        {
+            "tr": "League of Legends",
+            "en": "League of Legends",
+            "year": 2009,
+            "platform": "PC"
+        },
+        {
+            "tr": "Dota 2",
+            "en": "Dota 2",
+            "year": 2013,
+            "platform": "PC"
+        },
+        {
+            "tr": "StarCraft II",
+            "en": "StarCraft II",
+            "year": 2010,
+            "platform": "PC"
+        },
+        {
+            "tr": "Civilization VI",
+            "en": "Sid Meier's Civilization VI",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Cities: Skylines",
+            "en": "Cities: Skylines",
+            "year": 2015,
+            "platform": "PC"
+        },
+        {
+            "tr": "RollerCoaster Tycoon 2",
+            "en": "RollerCoaster Tycoon 2",
+            "year": 2002,
+            "platform": "PC"
+        },
+        {
+            "tr": "The Sims 4",
+            "en": "The Sims 4",
+            "year": 2014,
+            "platform": "PC"
+        },
+        {
+            "tr": "Animal Crossing: New Horizons",
+            "en": "Animal Crossing: New Horizons",
+            "year": 2020,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "Pokemon Red/Blue",
+            "en": "Pokemon Red/Blue",
+            "year": 1996,
+            "platform": "Game Boy"
+        },
+        {
+            "tr": "Fire Emblem: Three Houses",
+            "en": "Fire Emblem: Three Houses",
+            "year": 2019,
+            "platform": "Nintendo Switch"
+        },
+        {
+            "tr": "XCOM 2",
+            "en": "XCOM 2",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Divinity: Original Sin 2",
+            "en": "Divinity: Original Sin 2",
+            "year": 2017,
+            "platform": "PC"
+        },
+        {
+            "tr": "Fallout: New Vegas",
+            "en": "Fallout: New Vegas",
+            "year": 2010,
+            "platform": "PC/PS3/Xbox 360"
+        },
+        {
+            "tr": "Fallout 4",
+            "en": "Fallout 4",
+            "year": 2015,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Cyberpunk 2077",
+            "en": "Cyberpunk 2077",
+            "year": 2020,
+            "platform": "PC/PS5/Xbox"
+        },
+        {
+            "tr": "Deus Ex",
+            "en": "Deus Ex",
+            "year": 2000,
+            "platform": "PC"
+        },
+        {
+            "tr": "System Shock 2",
+            "en": "System Shock 2",
+            "year": 1999,
+            "platform": "PC"
+        },
+        {
+            "tr": "Prey (2017)",
+            "en": "Prey",
+            "year": 2017,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Control",
+            "en": "Control",
+            "year": 2019,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Alan Wake",
+            "en": "Alan Wake",
+            "year": 2010,
+            "platform": "PC/Xbox 360"
+        },
+        {
+            "tr": "Returnal",
+            "en": "Returnal",
+            "year": 2021,
+            "platform": "PS5/PC"
+        },
+        {
+            "tr": "Dead Cells",
+            "en": "Dead Cells",
+            "year": 2018,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Slay the Spire",
+            "en": "Slay the Spire",
+            "year": 2019,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "Into the Breach",
+            "en": "Into the Breach",
+            "year": 2018,
+            "platform": "PC/Switch"
+        },
+        {
+            "tr": "FTL: Faster Than Light",
+            "en": "FTL: Faster Than Light",
+            "year": 2012,
+            "platform": "PC"
+        },
+        {
+            "tr": "Outer Wilds",
+            "en": "Outer Wilds",
+            "year": 2019,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "Subnautica",
+            "en": "Subnautica",
+            "year": 2018,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "It Takes Two",
+            "en": "It Takes Two",
+            "year": 2021,
+            "platform": "PC/PS4/Xbox"
+        },
+        {
+            "tr": "A Way Out",
+            "en": "A Way Out",
+            "year": 2018,
+            "platform": "PC/PS4/Xbox"
+        }
+    ]
+}

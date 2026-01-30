@@ -1,0 +1,609 @@
+{
+    "id": "100-pc-games",
+    "title": "PC için En İyi 100 Oyun",
+    "description": "PC oyuncularının mutlaka denemesi gereken, fare-klavye deneyimini en iyi şekilde sunan oyunlar.",
+    "category": "games",
+    "subcategory": "platform",
+    "tags": [
+        "💻 PC",
+        "🖱️ Fare+Klavye",
+        "⚙️ Ayarlanabilir"
+    ],
+    "cover": "pc-games-cover.jpg",
+    "items": [
+        {
+            "tr": "Half-Life 2",
+            "en": "Half-Life 2",
+            "year": 2004,
+            "platform": "PC"
+        },
+        {
+            "tr": "Half-Life: Alyx",
+            "en": "Half-Life: Alyx",
+            "year": 2020,
+            "platform": "PC VR"
+        },
+        {
+            "tr": "Portal 2",
+            "en": "Portal 2",
+            "year": 2011,
+            "platform": "PC"
+        },
+        {
+            "tr": "The Witcher 3: Wild Hunt",
+            "en": "The Witcher 3: Wild Hunt",
+            "year": 2015,
+            "platform": "PC"
+        },
+        {
+            "tr": "Baldur's Gate 3",
+            "en": "Baldur's Gate 3",
+            "year": 2023,
+            "platform": "PC"
+        },
+        {
+            "tr": "Divinity: Original Sin 2",
+            "en": "Divinity: Original Sin 2",
+            "year": 2017,
+            "platform": "PC"
+        },
+        {
+            "tr": "Disco Elysium",
+            "en": "Disco Elysium",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "The Elder Scrolls V: Skyrim",
+            "en": "The Elder Scrolls V: Skyrim",
+            "year": 2011,
+            "platform": "PC"
+        },
+        {
+            "tr": "Fallout: New Vegas",
+            "en": "Fallout: New Vegas",
+            "year": 2010,
+            "platform": "PC"
+        },
+        {
+            "tr": "Cyberpunk 2077",
+            "en": "Cyberpunk 2077",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Red Dead Redemption 2",
+            "en": "Red Dead Redemption 2",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "Grand Theft Auto V",
+            "en": "Grand Theft Auto V",
+            "year": 2015,
+            "platform": "PC"
+        },
+        {
+            "tr": "Elden Ring",
+            "en": "Elden Ring",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "Dark Souls III",
+            "en": "Dark Souls III",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Sekiro: Shadows Die Twice",
+            "en": "Sekiro: Shadows Die Twice",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "Counter-Strike 2",
+            "en": "Counter-Strike 2",
+            "year": 2023,
+            "platform": "PC"
+        },
+        {
+            "tr": "Valorant",
+            "en": "Valorant",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "DOTA 2",
+            "en": "Dota 2",
+            "year": 2013,
+            "platform": "PC"
+        },
+        {
+            "tr": "League of Legends",
+            "en": "League of Legends",
+            "year": 2009,
+            "platform": "PC"
+        },
+        {
+            "tr": "World of Warcraft",
+            "en": "World of Warcraft",
+            "year": 2004,
+            "platform": "PC"
+        },
+        {
+            "tr": "StarCraft II",
+            "en": "StarCraft II",
+            "year": 2010,
+            "platform": "PC"
+        },
+        {
+            "tr": "Age of Empires II",
+            "en": "Age of Empires II: Definitive Edition",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "Age of Empires IV",
+            "en": "Age of Empires IV",
+            "year": 2021,
+            "platform": "PC"
+        },
+        {
+            "tr": "Civilization VI",
+            "en": "Sid Meier's Civilization VI",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Total War: Warhammer III",
+            "en": "Total War: Warhammer III",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "Crusader Kings III",
+            "en": "Crusader Kings III",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Europa Universalis IV",
+            "en": "Europa Universalis IV",
+            "year": 2013,
+            "platform": "PC"
+        },
+        {
+            "tr": "Cities: Skylines",
+            "en": "Cities: Skylines",
+            "year": 2015,
+            "platform": "PC"
+        },
+        {
+            "tr": "Factorio",
+            "en": "Factorio",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Satisfactory",
+            "en": "Satisfactory",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Dyson Sphere Program",
+            "en": "Dyson Sphere Program",
+            "year": 2021,
+            "platform": "PC"
+        },
+        {
+            "tr": "RimWorld",
+            "en": "RimWorld",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Dwarf Fortress",
+            "en": "Dwarf Fortress",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "Kenshi",
+            "en": "Kenshi",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Mount & Blade II: Bannerlord",
+            "en": "Mount & Blade II: Bannerlord",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "XCOM 2",
+            "en": "XCOM 2",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Minecraft",
+            "en": "Minecraft",
+            "year": 2011,
+            "platform": "PC"
+        },
+        {
+            "tr": "Terraria",
+            "en": "Terraria",
+            "year": 2011,
+            "platform": "PC"
+        },
+        {
+            "tr": "Stardew Valley",
+            "en": "Stardew Valley",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Hades",
+            "en": "Hades",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Dead Cells",
+            "en": "Dead Cells",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Hollow Knight",
+            "en": "Hollow Knight",
+            "year": 2017,
+            "platform": "PC"
+        },
+        {
+            "tr": "Celeste",
+            "en": "Celeste",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Undertale",
+            "en": "Undertale",
+            "year": 2015,
+            "platform": "PC"
+        },
+        {
+            "tr": "Cuphead",
+            "en": "Cuphead",
+            "year": 2017,
+            "platform": "PC"
+        },
+        {
+            "tr": "Ori and the Blind Forest",
+            "en": "Ori and the Blind Forest",
+            "year": 2015,
+            "platform": "PC"
+        },
+        {
+            "tr": "Ori and the Will of the Wisps",
+            "en": "Ori and the Will of the Wisps",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Outer Wilds",
+            "en": "Outer Wilds",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "Subnautica",
+            "en": "Subnautica",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "The Forest",
+            "en": "The Forest",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Valheim",
+            "en": "Valheim",
+            "year": 2021,
+            "platform": "PC"
+        },
+        {
+            "tr": "Rust",
+            "en": "Rust",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "ARK: Survival Evolved",
+            "en": "ARK: Survival Evolved",
+            "year": 2017,
+            "platform": "PC"
+        },
+        {
+            "tr": "Phasmophobia",
+            "en": "Phasmophobia",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Among Us",
+            "en": "Among Us",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Fall Guys",
+            "en": "Fall Guys",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Rocket League",
+            "en": "Rocket League",
+            "year": 2015,
+            "platform": "PC"
+        },
+        {
+            "tr": "Lethal Company",
+            "en": "Lethal Company",
+            "year": 2023,
+            "platform": "PC"
+        },
+        {
+            "tr": "Palworld",
+            "en": "Palworld",
+            "year": 2024,
+            "platform": "PC"
+        },
+        {
+            "tr": "DOOM Eternal",
+            "en": "DOOM Eternal",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Wolfenstein: The New Order",
+            "en": "Wolfenstein: The New Order",
+            "year": 2014,
+            "platform": "PC"
+        },
+        {
+            "tr": "Prey",
+            "en": "Prey",
+            "year": 2017,
+            "platform": "PC"
+        },
+        {
+            "tr": "Control",
+            "en": "Control",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "Death Stranding",
+            "en": "Death Stranding",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Metal Gear Solid V",
+            "en": "Metal Gear Solid V: The Phantom Pain",
+            "year": 2015,
+            "platform": "PC"
+        },
+        {
+            "tr": "Hitman 3",
+            "en": "Hitman 3",
+            "year": 2021,
+            "platform": "PC"
+        },
+        {
+            "tr": "Dishonored 2",
+            "en": "Dishonored 2",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Deathloop",
+            "en": "Deathloop",
+            "year": 2021,
+            "platform": "PC"
+        },
+        {
+            "tr": "Resident Evil Village",
+            "en": "Resident Evil Village",
+            "year": 2021,
+            "platform": "PC"
+        },
+        {
+            "tr": "Resident Evil 4 Remake",
+            "en": "Resident Evil 4",
+            "year": 2023,
+            "platform": "PC"
+        },
+        {
+            "tr": "Alan Wake 2",
+            "en": "Alan Wake 2",
+            "year": 2023,
+            "platform": "PC"
+        },
+        {
+            "tr": "Monster Hunter: World",
+            "en": "Monster Hunter: World",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Monster Hunter Rise",
+            "en": "Monster Hunter Rise",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "Nier: Automata",
+            "en": "NieR: Automata",
+            "year": 2017,
+            "platform": "PC"
+        },
+        {
+            "tr": "Persona 5 Royal",
+            "en": "Persona 5 Royal",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "Final Fantasy XIV",
+            "en": "Final Fantasy XIV",
+            "year": 2013,
+            "platform": "PC"
+        },
+        {
+            "tr": "Lost Ark",
+            "en": "Lost Ark",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "Path of Exile",
+            "en": "Path of Exile",
+            "year": 2013,
+            "platform": "PC"
+        },
+        {
+            "tr": "Diablo IV",
+            "en": "Diablo IV",
+            "year": 2023,
+            "platform": "PC"
+        },
+        {
+            "tr": "Grim Dawn",
+            "en": "Grim Dawn",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Slay the Spire",
+            "en": "Slay the Spire",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "Inscryption",
+            "en": "Inscryption",
+            "year": 2021,
+            "platform": "PC"
+        },
+        {
+            "tr": "Vampire Survivors",
+            "en": "Vampire Survivors",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "Brotato",
+            "en": "Brotato",
+            "year": 2022,
+            "platform": "PC"
+        },
+        {
+            "tr": "Deep Rock Galactic",
+            "en": "Deep Rock Galactic",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Risk of Rain 2",
+            "en": "Risk of Rain 2",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Noita",
+            "en": "Noita",
+            "year": 2020,
+            "platform": "PC"
+        },
+        {
+            "tr": "Enter the Gungeon",
+            "en": "Enter the Gungeon",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "The Binding of Isaac: Rebirth",
+            "en": "The Binding of Isaac: Rebirth",
+            "year": 2014,
+            "platform": "PC"
+        },
+        {
+            "tr": "FTL: Faster Than Light",
+            "en": "FTL: Faster Than Light",
+            "year": 2012,
+            "platform": "PC"
+        },
+        {
+            "tr": "Into the Breach",
+            "en": "Into the Breach",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Papers, Please",
+            "en": "Papers, Please",
+            "year": 2013,
+            "platform": "PC"
+        },
+        {
+            "tr": "Return of the Obra Dinn",
+            "en": "Return of the Obra Dinn",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Baba Is You",
+            "en": "Baba Is You",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "The Witness",
+            "en": "The Witness",
+            "year": 2016,
+            "platform": "PC"
+        },
+        {
+            "tr": "Kerbal Space Program",
+            "en": "Kerbal Space Program",
+            "year": 2015,
+            "platform": "PC"
+        },
+        {
+            "tr": "Planet Zoo",
+            "en": "Planet Zoo",
+            "year": 2019,
+            "platform": "PC"
+        },
+        {
+            "tr": "Two Point Hospital",
+            "en": "Two Point Hospital",
+            "year": 2018,
+            "platform": "PC"
+        },
+        {
+            "tr": "Opus Magnum",
+            "en": "Opus Magnum",
+            "year": 2017,
+            "platform": "PC"
+        }
+    ]
+}

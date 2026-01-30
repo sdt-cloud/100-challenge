@@ -185,6 +185,73 @@ const ANIME_API = {
     }
 };
 
+// ============ RAWG API Configuration (Game Database) ============
+const GAME_API = {
+    // RAWG Free API - no key required for basic usage
+    BASE_URL: 'https://api.rawg.io/api',
+    API_KEY: 'c542e67aec3a4340908f9de9e86038af', // Free tier key
+    cache: {},
+    lastRequestTime: 0,
+    MIN_REQUEST_INTERVAL: 250, // Rate limit
+
+    // Wait to respect rate limits
+    async waitForRateLimit() {
+        const now = Date.now();
+        const timeSinceLastRequest = now - this.lastRequestTime;
+        if (timeSinceLastRequest < this.MIN_REQUEST_INTERVAL) {
+            await new Promise(resolve =>
+                setTimeout(resolve, this.MIN_REQUEST_INTERVAL - timeSinceLastRequest)
+            );
+        }
+        this.lastRequestTime = Date.now();
+    },
+
+    // Search for game by name
+    async searchGame(query) {
+        try {
+            // Check cache first
+            const cacheKey = query.toLowerCase().trim();
+            if (this.cache[cacheKey]) {
+                return this.cache[cacheKey];
+            }
+
+            // Clean up the query
+            let searchQuery = query
+                .replace(/\s*\(.*?\)\s*/g, '') // Remove parentheses content
+                .replace(/:\s*[^:]+Edition/gi, '') // Remove edition suffixes
+                .replace(/\s+/g, ' ')
+                .trim();
+
+            await this.waitForRateLimit();
+
+            const response = await fetch(
+                `${this.BASE_URL}/games?key=${this.API_KEY}&search=${encodeURIComponent(searchQuery)}&page_size=1`
+            );
+
+            if (!response.ok) {
+                console.log('RAWG API error:', response.status);
+                return null;
+            }
+
+            const data = await response.json();
+
+            if (data.results && data.results.length > 0) {
+                const game = data.results[0];
+                const imageUrl = game.background_image || null;
+
+                // Cache the result
+                this.cache[cacheKey] = imageUrl;
+                return imageUrl;
+            }
+
+            return null;
+        } catch (error) {
+            console.log('RAWG API error:', error);
+            return null;
+        }
+    }
+};
+
 // ============ Data Layer (LocalStorage) ============
 const Storage = {
     KEYS: {
@@ -691,8 +758,9 @@ function renderItems() {
 
     const isFilmCategory = challenge.category === 'films';
     const isAnimeCategory = challenge.category === 'anime';
-    const showPoster = isFilmCategory || isAnimeCategory;
-    const posterEmoji = isAnimeCategory ? '🎌' : '🎬';
+    const isGamesCategory = challenge.category === 'games';
+    const showPoster = isFilmCategory || isAnimeCategory || isGamesCategory;
+    const posterEmoji = isAnimeCategory ? '🎌' : (isGamesCategory ? '🎮' : '🎬');
 
     DOM.itemsList.innerHTML = items.map((item, index) => `
         <li class="item ${item.completed ? 'completed' : ''}" data-id="${item.id}">
@@ -710,11 +778,13 @@ function renderItems() {
         </li>
     `).join('');
 
-    // Load posters for film or anime category
+    // Load posters for film, anime, or games category
     if (isFilmCategory) {
         loadMoviePosters(items);
     } else if (isAnimeCategory) {
         loadAnimePosters(items);
+    } else if (isGamesCategory) {
+        loadGamePosters(items);
     }
 
     // Add event listeners
@@ -802,6 +872,33 @@ async function loadAnimePosters(items) {
             posterEl.classList.remove('loading');
             posterEl.classList.add('no-poster');
             posterEl.textContent = '🎌';
+        }
+    }
+}
+
+// ============ Game Poster Loading ============
+async function loadGamePosters(items) {
+    for (const item of items) {
+        const posterEl = document.querySelector(`.item-poster[data-item-id="${item.id}"]`);
+        if (!posterEl) continue;
+
+        // Check cache first (using GAME_API cache)
+        const cacheKey = item.name.toLowerCase().trim();
+        if (GAME_API.cache[cacheKey]) {
+            displayPoster(posterEl, GAME_API.cache[cacheKey], '🎮');
+            continue;
+        }
+
+        // Fetch from RAWG API
+        const posterUrl = await GAME_API.searchGame(item.name);
+
+        if (posterUrl) {
+            displayPoster(posterEl, posterUrl, '🎮');
+        } else {
+            // No poster found - show game emoji
+            posterEl.classList.remove('loading');
+            posterEl.classList.add('no-poster');
+            posterEl.textContent = '🎮';
         }
     }
 }

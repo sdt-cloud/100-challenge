@@ -1,0 +1,694 @@
+{
+    "id": "100-world-classics",
+    "title": "Dünya Klasiklerinden 100 Kitap",
+    "description": "Dünya edebiyatının en önemli eserleri. Her okuyucunun hayatında en az bir kez okuması gereken başyapıtlar.",
+    "category": "books",
+    "subcategory": "classics",
+    "tags": [
+        "🌍 Dünya Edebiyatı",
+        "📚 Klasik",
+        "⭐ Başyapıt"
+    ],
+    "cover": "world-classics-cover.jpg",
+    "items": [
+        {
+            "title": "Suç ve Ceza",
+            "originalTitle": "Crime and Punishment",
+            "author": "Fyodor Dostoyevski",
+            "year": 1866,
+            "country": "Rusya"
+        },
+        {
+            "title": "Karamazov Kardeşler",
+            "originalTitle": "The Brothers Karamazov",
+            "author": "Fyodor Dostoyevski",
+            "year": 1880,
+            "country": "Rusya"
+        },
+        {
+            "title": "Budala",
+            "originalTitle": "The Idiot",
+            "author": "Fyodor Dostoyevski",
+            "year": 1869,
+            "country": "Rusya"
+        },
+        {
+            "title": "Yeraltından Notlar",
+            "originalTitle": "Notes from Underground",
+            "author": "Fyodor Dostoyevski",
+            "year": 1864,
+            "country": "Rusya"
+        },
+        {
+            "title": "Savaş ve Barış",
+            "originalTitle": "War and Peace",
+            "author": "Lev Tolstoy",
+            "year": 1869,
+            "country": "Rusya"
+        },
+        {
+            "title": "Anna Karenina",
+            "originalTitle": "Anna Karenina",
+            "author": "Lev Tolstoy",
+            "year": 1877,
+            "country": "Rusya"
+        },
+        {
+            "title": "Diriliş",
+            "originalTitle": "Resurrection",
+            "author": "Lev Tolstoy",
+            "year": 1899,
+            "country": "Rusya"
+        },
+        {
+            "title": "Ivan İlyiç'in Ölümü",
+            "originalTitle": "The Death of Ivan Ilyich",
+            "author": "Lev Tolstoy",
+            "year": 1886,
+            "country": "Rusya"
+        },
+        {
+            "title": "Dönüşüm",
+            "originalTitle": "The Metamorphosis",
+            "author": "Franz Kafka",
+            "year": 1915,
+            "country": "Çekya"
+        },
+        {
+            "title": "Dava",
+            "originalTitle": "The Trial",
+            "author": "Franz Kafka",
+            "year": 1925,
+            "country": "Çekya"
+        },
+        {
+            "title": "Şato",
+            "originalTitle": "The Castle",
+            "author": "Franz Kafka",
+            "year": 1926,
+            "country": "Çekya"
+        },
+        {
+            "title": "1984",
+            "originalTitle": "Nineteen Eighty-Four",
+            "author": "George Orwell",
+            "year": 1949,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Hayvan Çiftliği",
+            "originalTitle": "Animal Farm",
+            "author": "George Orwell",
+            "year": 1945,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Cesur Yeni Dünya",
+            "originalTitle": "Brave New World",
+            "author": "Aldous Huxley",
+            "year": 1932,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Yüzüklerin Efendisi",
+            "originalTitle": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "year": 1954,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Hobbit",
+            "originalTitle": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "year": 1937,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Sefiller",
+            "originalTitle": "Les Misérables",
+            "author": "Victor Hugo",
+            "year": 1862,
+            "country": "Fransa"
+        },
+        {
+            "title": "Notre Dame'ın Kamburu",
+            "originalTitle": "The Hunchback of Notre-Dame",
+            "author": "Victor Hugo",
+            "year": 1831,
+            "country": "Fransa"
+        },
+        {
+            "title": "Monte Kristo Kontu",
+            "originalTitle": "The Count of Monte Cristo",
+            "author": "Alexandre Dumas",
+            "year": 1844,
+            "country": "Fransa"
+        },
+        {
+            "title": "Üç Silahşörler",
+            "originalTitle": "The Three Musketeers",
+            "author": "Alexandre Dumas",
+            "year": 1844,
+            "country": "Fransa"
+        },
+        {
+            "title": "Yabancı",
+            "originalTitle": "The Stranger",
+            "author": "Albert Camus",
+            "year": 1942,
+            "country": "Fransa"
+        },
+        {
+            "title": "Veba",
+            "originalTitle": "The Plague",
+            "author": "Albert Camus",
+            "year": 1947,
+            "country": "Fransa"
+        },
+        {
+            "title": "Düşüş",
+            "originalTitle": "The Fall",
+            "author": "Albert Camus",
+            "year": 1956,
+            "country": "Fransa"
+        },
+        {
+            "title": "Bulantı",
+            "originalTitle": "Nausea",
+            "author": "Jean-Paul Sartre",
+            "year": 1938,
+            "country": "Fransa"
+        },
+        {
+            "title": "Küçük Prens",
+            "originalTitle": "The Little Prince",
+            "author": "Antoine de Saint-Exupéry",
+            "year": 1943,
+            "country": "Fransa"
+        },
+        {
+            "title": "Madame Bovary",
+            "originalTitle": "Madame Bovary",
+            "author": "Gustave Flaubert",
+            "year": 1857,
+            "country": "Fransa"
+        },
+        {
+            "title": "Kırmızı ve Siyah",
+            "originalTitle": "The Red and the Black",
+            "author": "Stendhal",
+            "year": 1830,
+            "country": "Fransa"
+        },
+        {
+            "title": "Goriot Baba",
+            "originalTitle": "Le Père Goriot",
+            "author": "Honoré de Balzac",
+            "year": 1835,
+            "country": "Fransa"
+        },
+        {
+            "title": "Kayıp Zamanın İzinde",
+            "originalTitle": "In Search of Lost Time",
+            "author": "Marcel Proust",
+            "year": 1913,
+            "country": "Fransa"
+        },
+        {
+            "title": "Germinal",
+            "originalTitle": "Germinal",
+            "author": "Émile Zola",
+            "year": 1885,
+            "country": "Fransa"
+        },
+        {
+            "title": "Don Kişot",
+            "originalTitle": "Don Quixote",
+            "author": "Miguel de Cervantes",
+            "year": 1605,
+            "country": "İspanya"
+        },
+        {
+            "title": "Yüz Yıllık Yalnızlık",
+            "originalTitle": "One Hundred Years of Solitude",
+            "author": "Gabriel García Márquez",
+            "year": 1967,
+            "country": "Kolombiya"
+        },
+        {
+            "title": "Kolera Günlerinde Aşk",
+            "originalTitle": "Love in the Time of Cholera",
+            "author": "Gabriel García Márquez",
+            "year": 1985,
+            "country": "Kolombiya"
+        },
+        {
+            "title": "Kronik Ölüm",
+            "originalTitle": "Chronicle of a Death Foretold",
+            "author": "Gabriel García Márquez",
+            "year": 1981,
+            "country": "Kolombiya"
+        },
+        {
+            "title": "Pedro Páramo",
+            "originalTitle": "Pedro Páramo",
+            "author": "Juan Rulfo",
+            "year": 1955,
+            "country": "Meksika"
+        },
+        {
+            "title": "Fiesta",
+            "originalTitle": "The Sun Also Rises",
+            "author": "Ernest Hemingway",
+            "year": 1926,
+            "country": "ABD"
+        },
+        {
+            "title": "Yaşlı Adam ve Deniz",
+            "originalTitle": "The Old Man and the Sea",
+            "author": "Ernest Hemingway",
+            "year": 1952,
+            "country": "ABD"
+        },
+        {
+            "title": "Silahları Bırak",
+            "originalTitle": "A Farewell to Arms",
+            "author": "Ernest Hemingway",
+            "year": 1929,
+            "country": "ABD"
+        },
+        {
+            "title": "Çavdar Tarlasında Çocuklar",
+            "originalTitle": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "year": 1951,
+            "country": "ABD"
+        },
+        {
+            "title": "Büyük Gatsby",
+            "originalTitle": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "year": 1925,
+            "country": "ABD"
+        },
+        {
+            "title": "Bülbülü Öldürmek",
+            "originalTitle": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "year": 1960,
+            "country": "ABD"
+        },
+        {
+            "title": "Gazap Üzümleri",
+            "originalTitle": "The Grapes of Wrath",
+            "author": "John Steinbeck",
+            "year": 1939,
+            "country": "ABD"
+        },
+        {
+            "title": "Fareler ve İnsanlar",
+            "originalTitle": "Of Mice and Men",
+            "author": "John Steinbeck",
+            "year": 1937,
+            "country": "ABD"
+        },
+        {
+            "title": "Cennetin Doğusu",
+            "originalTitle": "East of Eden",
+            "author": "John Steinbeck",
+            "year": 1952,
+            "country": "ABD"
+        },
+        {
+            "title": "Moby Dick",
+            "originalTitle": "Moby-Dick",
+            "author": "Herman Melville",
+            "year": 1851,
+            "country": "ABD"
+        },
+        {
+            "title": "Tom Sawyer'ın Maceraları",
+            "originalTitle": "The Adventures of Tom Sawyer",
+            "author": "Mark Twain",
+            "year": 1876,
+            "country": "ABD"
+        },
+        {
+            "title": "Huckleberry Finn'in Maceraları",
+            "originalTitle": "Adventures of Huckleberry Finn",
+            "author": "Mark Twain",
+            "year": 1884,
+            "country": "ABD"
+        },
+        {
+            "title": "Kırlangıç",
+            "originalTitle": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "year": 1951,
+            "country": "ABD"
+        },
+        {
+            "title": "Yoldaki",
+            "originalTitle": "On the Road",
+            "author": "Jack Kerouac",
+            "year": 1957,
+            "country": "ABD"
+        },
+        {
+            "title": "Guguk Kuşu",
+            "originalTitle": "One Flew Over the Cuckoo's Nest",
+            "author": "Ken Kesey",
+            "year": 1962,
+            "country": "ABD"
+        },
+        {
+            "title": "Fahrenheit 451",
+            "originalTitle": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "year": 1953,
+            "country": "ABD"
+        },
+        {
+            "title": "Dune",
+            "originalTitle": "Dune",
+            "author": "Frank Herbert",
+            "year": 1965,
+            "country": "ABD"
+        },
+        {
+            "title": "Slaughterhouse-Five",
+            "originalTitle": "Slaughterhouse-Five",
+            "author": "Kurt Vonnegut",
+            "year": 1969,
+            "country": "ABD"
+        },
+        {
+            "title": "Görünmez Adam",
+            "originalTitle": "Invisible Man",
+            "author": "Ralph Ellison",
+            "year": 1952,
+            "country": "ABD"
+        },
+        {
+            "title": "Sevgili",
+            "originalTitle": "Beloved",
+            "author": "Toni Morrison",
+            "year": 1987,
+            "country": "ABD"
+        },
+        {
+            "title": "Renklerden Mavisi",
+            "originalTitle": "The Bluest Eye",
+            "author": "Toni Morrison",
+            "year": 1970,
+            "country": "ABD"
+        },
+        {
+            "title": "Gurur ve Önyargı",
+            "originalTitle": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Emma",
+            "originalTitle": "Emma",
+            "author": "Jane Austen",
+            "year": 1815,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Uğultulu Tepeler",
+            "originalTitle": "Wuthering Heights",
+            "author": "Emily Brontë",
+            "year": 1847,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Jane Eyre",
+            "originalTitle": "Jane Eyre",
+            "author": "Charlotte Brontë",
+            "year": 1847,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Büyük Umutlar",
+            "originalTitle": "Great Expectations",
+            "author": "Charles Dickens",
+            "year": 1861,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Oliver Twist",
+            "originalTitle": "Oliver Twist",
+            "author": "Charles Dickens",
+            "year": 1838,
+            "country": "İngiltere"
+        },
+        {
+            "title": "İki Şehrin Hikayesi",
+            "originalTitle": "A Tale of Two Cities",
+            "author": "Charles Dickens",
+            "year": 1859,
+            "country": "İngiltere"
+        },
+        {
+            "title": "David Copperfield",
+            "originalTitle": "David Copperfield",
+            "author": "Charles Dickens",
+            "year": 1850,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Dorian Gray'in Portresi",
+            "originalTitle": "The Picture of Dorian Gray",
+            "author": "Oscar Wilde",
+            "year": 1890,
+            "country": "İrlanda"
+        },
+        {
+            "title": "Ulysses",
+            "originalTitle": "Ulysses",
+            "author": "James Joyce",
+            "year": 1922,
+            "country": "İrlanda"
+        },
+        {
+            "title": "Sanatçının Genç Adam Olarak Portresi",
+            "originalTitle": "A Portrait of the Artist as a Young Man",
+            "author": "James Joyce",
+            "year": 1916,
+            "country": "İrlanda"
+        },
+        {
+            "title": "Dublinliler",
+            "originalTitle": "Dubliners",
+            "author": "James Joyce",
+            "year": 1914,
+            "country": "İrlanda"
+        },
+        {
+            "title": "Mrs. Dalloway",
+            "originalTitle": "Mrs Dalloway",
+            "author": "Virginia Woolf",
+            "year": 1925,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Deniz Feneri",
+            "originalTitle": "To the Lighthouse",
+            "author": "Virginia Woolf",
+            "year": 1927,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Faust",
+            "originalTitle": "Faust",
+            "author": "Johann Wolfgang von Goethe",
+            "year": 1808,
+            "country": "Almanya"
+        },
+        {
+            "title": "Genç Werther'in Acıları",
+            "originalTitle": "The Sorrows of Young Werther",
+            "author": "Johann Wolfgang von Goethe",
+            "year": 1774,
+            "country": "Almanya"
+        },
+        {
+            "title": "Sıçan",
+            "originalTitle": "The Tin Drum",
+            "author": "Günter Grass",
+            "year": 1959,
+            "country": "Almanya"
+        },
+        {
+            "title": "Siddharta",
+            "originalTitle": "Siddhartha",
+            "author": "Hermann Hesse",
+            "year": 1922,
+            "country": "Almanya"
+        },
+        {
+            "title": "Bozkurt",
+            "originalTitle": "Steppenwolf",
+            "author": "Hermann Hesse",
+            "year": 1927,
+            "country": "Almanya"
+        },
+        {
+            "title": "Damian",
+            "originalTitle": "Demian",
+            "author": "Hermann Hesse",
+            "year": 1919,
+            "country": "Almanya"
+        },
+        {
+            "title": "Boncuk Oyunu",
+            "originalTitle": "The Glass Bead Game",
+            "author": "Hermann Hesse",
+            "year": 1943,
+            "country": "Almanya"
+        },
+        {
+            "title": "Batı Cephesinde Yeni Bir Şey Yok",
+            "originalTitle": "All Quiet on the Western Front",
+            "author": "Erich Maria Remarque",
+            "year": 1929,
+            "country": "Almanya"
+        },
+        {
+            "title": "Zamanı Durduran Saat",
+            "originalTitle": "The Magic Mountain",
+            "author": "Thomas Mann",
+            "year": 1924,
+            "country": "Almanya"
+        },
+        {
+            "title": "Buddenbrooks",
+            "originalTitle": "Buddenbrooks",
+            "author": "Thomas Mann",
+            "year": 1901,
+            "country": "Almanya"
+        },
+        {
+            "title": "Silmarillion",
+            "originalTitle": "The Silmarillion",
+            "author": "J.R.R. Tolkien",
+            "year": 1977,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Narnia Günlükleri",
+            "originalTitle": "The Chronicles of Narnia",
+            "author": "C.S. Lewis",
+            "year": 1950,
+            "country": "İngiltere"
+        },
+        {
+            "title": "Simyacı",
+            "originalTitle": "The Alchemist",
+            "author": "Paulo Coelho",
+            "year": 1988,
+            "country": "Brezilya"
+        },
+        {
+            "title": "Kör Baykuş",
+            "originalTitle": "The Blind Owl",
+            "author": "Sadegh Hedayat",
+            "year": 1937,
+            "country": "İran"
+        },
+        {
+            "title": "Körlük",
+            "originalTitle": "Blindness",
+            "author": "José Saramago",
+            "year": 1995,
+            "country": "Portekiz"
+        },
+        {
+            "title": "Rakı Anlaşması",
+            "originalTitle": "The Year of the Death of Ricardo Reis",
+            "author": "José Saramago",
+            "year": 1984,
+            "country": "Portekiz"
+        },
+        {
+            "title": "Beyaz",
+            "originalTitle": "The Book of Disquiet",
+            "author": "Fernando Pessoa",
+            "year": 1982,
+            "country": "Portekiz"
+        },
+        {
+            "title": "Gökyüzü Yalnızlığı",
+            "originalTitle": "One Day in the Life of Ivan Denisovich",
+            "author": "Aleksandr Solzhenitsyn",
+            "year": 1962,
+            "country": "Rusya"
+        },
+        {
+            "title": "Usta ve Margarita",
+            "originalTitle": "The Master and Margarita",
+            "author": "Mikhail Bulgakov",
+            "year": 1967,
+            "country": "Rusya"
+        },
+        {
+            "title": "Köpek Kalbi",
+            "originalTitle": "Heart of a Dog",
+            "author": "Mikhail Bulgakov",
+            "year": 1925,
+            "country": "Rusya"
+        },
+        {
+            "title": "Ölü Canlar",
+            "originalTitle": "Dead Souls",
+            "author": "Nikolay Gogol",
+            "year": 1842,
+            "country": "Rusya"
+        },
+        {
+            "title": "Palto",
+            "originalTitle": "The Overcoat",
+            "author": "Nikolay Gogol",
+            "year": 1842,
+            "country": "Rusya"
+        },
+        {
+            "title": "Babalar ve Oğullar",
+            "originalTitle": "Fathers and Sons",
+            "author": "Ivan Turgenev",
+            "year": 1862,
+            "country": "Rusya"
+        },
+        {
+            "title": "Doctor Zhivago",
+            "originalTitle": "Doctor Zhivago",
+            "author": "Boris Pasternak",
+            "year": 1957,
+            "country": "Rusya"
+        },
+        {
+            "title": "Lolita",
+            "originalTitle": "Lolita",
+            "author": "Vladimir Nabokov",
+            "year": 1955,
+            "country": "Rusya/ABD"
+        },
+        {
+            "title": "Dayanılmaz Hafifliği Varlığın",
+            "originalTitle": "The Unbearable Lightness of Being",
+            "author": "Milan Kundera",
+            "year": 1984,
+            "country": "Çekya"
+        },
+        {
+            "title": "Şaka",
+            "originalTitle": "The Joke",
+            "author": "Milan Kundera",
+            "year": 1967,
+            "country": "Çekya"
+        }
+    ]
+}

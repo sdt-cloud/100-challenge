@@ -1,0 +1,365 @@
+{
+    "id": "50-seinen-anime",
+    "title": "En İyi 50 Seinen Anime",
+    "description": "Karanlık temalar, psikolojik derinlik ve olgun hikayeler sunan yetişkin odaklı animeler.",
+    "category": "anime",
+    "subcategory": "genre",
+    "tags": [
+        "🖤 Karanlık",
+        "🧠 Psikolojik",
+        "🎭 Seinen"
+    ],
+    "cover": "seinen-anime-cover.jpg",
+    "items": [
+        {
+            "tr": "Berserk",
+            "en": "Berserk",
+            "year": 1997,
+            "studio": "OLM",
+            "episodes": 25
+        },
+        {
+            "tr": "Monster",
+            "en": "Monster",
+            "year": 2004,
+            "studio": "Madhouse",
+            "episodes": 74
+        },
+        {
+            "tr": "Vinland Saga",
+            "en": "Vinland Saga",
+            "year": 2019,
+            "studio": "Wit Studio",
+            "episodes": 48
+        },
+        {
+            "tr": "Parasyte",
+            "en": "Kiseijuu: Sei no Kakuritsu",
+            "year": 2014,
+            "studio": "Madhouse",
+            "episodes": 24
+        },
+        {
+            "tr": "Tokyo Ghoul",
+            "en": "Tokyo Ghoul",
+            "year": 2014,
+            "studio": "Pierrot",
+            "episodes": 48
+        },
+        {
+            "tr": "Psycho-Pass",
+            "en": "Psycho-Pass",
+            "year": 2012,
+            "studio": "Production I.G",
+            "episodes": 41
+        },
+        {
+            "tr": "Ghost in the Shell: SAC",
+            "en": "Ghost in the Shell: Stand Alone Complex",
+            "year": 2002,
+            "studio": "Production I.G",
+            "episodes": 52
+        },
+        {
+            "tr": "Cowboy Bebop",
+            "en": "Cowboy Bebop",
+            "year": 1998,
+            "studio": "Sunrise",
+            "episodes": 26
+        },
+        {
+            "tr": "Samurai Champloo",
+            "en": "Samurai Champloo",
+            "year": 2004,
+            "studio": "Manglobe",
+            "episodes": 26
+        },
+        {
+            "tr": "Black Lagoon",
+            "en": "Black Lagoon",
+            "year": 2006,
+            "studio": "Madhouse",
+            "episodes": 29
+        },
+        {
+            "tr": "Hellsing Ultimate",
+            "en": "Hellsing Ultimate",
+            "year": 2006,
+            "studio": "Madhouse",
+            "episodes": 10
+        },
+        {
+            "tr": "Claymore",
+            "en": "Claymore",
+            "year": 2007,
+            "studio": "Madhouse",
+            "episodes": 26
+        },
+        {
+            "tr": "Elfen Lied",
+            "en": "Elfen Lied",
+            "year": 2004,
+            "studio": "Arms",
+            "episodes": 13
+        },
+        {
+            "tr": "Ergo Proxy",
+            "en": "Ergo Proxy",
+            "year": 2006,
+            "studio": "Manglobe",
+            "episodes": 23
+        },
+        {
+            "tr": "Texhnolyze",
+            "en": "Texhnolyze",
+            "year": 2003,
+            "studio": "Madhouse",
+            "episodes": 22
+        },
+        {
+            "tr": "Serial Experiments Lain",
+            "en": "Serial Experiments Lain",
+            "year": 1998,
+            "studio": "Triangle Staff",
+            "episodes": 13
+        },
+        {
+            "tr": "Neon Genesis Evangelion",
+            "en": "Neon Genesis Evangelion",
+            "year": 1995,
+            "studio": "Gainax",
+            "episodes": 26
+        },
+        {
+            "tr": "Death Parade",
+            "en": "Death Parade",
+            "year": 2015,
+            "studio": "Madhouse",
+            "episodes": 12
+        },
+        {
+            "tr": "Rainbow",
+            "en": "Rainbow: Nisha Rokubou no Shichinin",
+            "year": 2010,
+            "studio": "Madhouse",
+            "episodes": 26
+        },
+        {
+            "tr": "Gangsta",
+            "en": "Gangsta.",
+            "year": 2015,
+            "studio": "Manglobe",
+            "episodes": 12
+        },
+        {
+            "tr": "91 Days",
+            "en": "91 Days",
+            "year": 2016,
+            "studio": "Shuka",
+            "episodes": 12
+        },
+        {
+            "tr": "Banana Fish",
+            "en": "Banana Fish",
+            "year": 2018,
+            "studio": "MAPPA",
+            "episodes": 24
+        },
+        {
+            "tr": "Dorohedoro",
+            "en": "Dorohedoro",
+            "year": 2020,
+            "studio": "MAPPA",
+            "episodes": 12
+        },
+        {
+            "tr": "Golden Kamuy",
+            "en": "Golden Kamuy",
+            "year": 2018,
+            "studio": "Geno Studio",
+            "episodes": 48
+        },
+        {
+            "tr": "Kingdom",
+            "en": "Kingdom",
+            "year": 2012,
+            "studio": "Pierrot",
+            "episodes": 100
+        },
+        {
+            "tr": "Vagabond",
+            "en": "Vagabond",
+            "year": 2024,
+            "studio": "Production I.G",
+            "episodes": 24
+        },
+        {
+            "tr": "Made in Abyss",
+            "en": "Made in Abyss",
+            "year": 2017,
+            "studio": "Kinema Citrus",
+            "episodes": 25
+        },
+        {
+            "tr": "Land of the Lustrous",
+            "en": "Houseki no Kuni",
+            "year": 2017,
+            "studio": "Orange",
+            "episodes": 12
+        },
+        {
+            "tr": "March Comes in Like a Lion",
+            "en": "3-gatsu no Lion",
+            "year": 2016,
+            "studio": "Shaft",
+            "episodes": 44
+        },
+        {
+            "tr": "Mushishi",
+            "en": "Mushishi",
+            "year": 2005,
+            "studio": "Artland",
+            "episodes": 46
+        },
+        {
+            "tr": "Planetes",
+            "en": "Planetes",
+            "year": 2003,
+            "studio": "Sunrise",
+            "episodes": 26
+        },
+        {
+            "tr": "Legend of the Galactic Heroes",
+            "en": "Ginga Eiyuu Densetsu",
+            "year": 1988,
+            "studio": "K-Factory",
+            "episodes": 110
+        },
+        {
+            "tr": "Space Brothers",
+            "en": "Uchuu Kyoudai",
+            "year": 2012,
+            "studio": "A-1 Pictures",
+            "episodes": 99
+        },
+        {
+            "tr": "Monster Musume",
+            "en": "Monster Musume no Iru Nichijou",
+            "year": 2015,
+            "studio": "Lerche",
+            "episodes": 12
+        },
+        {
+            "tr": "Interspecies Reviewers",
+            "en": "Ishuzoku Reviewers",
+            "year": 2020,
+            "studio": "Passione",
+            "episodes": 12
+        },
+        {
+            "tr": "Grand Blue Dreaming",
+            "en": "Grand Blue",
+            "year": 2018,
+            "studio": "Zero-G",
+            "episodes": 12
+        },
+        {
+            "tr": "Wotakoi",
+            "en": "Wotaku ni Koi wa Muzukashii",
+            "year": 2018,
+            "studio": "A-1 Pictures",
+            "episodes": 11
+        },
+        {
+            "tr": "Odd Taxi",
+            "en": "Odd Taxi",
+            "year": 2021,
+            "studio": "OLM",
+            "episodes": 13
+        },
+        {
+            "tr": "Akudama Drive",
+            "en": "Akudama Drive",
+            "year": 2020,
+            "studio": "Pierrot",
+            "episodes": 12
+        },
+        {
+            "tr": "Akagi",
+            "en": "Akagi",
+            "year": 2005,
+            "studio": "Madhouse",
+            "episodes": 26
+        },
+        {
+            "tr": "Kaiji",
+            "en": "Gyakkyou Burai Kaiji",
+            "year": 2007,
+            "studio": "Madhouse",
+            "episodes": 52
+        },
+        {
+            "tr": "One Outs",
+            "en": "One Outs",
+            "year": 2008,
+            "studio": "Madhouse",
+            "episodes": 25
+        },
+        {
+            "tr": "Monster Rancher",
+            "en": "Monster Farm",
+            "year": 1999,
+            "studio": "TMS Entertainment",
+            "episodes": 73
+        },
+        {
+            "tr": "Aku no Hana",
+            "en": "Aku no Hana",
+            "year": 2013,
+            "studio": "Zexcs",
+            "episodes": 13
+        },
+        {
+            "tr": "Blade of the Immortal",
+            "en": "Mugen no Juunin: Immortal",
+            "year": 2019,
+            "studio": "Liden Films",
+            "episodes": 24
+        },
+        {
+            "tr": "Ninja Scroll",
+            "en": "Juubee Ninpuuchou",
+            "year": 1993,
+            "studio": "Madhouse",
+            "episodes": 1
+        },
+        {
+            "tr": "Vampire Hunter D",
+            "en": "Vampire Hunter D: Bloodlust",
+            "year": 2000,
+            "studio": "Madhouse",
+            "episodes": 1
+        },
+        {
+            "tr": "Jin-Roh",
+            "en": "Jin-Roh: The Wolf Brigade",
+            "year": 1999,
+            "studio": "Production I.G",
+            "episodes": 1
+        },
+        {
+            "tr": "Memories",
+            "en": "Memories",
+            "year": 1995,
+            "studio": "Madhouse",
+            "episodes": 3
+        },
+        {
+            "tr": "Pluto",
+            "en": "Pluto",
+            "year": 2023,
+            "studio": "Studio M2",
+            "episodes": 8
+        }
+    ]
+}

@@ -1,0 +1,702 @@
+{
+    "id": "100-asian-films",
+    "title": "100 Asya Filmi",
+    "description": "Japon, Güney Kore, Çin, Hong Kong ve diğer Asya ülkelerinden sinema başyapıtları.",
+    "category": "films",
+    "subcategory": "geography",
+    "tags": [
+        "🌏 Asya",
+        "🇯🇵 Japon",
+        "🇰🇷 Kore",
+        "🇨🇳 Çin"
+    ],
+    "cover": "asian-films-cover.jpg",
+    "items": [
+        {
+            "tr": "Yedi Samuray",
+            "en": "Seven Samurai",
+            "year": 1954,
+            "director": "Akira Kurosawa",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Rashomon",
+            "en": "Rashomon",
+            "year": 1950,
+            "director": "Akira Kurosawa",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Tokyo Hikayesi",
+            "en": "Tokyo Story",
+            "year": 1953,
+            "director": "Yasujirō Ozu",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Hayalet Şehir",
+            "en": "Spirited Away",
+            "year": 2001,
+            "director": "Hayao Miyazaki",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Prenses Mononoke",
+            "en": "Princess Mononoke",
+            "year": 1997,
+            "director": "Hayao Miyazaki",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Uçan Şato",
+            "en": "Howl's Moving Castle",
+            "year": 2004,
+            "director": "Hayao Miyazaki",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Komşum Totoro",
+            "en": "My Neighbor Totoro",
+            "year": 1988,
+            "director": "Hayao Miyazaki",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Akira",
+            "en": "Akira",
+            "year": 1988,
+            "director": "Katsuhiro Otomo",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Ghost in the Shell",
+            "en": "Ghost in the Shell",
+            "year": 1995,
+            "director": "Mamoru Oshii",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Perfect Blue",
+            "en": "Perfect Blue",
+            "year": 1997,
+            "director": "Satoshi Kon",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Paprika",
+            "en": "Paprika",
+            "year": 2006,
+            "director": "Satoshi Kon",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Milenyum Aktris",
+            "en": "Millennium Actress",
+            "year": 2001,
+            "director": "Satoshi Kon",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Senin Adın",
+            "en": "Your Name",
+            "year": 2016,
+            "director": "Makoto Shinkai",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Weathering with You",
+            "en": "Weathering with You",
+            "year": 2019,
+            "director": "Makoto Shinkai",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Grave of the Fireflies",
+            "en": "Grave of the Fireflies",
+            "year": 1988,
+            "director": "Isao Takahata",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Audition",
+            "en": "Audition",
+            "year": 1999,
+            "director": "Takashi Miike",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Ichi the Killer",
+            "en": "Ichi the Killer",
+            "year": 2001,
+            "director": "Takashi Miike",
+            "country": "Japonya"
+        },
+        {
+            "tr": "13 Assassins",
+            "en": "13 Assassins",
+            "year": 2010,
+            "director": "Takashi Miike",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Halka",
+            "en": "Ringu",
+            "year": 1998,
+            "director": "Hideo Nakata",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Karanlık Su",
+            "en": "Dark Water",
+            "year": 2002,
+            "director": "Hideo Nakata",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Kin",
+            "en": "Ju-On: The Grudge",
+            "year": 2002,
+            "director": "Takashi Shimizu",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Battle Royale",
+            "en": "Battle Royale",
+            "year": 2000,
+            "director": "Kinji Fukasaku",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Yojimbo",
+            "en": "Yojimbo",
+            "year": 1961,
+            "director": "Akira Kurosawa",
+            "country": "Japonya"
+        },
+        {
+            "tr": "İkiru",
+            "en": "Ikiru",
+            "year": 1952,
+            "director": "Akira Kurosawa",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Ran",
+            "en": "Ran",
+            "year": 1985,
+            "director": "Akira Kurosawa",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Kagemusha",
+            "en": "Kagemusha",
+            "year": 1980,
+            "director": "Akira Kurosawa",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Sansho Dayu",
+            "en": "Sansho the Bailiff",
+            "year": 1954,
+            "director": "Kenji Mizoguchi",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Ugetsu",
+            "en": "Ugetsu",
+            "year": 1953,
+            "director": "Kenji Mizoguchi",
+            "country": "Japonya"
+        },
+        {
+            "tr": "Oldboy",
+            "en": "Oldboy",
+            "year": 2003,
+            "director": "Park Chan-wook",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Sympathy for Mr. Vengeance",
+            "en": "Sympathy for Mr. Vengeance",
+            "year": 2002,
+            "director": "Park Chan-wook",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Lady Vengeance",
+            "en": "Lady Vengeance",
+            "year": 2005,
+            "director": "Park Chan-wook",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Handmaiden",
+            "en": "The Handmaiden",
+            "year": 2016,
+            "director": "Park Chan-wook",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Parazit",
+            "en": "Parasite",
+            "year": 2019,
+            "director": "Bong Joon-ho",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Katil Anıları",
+            "en": "Memories of Murder",
+            "year": 2003,
+            "director": "Bong Joon-ho",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Anne",
+            "en": "Mother",
+            "year": 2009,
+            "director": "Bong Joon-ho",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "The Host",
+            "en": "The Host",
+            "year": 2006,
+            "director": "Bong Joon-ho",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Snowpiercer",
+            "en": "Snowpiercer",
+            "year": 2013,
+            "director": "Bong Joon-ho",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Train to Busan",
+            "en": "Train to Busan",
+            "year": 2016,
+            "director": "Yeon Sang-ho",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "I Saw the Devil",
+            "en": "I Saw the Devil",
+            "year": 2010,
+            "director": "Kim Jee-woon",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "İki Kız Kardeş",
+            "en": "A Tale of Two Sisters",
+            "year": 2003,
+            "director": "Kim Jee-woon",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "The Good, the Bad, the Weird",
+            "en": "The Good, the Bad, the Weird",
+            "year": 2008,
+            "director": "Kim Jee-woon",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Burning",
+            "en": "Burning",
+            "year": 2018,
+            "director": "Lee Chang-dong",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Poetry",
+            "en": "Poetry",
+            "year": 2010,
+            "director": "Lee Chang-dong",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Secret Sunshine",
+            "en": "Secret Sunshine",
+            "year": 2007,
+            "director": "Lee Chang-dong",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Peppermint Candy",
+            "en": "Peppermint Candy",
+            "year": 1999,
+            "director": "Lee Chang-dong",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "The Chaser",
+            "en": "The Chaser",
+            "year": 2008,
+            "director": "Na Hong-jin",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "The Wailing",
+            "en": "The Wailing",
+            "year": 2016,
+            "director": "Na Hong-jin",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Ayrılık Hikayeleri",
+            "en": "Decision to Leave",
+            "year": 2022,
+            "director": "Park Chan-wook",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "A Bittersweet Life",
+            "en": "A Bittersweet Life",
+            "year": 2005,
+            "director": "Kim Jee-woon",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Silenced",
+            "en": "Silenced",
+            "year": 2011,
+            "director": "Hwang Dong-hyuk",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Aşka Yolculuk",
+            "en": "In the Mood for Love",
+            "year": 2000,
+            "director": "Wong Kar-wai",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Chungking Express",
+            "en": "Chungking Express",
+            "year": 1994,
+            "director": "Wong Kar-wai",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Fallen Angels",
+            "en": "Fallen Angels",
+            "year": 1995,
+            "director": "Wong Kar-wai",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Happy Together",
+            "en": "Happy Together",
+            "year": 1997,
+            "director": "Wong Kar-wai",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "2046",
+            "en": "2046",
+            "year": 2004,
+            "director": "Wong Kar-wai",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Days of Being Wild",
+            "en": "Days of Being Wild",
+            "year": 1990,
+            "director": "Wong Kar-wai",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Bir Zamanlar Çin'de",
+            "en": "Once Upon a Time in China",
+            "year": 1991,
+            "director": "Tsui Hark",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "The Killer",
+            "en": "The Killer",
+            "year": 1989,
+            "director": "John Woo",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Hard Boiled",
+            "en": "Hard Boiled",
+            "year": 1992,
+            "director": "John Woo",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "A Better Tomorrow",
+            "en": "A Better Tomorrow",
+            "year": 1986,
+            "director": "John Woo",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Polis Hikayesi",
+            "en": "Police Story",
+            "year": 1985,
+            "director": "Jackie Chan",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Drunken Master",
+            "en": "Drunken Master",
+            "year": 1978,
+            "director": "Yuen Woo-ping",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Fist of Legend",
+            "en": "Fist of Legend",
+            "year": 1994,
+            "director": "Gordon Chan",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Ip Man",
+            "en": "Ip Man",
+            "year": 2008,
+            "director": "Wilson Yip",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Infernal Affairs",
+            "en": "Infernal Affairs",
+            "year": 2002,
+            "director": "Andrew Lau",
+            "country": "Hong Kong"
+        },
+        {
+            "tr": "Kaplan ve Ejderha",
+            "en": "Crouching Tiger, Hidden Dragon",
+            "year": 2000,
+            "director": "Ang Lee",
+            "country": "Çin/Tayvan"
+        },
+        {
+            "tr": "Hero",
+            "en": "Hero",
+            "year": 2002,
+            "director": "Zhang Yimou",
+            "country": "Çin"
+        },
+        {
+            "tr": "House of Flying Daggers",
+            "en": "House of Flying Daggers",
+            "year": 2004,
+            "director": "Zhang Yimou",
+            "country": "Çin"
+        },
+        {
+            "tr": "Kırmızı Fener",
+            "en": "Raise the Red Lantern",
+            "year": 1991,
+            "director": "Zhang Yimou",
+            "country": "Çin"
+        },
+        {
+            "tr": "Yaşamak İçin",
+            "en": "To Live",
+            "year": 1994,
+            "director": "Zhang Yimou",
+            "country": "Çin"
+        },
+        {
+            "tr": "Veda Şarkım",
+            "en": "Farewell My Concubine",
+            "year": 1993,
+            "director": "Chen Kaige",
+            "country": "Çin"
+        },
+        {
+            "tr": "Shanghai Triad",
+            "en": "Shanghai Triad",
+            "year": 1995,
+            "director": "Zhang Yimou",
+            "country": "Çin"
+        },
+        {
+            "tr": "Ayrılık",
+            "en": "A Separation",
+            "year": 2011,
+            "director": "Asghar Farhadi",
+            "country": "İran"
+        },
+        {
+            "tr": "Satıcı",
+            "en": "The Salesman",
+            "year": 2016,
+            "director": "Asghar Farhadi",
+            "country": "İran"
+        },
+        {
+            "tr": "About Elly",
+            "en": "About Elly",
+            "year": 2009,
+            "director": "Asghar Farhadi",
+            "country": "İran"
+        },
+        {
+            "tr": "Kirazın Tadı",
+            "en": "Taste of Cherry",
+            "year": 1997,
+            "director": "Abbas Kiarostami",
+            "country": "İran"
+        },
+        {
+            "tr": "Arkadaşımın Evi Nerede?",
+            "en": "Where Is the Friend's House?",
+            "year": 1987,
+            "director": "Abbas Kiarostami",
+            "country": "İran"
+        },
+        {
+            "tr": "Yaşamın Devamı",
+            "en": "Life, and Nothing More...",
+            "year": 1992,
+            "director": "Abbas Kiarostami",
+            "country": "İran"
+        },
+        {
+            "tr": "Close-Up",
+            "en": "Close-Up",
+            "year": 1990,
+            "director": "Abbas Kiarostami",
+            "country": "İran"
+        },
+        {
+            "tr": "Certified Copy",
+            "en": "Certified Copy",
+            "year": 2010,
+            "director": "Abbas Kiarostami",
+            "country": "İran"
+        },
+        {
+            "tr": "Renk Körleri",
+            "en": "The Color of Paradise",
+            "year": 1999,
+            "director": "Majid Majidi",
+            "country": "İran"
+        },
+        {
+            "tr": "Cennetin Çocukları",
+            "en": "Children of Heaven",
+            "year": 1997,
+            "director": "Majid Majidi",
+            "country": "İran"
+        },
+        {
+            "tr": "Taxi",
+            "en": "Taxi",
+            "year": 2015,
+            "director": "Jafar Panahi",
+            "country": "İran"
+        },
+        {
+            "tr": "Bu Kadın Değil",
+            "en": "This Is Not a Film",
+            "year": 2011,
+            "director": "Jafar Panahi",
+            "country": "İran"
+        },
+        {
+            "tr": "Zire-ye Saye-ye Eftekhar",
+            "en": "A Girl Walks Home Alone at Night",
+            "year": 2014,
+            "director": "Ana Lily Amirpour",
+            "country": "İran/ABD"
+        },
+        {
+            "tr": "Slumdog Millionaire",
+            "en": "Slumdog Millionaire",
+            "year": 2008,
+            "director": "Danny Boyle",
+            "country": "Hindistan/İngiltere"
+        },
+        {
+            "tr": "Lagaan",
+            "en": "Lagaan",
+            "year": 2001,
+            "director": "Ashutosh Gowariker",
+            "country": "Hindistan"
+        },
+        {
+            "tr": "3 Aptal",
+            "en": "3 Idiots",
+            "year": 2009,
+            "director": "Rajkumar Hirani",
+            "country": "Hindistan"
+        },
+        {
+            "tr": "Dangal",
+            "en": "Dangal",
+            "year": 2016,
+            "director": "Nitesh Tiwari",
+            "country": "Hindistan"
+        },
+        {
+            "tr": "Gangs of Wasseypur",
+            "en": "Gangs of Wasseypur",
+            "year": 2012,
+            "director": "Anurag Kashyap",
+            "country": "Hindistan"
+        },
+        {
+            "tr": "The Lunchbox",
+            "en": "The Lunchbox",
+            "year": 2013,
+            "director": "Ritesh Batra",
+            "country": "Hindistan"
+        },
+        {
+            "tr": "Pather Panchali",
+            "en": "Pather Panchali",
+            "year": 1955,
+            "director": "Satyajit Ray",
+            "country": "Hindistan"
+        },
+        {
+            "tr": "The Apu Trilogy",
+            "en": "Aparajito",
+            "year": 1956,
+            "director": "Satyajit Ray",
+            "country": "Hindistan"
+        },
+        {
+            "tr": "Dünya",
+            "en": "The World of Apu",
+            "year": 1959,
+            "director": "Satyajit Ray",
+            "country": "Hindistan"
+        },
+        {
+            "tr": "Charulata",
+            "en": "Charulata",
+            "year": 1964,
+            "director": "Satyajit Ray",
+            "country": "Hindistan"
+        },
+        {
+            "tr": "Uncle Boonmee",
+            "en": "Uncle Boonmee Who Can Recall His Past Lives",
+            "year": 2010,
+            "director": "Apichatpong Weerasethakul",
+            "country": "Tayland"
+        },
+        {
+            "tr": "Memoria",
+            "en": "Memoria",
+            "year": 2021,
+            "director": "Apichatpong Weerasethakul",
+            "country": "Tayland/Kolombiya"
+        },
+        {
+            "tr": "Ong-Bak",
+            "en": "Ong-Bak",
+            "year": 2003,
+            "director": "Prachya Pinkaew",
+            "country": "Tayland"
+        }
+    ]
+}

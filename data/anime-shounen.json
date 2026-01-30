@@ -1,0 +1,365 @@
+{
+    "id": "50-shounen-anime",
+    "title": "En İyi 50 Shounen Anime",
+    "description": "Aksiyon, macera ve dostluk temalı genç erkeklere yönelik en popüler shounen animeler.",
+    "category": "anime",
+    "subcategory": "genre",
+    "tags": [
+        "⚔️ Aksiyon",
+        "🔥 Shounen",
+        "💪 Macera"
+    ],
+    "cover": "shounen-anime-cover.jpg",
+    "items": [
+        {
+            "tr": "Naruto Shippuden",
+            "en": "Naruto: Shippuuden",
+            "year": 2007,
+            "studio": "Pierrot",
+            "episodes": 500
+        },
+        {
+            "tr": "One Piece",
+            "en": "One Piece",
+            "year": 1999,
+            "studio": "Toei Animation",
+            "episodes": 1100
+        },
+        {
+            "tr": "Dragon Ball Z",
+            "en": "Dragon Ball Z",
+            "year": 1989,
+            "studio": "Toei Animation",
+            "episodes": 291
+        },
+        {
+            "tr": "Bleach",
+            "en": "Bleach",
+            "year": 2004,
+            "studio": "Pierrot",
+            "episodes": 366
+        },
+        {
+            "tr": "Hunter x Hunter",
+            "en": "Hunter x Hunter (2011)",
+            "year": 2011,
+            "studio": "Madhouse",
+            "episodes": 148
+        },
+        {
+            "tr": "My Hero Academia",
+            "en": "Boku no Hero Academia",
+            "year": 2016,
+            "studio": "Bones",
+            "episodes": 138
+        },
+        {
+            "tr": "Demon Slayer",
+            "en": "Kimetsu no Yaiba",
+            "year": 2019,
+            "studio": "ufotable",
+            "episodes": 44
+        },
+        {
+            "tr": "Jujutsu Kaisen",
+            "en": "Jujutsu Kaisen",
+            "year": 2020,
+            "studio": "MAPPA",
+            "episodes": 47
+        },
+        {
+            "tr": "Attack on Titan",
+            "en": "Shingeki no Kyojin",
+            "year": 2013,
+            "studio": "Wit Studio",
+            "episodes": 87
+        },
+        {
+            "tr": "Fullmetal Alchemist: Brotherhood",
+            "en": "Fullmetal Alchemist: Brotherhood",
+            "year": 2009,
+            "studio": "Bones",
+            "episodes": 64
+        },
+        {
+            "tr": "Black Clover",
+            "en": "Black Clover",
+            "year": 2017,
+            "studio": "Pierrot",
+            "episodes": 170
+        },
+        {
+            "tr": "Fairy Tail",
+            "en": "Fairy Tail",
+            "year": 2009,
+            "studio": "A-1 Pictures",
+            "episodes": 328
+        },
+        {
+            "tr": "Yu Yu Hakusho",
+            "en": "Yuu Yuu Hakusho",
+            "year": 1992,
+            "studio": "Pierrot",
+            "episodes": 112
+        },
+        {
+            "tr": "Rurouni Kenshin",
+            "en": "Rurouni Kenshin",
+            "year": 1996,
+            "studio": "Gallop",
+            "episodes": 94
+        },
+        {
+            "tr": "Gintama",
+            "en": "Gintama",
+            "year": 2006,
+            "studio": "Sunrise",
+            "episodes": 367
+        },
+        {
+            "tr": "Dr. Stone",
+            "en": "Dr. Stone",
+            "year": 2019,
+            "studio": "TMS Entertainment",
+            "episodes": 59
+        },
+        {
+            "tr": "Chainsaw Man",
+            "en": "Chainsaw Man",
+            "year": 2022,
+            "studio": "MAPPA",
+            "episodes": 12
+        },
+        {
+            "tr": "Fire Force",
+            "en": "Enen no Shouboutai",
+            "year": 2019,
+            "studio": "David Production",
+            "episodes": 48
+        },
+        {
+            "tr": "Soul Eater",
+            "en": "Soul Eater",
+            "year": 2008,
+            "studio": "Bones",
+            "episodes": 51
+        },
+        {
+            "tr": "D.Gray-man",
+            "en": "D.Gray-man",
+            "year": 2006,
+            "studio": "TMS Entertainment",
+            "episodes": 103
+        },
+        {
+            "tr": "Blue Exorcist",
+            "en": "Ao no Exorcist",
+            "year": 2011,
+            "studio": "A-1 Pictures",
+            "episodes": 37
+        },
+        {
+            "tr": "Seven Deadly Sins",
+            "en": "Nanatsu no Taizai",
+            "year": 2014,
+            "studio": "A-1 Pictures",
+            "episodes": 100
+        },
+        {
+            "tr": "Assassination Classroom",
+            "en": "Ansatsu Kyoushitsu",
+            "year": 2015,
+            "studio": "Lerche",
+            "episodes": 47
+        },
+        {
+            "tr": "The Promised Neverland",
+            "en": "Yakusoku no Neverland",
+            "year": 2019,
+            "studio": "CloverWorks",
+            "episodes": 23
+        },
+        {
+            "tr": "Mob Psycho 100",
+            "en": "Mob Psycho 100",
+            "year": 2016,
+            "studio": "Bones",
+            "episodes": 37
+        },
+        {
+            "tr": "One Punch Man",
+            "en": "One Punch Man",
+            "year": 2015,
+            "studio": "Madhouse",
+            "episodes": 24
+        },
+        {
+            "tr": "Spy x Family",
+            "en": "Spy x Family",
+            "year": 2022,
+            "studio": "Wit Studio",
+            "episodes": 37
+        },
+        {
+            "tr": "Haikyuu!!",
+            "en": "Haikyuu!!",
+            "year": 2014,
+            "studio": "Production I.G",
+            "episodes": 85
+        },
+        {
+            "tr": "Kuroko's Basketball",
+            "en": "Kuroko no Basket",
+            "year": 2012,
+            "studio": "Production I.G",
+            "episodes": 75
+        },
+        {
+            "tr": "Slam Dunk",
+            "en": "Slam Dunk",
+            "year": 1993,
+            "studio": "Toei Animation",
+            "episodes": 101
+        },
+        {
+            "tr": "Eyeshield 21",
+            "en": "Eyeshield 21",
+            "year": 2005,
+            "studio": "Gallop",
+            "episodes": 145
+        },
+        {
+            "tr": "Inazuma Eleven",
+            "en": "Inazuma Eleven",
+            "year": 2008,
+            "studio": "OLM",
+            "episodes": 127
+        },
+        {
+            "tr": "Captain Tsubasa",
+            "en": "Captain Tsubasa",
+            "year": 1983,
+            "studio": "Tsuchida Productions",
+            "episodes": 128
+        },
+        {
+            "tr": "Food Wars!",
+            "en": "Shokugeki no Souma",
+            "year": 2015,
+            "studio": "J.C.Staff",
+            "episodes": 86
+        },
+        {
+            "tr": "Toriko",
+            "en": "Toriko",
+            "year": 2011,
+            "studio": "Toei Animation",
+            "episodes": 147
+        },
+        {
+            "tr": "Beyblade",
+            "en": "Bakuten Shoot Beyblade",
+            "year": 2001,
+            "studio": "Madhouse",
+            "episodes": 51
+        },
+        {
+            "tr": "Yu-Gi-Oh!",
+            "en": "Yu-Gi-Oh! Duel Monsters",
+            "year": 2000,
+            "studio": "Gallop",
+            "episodes": 224
+        },
+        {
+            "tr": "Pokemon",
+            "en": "Pokemon",
+            "year": 1997,
+            "studio": "OLM",
+            "episodes": 1200
+        },
+        {
+            "tr": "Digimon Adventure",
+            "en": "Digimon Adventure",
+            "year": 1999,
+            "studio": "Toei Animation",
+            "episodes": 54
+        },
+        {
+            "tr": "Boruto",
+            "en": "Boruto: Naruto Next Generations",
+            "year": 2017,
+            "studio": "Pierrot",
+            "episodes": 293
+        },
+        {
+            "tr": "Dragon Ball Super",
+            "en": "Dragon Ball Super",
+            "year": 2015,
+            "studio": "Toei Animation",
+            "episodes": 131
+        },
+        {
+            "tr": "Magi",
+            "en": "Magi: The Labyrinth of Magic",
+            "year": 2012,
+            "studio": "A-1 Pictures",
+            "episodes": 50
+        },
+        {
+            "tr": "Blue Lock",
+            "en": "Blue Lock",
+            "year": 2022,
+            "studio": "8bit",
+            "episodes": 24
+        },
+        {
+            "tr": "World Trigger",
+            "en": "World Trigger",
+            "year": 2014,
+            "studio": "Toei Animation",
+            "episodes": 100
+        },
+        {
+            "tr": "Undead Unluck",
+            "en": "Undead Unluck",
+            "year": 2023,
+            "studio": "David Production",
+            "episodes": 24
+        },
+        {
+            "tr": "Hell's Paradise",
+            "en": "Jigokuraku",
+            "year": 2023,
+            "studio": "MAPPA",
+            "episodes": 13
+        },
+        {
+            "tr": "Mashle",
+            "en": "Mashle: Magic and Muscles",
+            "year": 2023,
+            "studio": "A-1 Pictures",
+            "episodes": 24
+        },
+        {
+            "tr": "Kaiju No. 8",
+            "en": "Kaiju No. 8",
+            "year": 2024,
+            "studio": "Production I.G",
+            "episodes": 12
+        },
+        {
+            "tr": "Dandadan",
+            "en": "Dandadan",
+            "year": 2024,
+            "studio": "Science SARU",
+            "episodes": 12
+        },
+        {
+            "tr": "Zom 100",
+            "en": "Zom 100: Bucket List of the Dead",
+            "year": 2023,
+            "studio": "Bug Films",
+            "episodes": 12
+        }
+    ]
+}

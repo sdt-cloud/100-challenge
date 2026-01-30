@@ -99,20 +99,151 @@
                     </div>
                 </div>
 
-                <div class="section-header">
-                    <h2>Listelerim</h2>
-                    <button id="add-challenge-btn" class="btn btn-primary">+ Yeni Liste</button>
+                <!-- Dashboard Tabs -->
+                <div class="dashboard-tabs">
+                    <button class="dashboard-tab active" data-tab="my-lists">📋 Listelerim</button>
+                    <button class="dashboard-tab" data-tab="explore">🔍 Keşfet</button>
                 </div>
 
-                <div id="challenges-grid" class="challenges-grid">
-                    <!-- Challenge cards will be rendered here -->
+                <!-- My Lists Section -->
+                <div id="my-lists-section" class="tab-content">
+                    <div class="section-header">
+                        <h2>Listelerim</h2>
+                        <button id="add-challenge-btn" class="btn btn-primary">+ Yeni Liste</button>
+                    </div>
+
+                    <div id="challenges-grid" class="challenges-grid">
+                        <!-- Challenge cards will be rendered here -->
+                    </div>
+
+                    <div id="empty-state" class="empty-state hidden">
+                        <div class="empty-icon">📋</div>
+                        <h3>Henüz liste yok</h3>
+                        <p>Önerilen listelerden birini kaydet veya kendi listeni oluştur!</p>
+                        <div class="empty-actions">
+                            <button class="btn btn-secondary" onclick="switchToExploreTab()">🔍 Önerilen Listeleri
+                                Gör</button>
+                            <button class="btn btn-primary" onclick="showNewChallengeModal()">+ Yeni Liste
+                                Oluştur</button>
+                        </div>
+                    </div>
                 </div>
 
-                <div id="empty-state" class="empty-state hidden">
-                    <div class="empty-icon">📋</div>
-                    <h3>Henüz liste yok</h3>
-                    <p>İlk 100'lük listeni oluşturarak başla!</p>
-                    <button class="btn btn-primary" onclick="showNewChallengeModal()">+ Yeni Liste Oluştur</button>
+                <!-- Explore Section -->
+                <div id="explore-section" class="tab-content hidden">
+                    <div class="explore-header">
+                        <h2>🔍 Önerilen Listeler</h2>
+                        <p class="explore-subtitle">Editör kürasyonu ve tematik keşif listeleri</p>
+                    </div>
+
+                    <!-- Category Filter -->
+                    <div class="explore-categories">
+                        <button class="category-tab active" data-category="all">Tümü</button>
+                        <button class="category-tab" data-category="films">🎬 Filmler</button>
+                        <button class="category-tab" data-category="books">📚 Kitaplar</button>
+                        <button class="category-tab" data-category="anime">🎌 Animeler</button>
+                    </div>
+
+                    <!-- Film Lists -->
+                    <div id="film-lists-section" class="explore-category-section">
+                        <h3 class="category-title">🎬 Film Listeleri</h3>
+
+                        <div class="subcategory-section">
+                            <h4 class="subcategory-title">⭐ Mutlaka İzlenmesi Gerekenler</h4>
+                            <div id="films-must-watch-grid" class="curated-lists-grid">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+
+                        <div class="subcategory-section">
+                            <h4 class="subcategory-title">🎭 Tür Bazlı</h4>
+                            <div id="films-genre-grid" class="curated-lists-grid">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+
+                        <div class="subcategory-section">
+                            <h4 class="subcategory-title">✨ Editörün Seçimi</h4>
+                            <div id="films-editors-grid" class="curated-lists-grid">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+
+                        <div class="subcategory-section">
+                            <h4 class="subcategory-title">🌍 Coğrafya / Akım</h4>
+                            <div id="films-geography-grid" class="curated-lists-grid">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Book Lists -->
+                    <div id="book-lists-section" class="explore-category-section">
+                        <h3 class="category-title">📚 Kitap Listeleri</h3>
+
+                        <div class="subcategory-section">
+                            <h4 class="subcategory-title">🇹🇷 Türkçe / Yerli</h4>
+                            <div id="books-turkish-grid" class="curated-lists-grid">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+
+                        <div class="subcategory-section">
+                            <h4 class="subcategory-title">🌍 Dünya Klasikleri</h4>
+                            <div id="books-classics-grid" class="curated-lists-grid">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+
+                        <div class="subcategory-section">
+                            <h4 class="subcategory-title">🧠 Tür Bazlı</h4>
+                            <div id="books-genre-grid" class="curated-lists-grid">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Anime Lists -->
+                    <div id="anime-lists-section" class="explore-category-section">
+                        <h3 class="category-title">🎌 Anime Listeleri</h3>
+
+                        <div class="subcategory-section">
+                            <h4 class="subcategory-title">⭐ Mutlaka İzlenmesi Gerekenler</h4>
+                            <div id="anime-must-watch-grid" class="curated-lists-grid">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+
+                        <div class="subcategory-section">
+                            <h4 class="subcategory-title">🎭 Tür Bazlı</h4>
+                            <div id="anime-genre-grid" class="curated-lists-grid">
+                                <!-- Dynamically loaded -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coming Soon Teaser -->
+                    <div class="coming-soon-section">
+                        <h3 class="category-title">🔮 Yakında</h3>
+                        <div class="coming-soon-grid">
+                            <div class="coming-soon-card">
+                                <span class="coming-soon-emoji">🎧</span>
+                                <span class="coming-soon-title">100 Albüm</span>
+                            </div>
+                            <div class="coming-soon-card">
+                                <span class="coming-soon-emoji">🎮</span>
+                                <span class="coming-soon-title">100 Oyun</span>
+                            </div>
+                            <div class="coming-soon-card">
+                                <span class="coming-soon-emoji">📺</span>
+                                <span class="coming-soon-title">100 Belgesel</span>
+                            </div>
+                            <div class="coming-soon-card">
+                                <span class="coming-soon-emoji">🎙️</span>
+                                <span class="coming-soon-title">100 Podcast</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>

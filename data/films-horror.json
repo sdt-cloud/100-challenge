@@ -1,0 +1,615 @@
+{
+    "id": "100-horror-films",
+    "title": "100 Korku Filmi (Zamana Direnenler)",
+    "description": "Sinema tarihinin en korkutucu ve etkili korku filmleri. Yıllar geçse de etkisini yitirmeyen yapımlar.",
+    "category": "films",
+    "subcategory": "genre",
+    "tags": [
+        "👻 Korku",
+        "🌙 Gerilim",
+        "🩸 Slasher"
+    ],
+    "cover": "horror-films-cover.jpg",
+    "items": [
+        {
+            "tr": "Şeytan",
+            "en": "The Exorcist",
+            "year": 1973,
+            "director": "William Friedkin"
+        },
+        {
+            "tr": "Cinnet",
+            "en": "The Shining",
+            "year": 1980,
+            "director": "Stanley Kubrick"
+        },
+        {
+            "tr": "Psiko",
+            "en": "Psycho",
+            "year": 1960,
+            "director": "Alfred Hitchcock"
+        },
+        {
+            "tr": "Halloween",
+            "en": "Halloween",
+            "year": 1978,
+            "director": "John Carpenter"
+        },
+        {
+            "tr": "Teksas Elektrikli Testere Katliamı",
+            "en": "The Texas Chain Saw Massacre",
+            "year": 1974,
+            "director": "Tobe Hooper"
+        },
+        {
+            "tr": "13. Cuma",
+            "en": "Friday the 13th",
+            "year": 1980,
+            "director": "Sean S. Cunningham"
+        },
+        {
+            "tr": "Elm Sokağında Kabus",
+            "en": "A Nightmare on Elm Street",
+            "year": 1984,
+            "director": "Wes Craven"
+        },
+        {
+            "tr": "The Thing",
+            "en": "The Thing",
+            "year": 1982,
+            "director": "John Carpenter"
+        },
+        {
+            "tr": "Yaratık",
+            "en": "Alien",
+            "year": 1979,
+            "director": "Ridley Scott"
+        },
+        {
+            "tr": "Çığlık",
+            "en": "Scream",
+            "year": 1996,
+            "director": "Wes Craven"
+        },
+        {
+            "tr": "Halka",
+            "en": "Ringu",
+            "year": 1998,
+            "director": "Hideo Nakata"
+        },
+        {
+            "tr": "Kin",
+            "en": "Ju-On: The Grudge",
+            "year": 2002,
+            "director": "Takashi Shimizu"
+        },
+        {
+            "tr": "Rahibe",
+            "en": "The Conjuring",
+            "year": 2013,
+            "director": "James Wan"
+        },
+        {
+            "tr": "Korku Seansı 2",
+            "en": "The Conjuring 2",
+            "year": 2016,
+            "director": "James Wan"
+        },
+        {
+            "tr": "Sinister",
+            "en": "Sinister",
+            "year": 2012,
+            "director": "Scott Derrickson"
+        },
+        {
+            "tr": "Annabelle",
+            "en": "Annabelle",
+            "year": 2014,
+            "director": "John R. Leonetti"
+        },
+        {
+            "tr": "Hereditary",
+            "en": "Hereditary",
+            "year": 2018,
+            "director": "Ari Aster"
+        },
+        {
+            "tr": "Midsommar",
+            "en": "Midsommar",
+            "year": 2019,
+            "director": "Ari Aster"
+        },
+        {
+            "tr": "Get Out",
+            "en": "Get Out",
+            "year": 2017,
+            "director": "Jordan Peele"
+        },
+        {
+            "tr": "Us",
+            "en": "Us",
+            "year": 2019,
+            "director": "Jordan Peele"
+        },
+        {
+            "tr": "It Follows",
+            "en": "It Follows",
+            "year": 2014,
+            "director": "David Robert Mitchell"
+        },
+        {
+            "tr": "Babadook",
+            "en": "The Babadook",
+            "year": 2014,
+            "director": "Jennifer Kent"
+        },
+        {
+            "tr": "Cadı",
+            "en": "The Witch",
+            "year": 2015,
+            "director": "Robert Eggers"
+        },
+        {
+            "tr": "Denizfeneri",
+            "en": "The Lighthouse",
+            "year": 2019,
+            "director": "Robert Eggers"
+        },
+        {
+            "tr": "Sessiz Bir Yer",
+            "en": "A Quiet Place",
+            "year": 2018,
+            "director": "John Krasinski"
+        },
+        {
+            "tr": "Poltergeist",
+            "en": "Poltergeist",
+            "year": 1982,
+            "director": "Tobe Hooper"
+        },
+        {
+            "tr": "Rosemary'nin Bebeği",
+            "en": "Rosemary's Baby",
+            "year": 1968,
+            "director": "Roman Polanski"
+        },
+        {
+            "tr": "Kehanet",
+            "en": "The Omen",
+            "year": 1976,
+            "director": "Richard Donner"
+        },
+        {
+            "tr": "Carrie",
+            "en": "Carrie",
+            "year": 1976,
+            "director": "Brian De Palma"
+        },
+        {
+            "tr": "Hayalet",
+            "en": "The Others",
+            "year": 2001,
+            "director": "Alejandro Amenábar"
+        },
+        {
+            "tr": "Altıncı His",
+            "en": "The Sixth Sense",
+            "year": 1999,
+            "director": "M. Night Shyamalan"
+        },
+        {
+            "tr": "Blair Witch",
+            "en": "The Blair Witch Project",
+            "year": 1999,
+            "director": "Daniel Myrick"
+        },
+        {
+            "tr": "Paranormal Activity",
+            "en": "Paranormal Activity",
+            "year": 2007,
+            "director": "Oren Peli"
+        },
+        {
+            "tr": "REC",
+            "en": "[REC]",
+            "year": 2007,
+            "director": "Jaume Balagueró"
+        },
+        {
+            "tr": "28 Gün Sonra",
+            "en": "28 Days Later",
+            "year": 2002,
+            "director": "Danny Boyle"
+        },
+        {
+            "tr": "Yaşayan Ölülerin Gecesi",
+            "en": "Night of the Living Dead",
+            "year": 1968,
+            "director": "George A. Romero"
+        },
+        {
+            "tr": "Ölülerin Şafağı",
+            "en": "Dawn of the Dead",
+            "year": 1978,
+            "director": "George A. Romero"
+        },
+        {
+            "tr": "Evil Dead",
+            "en": "The Evil Dead",
+            "year": 1981,
+            "director": "Sam Raimi"
+        },
+        {
+            "tr": "Evil Dead 2",
+            "en": "Evil Dead II",
+            "year": 1987,
+            "director": "Sam Raimi"
+        },
+        {
+            "tr": "Cabin in the Woods",
+            "en": "The Cabin in the Woods",
+            "year": 2012,
+            "director": "Drew Goddard"
+        },
+        {
+            "tr": "Tucker and Dale vs Evil",
+            "en": "Tucker and Dale vs Evil",
+            "year": 2010,
+            "director": "Eli Craig"
+        },
+        {
+            "tr": "Shaun of the Dead",
+            "en": "Shaun of the Dead",
+            "year": 2004,
+            "director": "Edgar Wright"
+        },
+        {
+            "tr": "Re-Animator",
+            "en": "Re-Animator",
+            "year": 1985,
+            "director": "Stuart Gordon"
+        },
+        {
+            "tr": "Hellraiser",
+            "en": "Hellraiser",
+            "year": 1987,
+            "director": "Clive Barker"
+        },
+        {
+            "tr": "Candyman",
+            "en": "Candyman",
+            "year": 1992,
+            "director": "Bernard Rose"
+        },
+        {
+            "tr": "Suspiria",
+            "en": "Suspiria",
+            "year": 1977,
+            "director": "Dario Argento"
+        },
+        {
+            "tr": "Profondo Rosso",
+            "en": "Deep Red",
+            "year": 1975,
+            "director": "Dario Argento"
+        },
+        {
+            "tr": "Black Christmas",
+            "en": "Black Christmas",
+            "year": 1974,
+            "director": "Bob Clark"
+        },
+        {
+            "tr": "Dokuzuncu Kapı",
+            "en": "The Ninth Gate",
+            "year": 1999,
+            "director": "Roman Polanski"
+        },
+        {
+            "tr": "Labirent",
+            "en": "Pan's Labyrinth",
+            "year": 2006,
+            "director": "Guillermo del Toro"
+        },
+        {
+            "tr": "Don't Breathe",
+            "en": "Don't Breathe",
+            "year": 2016,
+            "director": "Fede Álvarez"
+        },
+        {
+            "tr": "Green Room",
+            "en": "Green Room",
+            "year": 2015,
+            "director": "Jeremy Saulnier"
+        },
+        {
+            "tr": "Raw",
+            "en": "Raw",
+            "year": 2016,
+            "director": "Julia Ducournau"
+        },
+        {
+            "tr": "Inside",
+            "en": "Inside",
+            "year": 2007,
+            "director": "Alexandre Bustillo"
+        },
+        {
+            "tr": "Martyrs",
+            "en": "Martyrs",
+            "year": 2008,
+            "director": "Pascal Laugier"
+        },
+        {
+            "tr": "High Tension",
+            "en": "High Tension",
+            "year": 2003,
+            "director": "Alexandre Aja"
+        },
+        {
+            "tr": "Testere",
+            "en": "Saw",
+            "year": 2004,
+            "director": "James Wan"
+        },
+        {
+            "tr": "Hostel",
+            "en": "Hostel",
+            "year": 2005,
+            "director": "Eli Roth"
+        },
+        {
+            "tr": "Ölüm Gemisi",
+            "en": "Ghost Ship",
+            "year": 2002,
+            "director": "Steve Beck"
+        },
+        {
+            "tr": "Karanlık Su",
+            "en": "Dark Water",
+            "year": 2002,
+            "director": "Hideo Nakata"
+        },
+        {
+            "tr": "Kayıp Balık Hikayesi",
+            "en": "Tale of Two Sisters",
+            "year": 2003,
+            "director": "Kim Jee-woon"
+        },
+        {
+            "tr": "I Saw the Devil",
+            "en": "I Saw the Devil",
+            "year": 2010,
+            "director": "Kim Jee-woon"
+        },
+        {
+            "tr": "Train to Busan",
+            "en": "Train to Busan",
+            "year": 2016,
+            "director": "Yeon Sang-ho"
+        },
+        {
+            "tr": "Audition",
+            "en": "Audition",
+            "year": 1999,
+            "director": "Takashi Miike"
+        },
+        {
+            "tr": "Ichi the Killer",
+            "en": "Ichi the Killer",
+            "year": 2001,
+            "director": "Takashi Miike"
+        },
+        {
+            "tr": "Pulse",
+            "en": "Pulse",
+            "year": 2001,
+            "director": "Kiyoshi Kurosawa"
+        },
+        {
+            "tr": "Noroi",
+            "en": "Noroi: The Curse",
+            "year": 2005,
+            "director": "Kōji Shiraishi"
+        },
+        {
+            "tr": "Hausu",
+            "en": "House",
+            "year": 1977,
+            "director": "Nobuhiko Obayashi"
+        },
+        {
+            "tr": "Tetsuo",
+            "en": "Tetsuo: The Iron Man",
+            "year": 1989,
+            "director": "Shinya Tsukamoto"
+        },
+        {
+            "tr": "Uzun Yol",
+            "en": "The Descent",
+            "year": 2005,
+            "director": "Neil Marshall"
+        },
+        {
+            "tr": "Dog Soldiers",
+            "en": "Dog Soldiers",
+            "year": 2002,
+            "director": "Neil Marshall"
+        },
+        {
+            "tr": "Let the Right One In",
+            "en": "Let the Right One In",
+            "year": 2008,
+            "director": "Tomas Alfredson"
+        },
+        {
+            "tr": "Trollhunter",
+            "en": "Trollhunter",
+            "year": 2010,
+            "director": "André Øvredal"
+        },
+        {
+            "tr": "Dead Snow",
+            "en": "Dead Snow",
+            "year": 2009,
+            "director": "Tommy Wirkola"
+        },
+        {
+            "tr": "Goodnight Mommy",
+            "en": "Goodnight Mommy",
+            "year": 2014,
+            "director": "Severin Fiala"
+        },
+        {
+            "tr": "Orphanage",
+            "en": "The Orphanage",
+            "year": 2007,
+            "director": "J.A. Bayona"
+        },
+        {
+            "tr": "Devil's Backbone",
+            "en": "The Devil's Backbone",
+            "year": 2001,
+            "director": "Guillermo del Toro"
+        },
+        {
+            "tr": "Eyes Without a Face",
+            "en": "Eyes Without a Face",
+            "year": 1960,
+            "director": "Georges Franju"
+        },
+        {
+            "tr": "Vampir",
+            "en": "Nosferatu",
+            "year": 1922,
+            "director": "F.W. Murnau"
+        },
+        {
+            "tr": "Drakula",
+            "en": "Dracula",
+            "year": 1931,
+            "director": "Tod Browning"
+        },
+        {
+            "tr": "Frankenstein",
+            "en": "Frankenstein",
+            "year": 1931,
+            "director": "James Whale"
+        },
+        {
+            "tr": "Bride of Frankenstein",
+            "en": "Bride of Frankenstein",
+            "year": 1935,
+            "director": "James Whale"
+        },
+        {
+            "tr": "Mumya",
+            "en": "The Mummy",
+            "year": 1932,
+            "director": "Karl Freund"
+        },
+        {
+            "tr": "Kurt Adam",
+            "en": "The Wolf Man",
+            "year": 1941,
+            "director": "George Waggner"
+        },
+        {
+            "tr": "Creature from the Black Lagoon",
+            "en": "Creature from the Black Lagoon",
+            "year": 1954,
+            "director": "Jack Arnold"
+        },
+        {
+            "tr": "Invasion of the Body Snatchers",
+            "en": "Invasion of the Body Snatchers",
+            "year": 1956,
+            "director": "Don Siegel"
+        },
+        {
+            "tr": "The Fly",
+            "en": "The Fly",
+            "year": 1986,
+            "director": "David Cronenberg"
+        },
+        {
+            "tr": "Videodrome",
+            "en": "Videodrome",
+            "year": 1983,
+            "director": "David Cronenberg"
+        },
+        {
+            "tr": "Dead Ringers",
+            "en": "Dead Ringers",
+            "year": 1988,
+            "director": "David Cronenberg"
+        },
+        {
+            "tr": "Scanners",
+            "en": "Scanners",
+            "year": 1981,
+            "director": "David Cronenberg"
+        },
+        {
+            "tr": "An American Werewolf in London",
+            "en": "An American Werewolf in London",
+            "year": 1981,
+            "director": "John Landis"
+        },
+        {
+            "tr": "The Howling",
+            "en": "The Howling",
+            "year": 1981,
+            "director": "Joe Dante"
+        },
+        {
+            "tr": "Gremlins",
+            "en": "Gremlins",
+            "year": 1984,
+            "director": "Joe Dante"
+        },
+        {
+            "tr": "Critters",
+            "en": "Critters",
+            "year": 1986,
+            "director": "Stephen Herek"
+        },
+        {
+            "tr": "Child's Play",
+            "en": "Child's Play",
+            "year": 1988,
+            "director": "Tom Holland"
+        },
+        {
+            "tr": "It",
+            "en": "It",
+            "year": 2017,
+            "director": "Andy Muschietti"
+        },
+        {
+            "tr": "Doctor Sleep",
+            "en": "Doctor Sleep",
+            "year": 2019,
+            "director": "Mike Flanagan"
+        },
+        {
+            "tr": "Gerald's Game",
+            "en": "Gerald's Game",
+            "year": 2017,
+            "director": "Mike Flanagan"
+        },
+        {
+            "tr": "Oculus",
+            "en": "Oculus",
+            "year": 2013,
+            "director": "Mike Flanagan"
+        },
+        {
+            "tr": "X",
+            "en": "X",
+            "year": 2022,
+            "director": "Ti West"
+        }
+    ]
+}

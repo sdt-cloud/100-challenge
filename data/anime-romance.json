@@ -1,0 +1,365 @@
+{
+    "id": "50-romance-anime",
+    "title": "En İyi 50 Romantik Anime",
+    "description": "Aşk, ilişkiler ve duygusal hikayeler sunan en güzel romantik animeler.",
+    "category": "anime",
+    "subcategory": "genre",
+    "tags": [
+        "💕 Romantik",
+        "💔 Drama",
+        "🌸 Aşk"
+    ],
+    "cover": "romance-anime-cover.jpg",
+    "items": [
+        {
+            "tr": "Your Lie in April",
+            "en": "Shigatsu wa Kimi no Uso",
+            "year": 2014,
+            "studio": "A-1 Pictures",
+            "episodes": 22
+        },
+        {
+            "tr": "Toradora!",
+            "en": "Toradora!",
+            "year": 2008,
+            "studio": "J.C.Staff",
+            "episodes": 25
+        },
+        {
+            "tr": "Clannad: After Story",
+            "en": "Clannad: After Story",
+            "year": 2008,
+            "studio": "Kyoto Animation",
+            "episodes": 24
+        },
+        {
+            "tr": "Kaguya-sama: Love is War",
+            "en": "Kaguya-sama wa Kokurasetai",
+            "year": 2019,
+            "studio": "A-1 Pictures",
+            "episodes": 37
+        },
+        {
+            "tr": "Horimiya",
+            "en": "Horimiya",
+            "year": 2021,
+            "studio": "CloverWorks",
+            "episodes": 13
+        },
+        {
+            "tr": "Bunny Girl Senpai",
+            "en": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+            "year": 2018,
+            "studio": "CloverWorks",
+            "episodes": 13
+        },
+        {
+            "tr": "Oregairu",
+            "en": "Yahari Ore no Seishun Love Comedy wa Machigatteiru",
+            "year": 2013,
+            "studio": "Brain's Base",
+            "episodes": 38
+        },
+        {
+            "tr": "Fruits Basket",
+            "en": "Fruits Basket",
+            "year": 2019,
+            "studio": "TMS Entertainment",
+            "episodes": 63
+        },
+        {
+            "tr": "Violet Evergarden",
+            "en": "Violet Evergarden",
+            "year": 2018,
+            "studio": "Kyoto Animation",
+            "episodes": 13
+        },
+        {
+            "tr": "Your Name",
+            "en": "Kimi no Na wa",
+            "year": 2016,
+            "studio": "CoMix Wave Films",
+            "episodes": 1
+        },
+        {
+            "tr": "A Silent Voice",
+            "en": "Koe no Katachi",
+            "year": 2016,
+            "studio": "Kyoto Animation",
+            "episodes": 1
+        },
+        {
+            "tr": "I Want to Eat Your Pancreas",
+            "en": "Kimi no Suizou wo Tabetai",
+            "year": 2018,
+            "studio": "Studio VOLN",
+            "episodes": 1
+        },
+        {
+            "tr": "Weathering with You",
+            "en": "Tenki no Ko",
+            "year": 2019,
+            "studio": "CoMix Wave Films",
+            "episodes": 1
+        },
+        {
+            "tr": "The Quintessential Quintuplets",
+            "en": "Go-toubun no Hanayome",
+            "year": 2019,
+            "studio": "Tezuka Productions",
+            "episodes": 24
+        },
+        {
+            "tr": "Rent-a-Girlfriend",
+            "en": "Kanojo, Okarishimasu",
+            "year": 2020,
+            "studio": "TMS Entertainment",
+            "episodes": 36
+        },
+        {
+            "tr": "My Dress-Up Darling",
+            "en": "Sono Bisque Doll wa Koi wo Suru",
+            "year": 2022,
+            "studio": "CloverWorks",
+            "episodes": 12
+        },
+        {
+            "tr": "Ouran High School Host Club",
+            "en": "Ouran Koukou Host Club",
+            "year": 2006,
+            "studio": "Bones",
+            "episodes": 26
+        },
+        {
+            "tr": "Maid Sama!",
+            "en": "Kaichou wa Maid-sama!",
+            "year": 2010,
+            "studio": "J.C.Staff",
+            "episodes": 26
+        },
+        {
+            "tr": "Golden Time",
+            "en": "Golden Time",
+            "year": 2013,
+            "studio": "J.C.Staff",
+            "episodes": 24
+        },
+        {
+            "tr": "Lovely Complex",
+            "en": "Lovely Complex",
+            "year": 2007,
+            "studio": "Toei Animation",
+            "episodes": 24
+        },
+        {
+            "tr": "Nisekoi",
+            "en": "Nisekoi",
+            "year": 2014,
+            "studio": "Shaft",
+            "episodes": 32
+        },
+        {
+            "tr": "Plastic Memories",
+            "en": "Plastic Memories",
+            "year": 2015,
+            "studio": "Doga Kobo",
+            "episodes": 13
+        },
+        {
+            "tr": "Angel Beats!",
+            "en": "Angel Beats!",
+            "year": 2010,
+            "studio": "P.A. Works",
+            "episodes": 13
+        },
+        {
+            "tr": "Anohana",
+            "en": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai",
+            "year": 2011,
+            "studio": "A-1 Pictures",
+            "episodes": 11
+        },
+        {
+            "tr": "Wotakoi",
+            "en": "Wotaku ni Koi wa Muzukashii",
+            "year": 2018,
+            "studio": "A-1 Pictures",
+            "episodes": 11
+        },
+        {
+            "tr": "Nana",
+            "en": "Nana",
+            "year": 2006,
+            "studio": "Madhouse",
+            "episodes": 47
+        },
+        {
+            "tr": "Nodame Cantabile",
+            "en": "Nodame Cantabile",
+            "year": 2007,
+            "studio": "J.C.Staff",
+            "episodes": 45
+        },
+        {
+            "tr": "Kimi ni Todoke",
+            "en": "Kimi ni Todoke",
+            "year": 2009,
+            "studio": "Production I.G",
+            "episodes": 38
+        },
+        {
+            "tr": "Say 'I Love You'",
+            "en": "Sukitte Ii na yo",
+            "year": 2012,
+            "studio": "Zexcs",
+            "episodes": 13
+        },
+        {
+            "tr": "My Little Monster",
+            "en": "Tonari no Kaibutsu-kun",
+            "year": 2012,
+            "studio": "Brain's Base",
+            "episodes": 13
+        },
+        {
+            "tr": "Wolf Girl and Black Prince",
+            "en": "Ookami Shoujo to Kuro Ouji",
+            "year": 2014,
+            "studio": "TYO Animations",
+            "episodes": 12
+        },
+        {
+            "tr": "Ao Haru Ride",
+            "en": "Ao Haru Ride",
+            "year": 2014,
+            "studio": "Production I.G",
+            "episodes": 12
+        },
+        {
+            "tr": "Orange",
+            "en": "Orange",
+            "year": 2016,
+            "studio": "Telecom Animation Film",
+            "episodes": 13
+        },
+        {
+            "tr": "ReLIFE",
+            "en": "ReLIFE",
+            "year": 2016,
+            "studio": "TMS Entertainment",
+            "episodes": 17
+        },
+        {
+            "tr": "Tsuki ga Kirei",
+            "en": "Tsuki ga Kirei",
+            "year": 2017,
+            "studio": "feel.",
+            "episodes": 12
+        },
+        {
+            "tr": "Bloom Into You",
+            "en": "Yagate Kimi ni Naru",
+            "year": 2018,
+            "studio": "TROYCA",
+            "episodes": 13
+        },
+        {
+            "tr": "Given",
+            "en": "Given",
+            "year": 2019,
+            "studio": "Lerche",
+            "episodes": 11
+        },
+        {
+            "tr": "Tonikawa",
+            "en": "Tonikaku Kawaii",
+            "year": 2020,
+            "studio": "Seven Arcs",
+            "episodes": 24
+        },
+        {
+            "tr": "Nagatoro",
+            "en": "Ijiranaide, Nagatoro-san",
+            "year": 2021,
+            "studio": "Telecom Animation Film",
+            "episodes": 24
+        },
+        {
+            "tr": "Shikimori's Not Just a Cutie",
+            "en": "Kawaii dake ja Nai Shikimori-san",
+            "year": 2022,
+            "studio": "Doga Kobo",
+            "episodes": 12
+        },
+        {
+            "tr": "Komi Can't Communicate",
+            "en": "Komi-san wa, Comyushou desu",
+            "year": 2021,
+            "studio": "OLM",
+            "episodes": 36
+        },
+        {
+            "tr": "Skip and Loafer",
+            "en": "Skip to Loafer",
+            "year": 2023,
+            "studio": "P.A. Works",
+            "episodes": 12
+        },
+        {
+            "tr": "The Angel Next Door Spoils Me Rotten",
+            "en": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
+            "year": 2023,
+            "studio": "Project No.9",
+            "episodes": 12
+        },
+        {
+            "tr": "Sasaki and Miyano",
+            "en": "Sasaki to Miyano",
+            "year": 2022,
+            "studio": "Studio Deen",
+            "episodes": 12
+        },
+        {
+            "tr": "Aharen-san",
+            "en": "Aharen-san wa Hakarenai",
+            "year": 2022,
+            "studio": "Felix Film",
+            "episodes": 12
+        },
+        {
+            "tr": "A Couple of Cuckoos",
+            "en": "Kakkou no Iinazuke",
+            "year": 2022,
+            "studio": "Shin-Ei Animation",
+            "episodes": 24
+        },
+        {
+            "tr": "Love, Chunibyo & Other Delusions",
+            "en": "Chuunibyou demo Koi ga Shitai!",
+            "year": 2012,
+            "studio": "Kyoto Animation",
+            "episodes": 24
+        },
+        {
+            "tr": "Tamako Love Story",
+            "en": "Tamako Love Story",
+            "year": 2014,
+            "studio": "Kyoto Animation",
+            "episodes": 1
+        },
+        {
+            "tr": "The Garden of Words",
+            "en": "Kotonoha no Niwa",
+            "year": 2013,
+            "studio": "CoMix Wave Films",
+            "episodes": 1
+        },
+        {
+            "tr": "5 Centimeters Per Second",
+            "en": "Byousoku 5 Centimeter",
+            "year": 2007,
+            "studio": "CoMix Wave Films",
+            "episodes": 1
+        }
+    ]
+}

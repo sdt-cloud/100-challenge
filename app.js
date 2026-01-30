@@ -66,10 +66,18 @@ const MOVIE_API = {
 
     async searchMovie(query) {
         try {
-            // First try with original query
+            // First, check if query contains English name in parentheses: "Türkçe (English)"
+            const parenthesesMatch = query.match(/\(([^)]+)\)\s*$/);
+            if (parenthesesMatch) {
+                const englishName = parenthesesMatch[1];
+                const posterUrl = await this.fetchPoster(englishName);
+                if (posterUrl) return posterUrl;
+            }
+
+            // Try with original query (might work if it's already in English)
             let posterUrl = await this.fetchPoster(query);
 
-            // If not found, try English translation
+            // If not found, try English translation from dictionary
             if (!posterUrl) {
                 const englishName = this.translateToEnglish(query);
                 if (englishName) {
@@ -342,7 +350,7 @@ function renderChallengesList() {
                 <div class="challenge-card-header">
                     <span class="challenge-card-emoji">${challenge.emoji || categoryInfo.emoji}</span>
                     <div class="challenge-card-info">
-                        <h3 class="challenge-card-title">${escapeHtml(challenge.title)}</h3>
+                        <h3 class="challenge-card-title">${escapeHtml(challenge.name)}</h3>
                         <span class="challenge-card-category">${categoryInfo.name}</span>
                     </div>
                 </div>
@@ -928,6 +936,383 @@ function initEventListeners() {
     });
 }
 
+// ============ Curated Lists Module ============
+const CuratedLists = {
+    cache: {},
+    index: null,
+
+    // Load a single curated list JSON file
+    async loadList(filename) {
+        if (this.cache[filename]) {
+            return this.cache[filename];
+        }
+
+        try {
+            const response = await fetch(`data/${filename}`);
+            if (!response.ok) throw new Error(`Failed to load ${filename}`);
+            const data = await response.json();
+            this.cache[filename] = data;
+            return data;
+        } catch (error) {
+            console.error(`Error loading curated list: ${filename}`, error);
+            return null;
+        }
+    },
+
+    // Load the master index
+    async loadIndex() {
+        if (this.index) return this.index;
+
+        try {
+            const response = await fetch('data/lists-index.json');
+            if (!response.ok) throw new Error('Failed to load lists index');
+            this.index = await response.json();
+            return this.index;
+        } catch (error) {
+            console.error('Error loading lists index:', error);
+            return null;
+        }
+    },
+
+    // Get category emoji
+    getCategoryEmoji(category) {
+        const emojis = {
+            films: '🎬',
+            books: '📚',
+            anime: '🎌',
+            music: '🎧',
+            games: '🎮'
+        };
+        return emojis[category] || '📋';
+    },
+
+    // Render a curated list card
+    renderListCard(listData) {
+        const itemCount = listData.items?.length || 100;
+        const tags = listData.tags?.slice(0, 3) || [];
+        const emoji = this.getCategoryEmoji(listData.category);
+
+        return `
+            <div class="curated-list-card" data-list-id="${listData.id}" onclick="CuratedLists.showListDetail('${listData.id}')">
+                <div class="curated-list-header">
+                    <span class="curated-list-emoji">${emoji}</span>
+                    <div class="curated-list-info">
+                        <h4 class="curated-list-title">${listData.title}</h4>
+                        <p class="curated-list-description">${listData.description}</p>
+                    </div>
+                </div>
+                <div class="curated-list-meta">
+                    <div class="curated-list-tags">
+                        ${tags.map(tag => `<span class="tag-badge">${tag}</span>`).join('')}
+                    </div>
+                    <span class="curated-list-count">${itemCount} öğe</span>
+                </div>
+                <div class="curated-list-actions">
+                    <button class="btn btn-secondary" onclick="event.stopPropagation(); CuratedLists.previewList('${listData.id}')">👁️ Önizle</button>
+                    <button class="btn btn-primary" onclick="event.stopPropagation(); CuratedLists.addListToCollections('${listData.id}')">+ Koleksiyonuma Ekle</button>
+                </div>
+            </div>
+        `;
+    },
+
+    // Load and render lists for a grid
+    async loadAndRenderGrid(gridId, listFiles) {
+        const grid = document.getElementById(gridId);
+        if (!grid) return;
+
+        grid.innerHTML = '<div class="loading-indicator">Yükleniyor...</div>';
+
+        const lists = [];
+        for (const file of listFiles) {
+            const data = await this.loadList(file);
+            if (data) lists.push(data);
+        }
+
+        if (lists.length === 0) {
+            grid.innerHTML = '<p class="no-lists">Liste bulunamadı.</p>';
+            return;
+        }
+
+        grid.innerHTML = lists.map(list => this.renderListCard(list)).join('');
+    },
+
+    // Initialize explore section with all curated lists
+    async initExploreSection() {
+        const index = await this.loadIndex();
+        if (!index) return;
+
+        // Film lists
+        if (index.categories.films?.subcategories) {
+            const filmSubs = index.categories.films.subcategories;
+
+            if (filmSubs['must-watch']?.lists) {
+                await this.loadAndRenderGrid('films-must-watch-grid', filmSubs['must-watch'].lists);
+            }
+            if (filmSubs['genre']?.lists) {
+                await this.loadAndRenderGrid('films-genre-grid', filmSubs['genre'].lists);
+            }
+            if (filmSubs['editors']?.lists) {
+                await this.loadAndRenderGrid('films-editors-grid', filmSubs['editors'].lists);
+            }
+            if (filmSubs['geography']?.lists) {
+                await this.loadAndRenderGrid('films-geography-grid', filmSubs['geography'].lists);
+            }
+        }
+
+        // Book lists
+        if (index.categories.books?.subcategories) {
+            const bookSubs = index.categories.books.subcategories;
+
+            if (bookSubs['turkish']?.lists) {
+                await this.loadAndRenderGrid('books-turkish-grid', bookSubs['turkish'].lists);
+            }
+            if (bookSubs['classics']?.lists) {
+                await this.loadAndRenderGrid('books-classics-grid', bookSubs['classics'].lists);
+            }
+            if (bookSubs['genre']?.lists) {
+                await this.loadAndRenderGrid('books-genre-grid', bookSubs['genre'].lists);
+            }
+        }
+
+        // Anime lists
+        if (index.categories.anime?.subcategories) {
+            const animeSubs = index.categories.anime.subcategories;
+
+            if (animeSubs['must-watch']?.lists) {
+                await this.loadAndRenderGrid('anime-must-watch-grid', animeSubs['must-watch'].lists);
+            }
+            if (animeSubs['genre']?.lists) {
+                await this.loadAndRenderGrid('anime-genre-grid', animeSubs['genre'].lists);
+            }
+        }
+    },
+
+    // Preview a list (show items modal)
+    async previewList(listId) {
+        // Find the list in cache
+        let listData = null;
+        for (const key in this.cache) {
+            if (this.cache[key].id === listId) {
+                listData = this.cache[key];
+                break;
+            }
+        }
+
+        if (!listData) {
+            alert('Liste yüklenemedi.');
+            return;
+        }
+
+        // Create preview modal
+        const modal = document.createElement('div');
+        modal.className = 'modal';
+        modal.id = 'preview-modal';
+        modal.innerHTML = `
+            <div class="modal-content" style="max-width: 600px; max-height: 80vh; overflow-y: auto;">
+                <div class="modal-header">
+                    <h3>${listData.title}</h3>
+                    <button class="modal-close" onclick="document.getElementById('preview-modal').remove()">×</button>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">${listData.description}</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+                    ${listData.tags?.map(t => `<span class="tag-badge">${t}</span>`).join('') || ''}
+                </div>
+                <div class="preview-items-list" style="max-height: 400px; overflow-y: auto;">
+                    ${listData.items.slice(0, 25).map((item, i) => {
+            const title = item.tr || item.title || item.name;
+            const subtitle = item.en || item.originalTitle || '';
+            const year = item.year ? ` (${item.year})` : '';
+            const creator = item.director || item.author || '';
+            return `
+                            <div style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);">
+                                <div style="font-weight: 500;">${i + 1}. ${title}${year}</div>
+                                ${subtitle ? `<div style="font-size: 0.8125rem; color: var(--text-secondary);">${subtitle}</div>` : ''}
+                                ${creator ? `<div style="font-size: 0.75rem; color: var(--text-tertiary);">${creator}</div>` : ''}
+                            </div>
+                        `;
+        }).join('')}
+                    ${listData.items.length > 25 ? `<div style="padding: 1rem; text-align: center; color: var(--text-tertiary);">... ve ${listData.items.length - 25} öğe daha</div>` : ''}
+                </div>
+                <div style="margin-top: 1rem; text-align: center;">
+                    <button class="btn btn-primary" onclick="CuratedLists.addListToCollections('${listId}'); document.getElementById('preview-modal').remove();">+ Koleksiyonuma Ekle</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+    },
+
+    // Show list detail page (redirect to challenge page with curated list)
+    async showListDetail(listId) {
+        // For now, just trigger preview
+        await this.previewList(listId);
+    },
+
+    // Add a curated list to user's collections
+    async addListToCollections(listId) {
+        // Find the list in cache
+        let listData = null;
+        for (const key in this.cache) {
+            if (this.cache[key].id === listId) {
+                listData = this.cache[key];
+                break;
+            }
+        }
+
+        if (!listData) {
+            alert('Liste yüklenemedi.');
+            return;
+        }
+
+        // Check if user is logged in
+        if (!APP_STATE.currentUser) {
+            alert('Lütfen önce giriş yapın.');
+            return;
+        }
+
+        // Create challenge from curated list
+        const challenges = getUserChallenges();
+
+        // Check if already exists
+        if (challenges.some(c => c.curatedListId === listId)) {
+            alert('Bu liste zaten koleksiyonunuzda!');
+            return;
+        }
+
+        const newChallenge = {
+            id: Date.now().toString(),
+            name: listData.title,
+            category: listData.category,
+            curatedListId: listId,
+            createdAt: new Date().toISOString(),
+            items: listData.items.map((item, index) => {
+                // Get Turkish and English names
+                const trName = item.tr || item.title || item.name;
+                const enName = item.en || item.originalTitle || '';
+
+                // Format: "Türkçe (English)" for better OMDB poster lookup
+                let displayName = trName;
+                if (enName && enName !== trName) {
+                    displayName = `${trName} (${enName})`;
+                }
+
+                return {
+                    id: `${Date.now()}-${index}`,
+                    name: displayName,
+                    originalName: enName,
+                    year: item.year || null,
+                    creator: item.director || item.author || '',
+                    completed: false,
+                    notes: ''
+                };
+            })
+        };
+
+        challenges.push(newChallenge);
+        setUserChallenges(challenges);
+
+        // Switch to my lists tab
+        switchToMyListsTab();
+        renderChallengesList();
+        updateStats();
+
+        // Show success message
+        showToast(`"${listData.title}" koleksiyonunuza eklendi!`);
+    }
+};
+
+// ============ Dashboard Tab Switching ============
+function switchToMyListsTab() {
+    document.querySelectorAll('.dashboard-tab').forEach(t => t.classList.remove('active'));
+    document.querySelector('.dashboard-tab[data-tab="my-lists"]')?.classList.add('active');
+
+    document.getElementById('my-lists-section')?.classList.remove('hidden');
+    document.getElementById('explore-section')?.classList.add('hidden');
+}
+
+function switchToExploreTab() {
+    document.querySelectorAll('.dashboard-tab').forEach(t => t.classList.remove('active'));
+    document.querySelector('.dashboard-tab[data-tab="explore"]')?.classList.add('active');
+
+    document.getElementById('my-lists-section')?.classList.add('hidden');
+    document.getElementById('explore-section')?.classList.remove('hidden');
+
+    // Load curated lists on first switch
+    CuratedLists.initExploreSection();
+}
+
+function initDashboardTabs() {
+    document.querySelectorAll('.dashboard-tab').forEach(tab => {
+        tab.addEventListener('click', function () {
+            const targetTab = this.dataset.tab;
+            if (targetTab === 'my-lists') {
+                switchToMyListsTab();
+            } else if (targetTab === 'explore') {
+                switchToExploreTab();
+            }
+        });
+    });
+
+    // Category filter in explore section
+    document.querySelectorAll('.category-tab').forEach(tab => {
+        tab.addEventListener('click', function () {
+            document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+
+            const category = this.dataset.category;
+            const filmSection = document.getElementById('film-lists-section');
+            const bookSection = document.getElementById('book-lists-section');
+            const animeSection = document.getElementById('anime-lists-section');
+
+            if (category === 'all') {
+                filmSection?.classList.remove('hidden');
+                bookSection?.classList.remove('hidden');
+                animeSection?.classList.remove('hidden');
+            } else if (category === 'films') {
+                filmSection?.classList.remove('hidden');
+                bookSection?.classList.add('hidden');
+                animeSection?.classList.add('hidden');
+            } else if (category === 'books') {
+                filmSection?.classList.add('hidden');
+                bookSection?.classList.remove('hidden');
+                animeSection?.classList.add('hidden');
+            } else if (category === 'anime') {
+                filmSection?.classList.add('hidden');
+                bookSection?.classList.add('hidden');
+                animeSection?.classList.remove('hidden');
+            }
+        });
+    });
+}
+
+// ============ Toast Notification ============
+function showToast(message) {
+    const existing = document.getElementById('toast-notification');
+    if (existing) existing.remove();
+
+    const toast = document.createElement('div');
+    toast.id = 'toast-notification';
+    toast.style.cssText = `
+        position: fixed;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--accent-gradient);
+        color: white;
+        padding: 1rem 1.5rem;
+        border-radius: var(--radius-md);
+        box-shadow: var(--shadow-lg);
+        z-index: 10000;
+        animation: slideUp 0.3s ease;
+    `;
+    toast.textContent = message;
+    document.body.appendChild(toast);
+
+    setTimeout(() => {
+        toast.style.animation = 'fadeOut 0.3s ease forwards';
+        setTimeout(() => toast.remove(), 300);
+    }, 3000);
+}
+
 // ============ Theme Management ============
 const Theme = {
     toggle: document.getElementById('theme-toggle'),
@@ -966,6 +1351,7 @@ function initApp() {
     Theme.init();
 
     initEventListeners();
+    initDashboardTabs();
 
     // Check for existing session
     const userId = Storage.getCurrentUserId();

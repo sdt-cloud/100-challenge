@@ -1,0 +1,365 @@
+{
+    "id": "50-isekai-anime",
+    "title": "En İyi 50 Isekai Anime",
+    "description": "Başka dünyalara ışınlanma, yeniden doğuş ve fantezi maceralarıyla dolu isekai animeler.",
+    "category": "anime",
+    "subcategory": "genre",
+    "tags": [
+        "🌀 Isekai",
+        "✨ Fantezi",
+        "🎮 Oyun Dünyası"
+    ],
+    "cover": "isekai-anime-cover.jpg",
+    "items": [
+        {
+            "tr": "Sword Art Online",
+            "en": "Sword Art Online",
+            "year": 2012,
+            "studio": "A-1 Pictures",
+            "episodes": 96
+        },
+        {
+            "tr": "Re:Zero",
+            "en": "Re:Zero kara Hajimeru Isekai Seikatsu",
+            "year": 2016,
+            "studio": "White Fox",
+            "episodes": 50
+        },
+        {
+            "tr": "No Game No Life",
+            "en": "No Game No Life",
+            "year": 2014,
+            "studio": "Madhouse",
+            "episodes": 12
+        },
+        {
+            "tr": "Overlord",
+            "en": "Overlord",
+            "year": 2015,
+            "studio": "Madhouse",
+            "episodes": 52
+        },
+        {
+            "tr": "Konosuba",
+            "en": "Kono Subarashii Sekai ni Shukufuku wo!",
+            "year": 2016,
+            "studio": "Studio Deen",
+            "episodes": 22
+        },
+        {
+            "tr": "That Time I Got Reincarnated as a Slime",
+            "en": "Tensei shitara Slime Datta Ken",
+            "year": 2018,
+            "studio": "8bit",
+            "episodes": 72
+        },
+        {
+            "tr": "The Rising of the Shield Hero",
+            "en": "Tate no Yuusha no Nariagari",
+            "year": 2019,
+            "studio": "Kinema Citrus",
+            "episodes": 50
+        },
+        {
+            "tr": "Mushoku Tensei",
+            "en": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+            "year": 2021,
+            "studio": "Studio Bind",
+            "episodes": 35
+        },
+        {
+            "tr": "Log Horizon",
+            "en": "Log Horizon",
+            "year": 2013,
+            "studio": "Satelight",
+            "episodes": 62
+        },
+        {
+            "tr": "The Devil is a Part-Timer!",
+            "en": "Hataraku Maou-sama!",
+            "year": 2013,
+            "studio": "White Fox",
+            "episodes": 25
+        },
+        {
+            "tr": "Saga of Tanya the Evil",
+            "en": "Youjo Senki",
+            "year": 2017,
+            "studio": "NUT",
+            "episodes": 12
+        },
+        {
+            "tr": "Grimgar",
+            "en": "Hai to Gensou no Grimgar",
+            "year": 2016,
+            "studio": "A-1 Pictures",
+            "episodes": 12
+        },
+        {
+            "tr": "Gate",
+            "en": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+            "year": 2015,
+            "studio": "A-1 Pictures",
+            "episodes": 24
+        },
+        {
+            "tr": "How Not to Summon a Demon Lord",
+            "en": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu",
+            "year": 2018,
+            "studio": "Ajia-do",
+            "episodes": 22
+        },
+        {
+            "tr": "In Another World with My Smartphone",
+            "en": "Isekai wa Smartphone to Tomo ni",
+            "year": 2017,
+            "studio": "Production Reed",
+            "episodes": 24
+        },
+        {
+            "tr": "Death March",
+            "en": "Death March kara Hajimaru Isekai Kyousoukyoku",
+            "year": 2018,
+            "studio": "CONNECT",
+            "episodes": 12
+        },
+        {
+            "tr": "Wise Man's Grandchild",
+            "en": "Kenja no Mago",
+            "year": 2019,
+            "studio": "SILVER LINK",
+            "episodes": 12
+        },
+        {
+            "tr": "Arifureta",
+            "en": "Arifureta Shokugyou de Sekai Saikyou",
+            "year": 2019,
+            "studio": "Asread",
+            "episodes": 25
+        },
+        {
+            "tr": "So I'm a Spider, So What?",
+            "en": "Kumo Desu ga, Nani ka?",
+            "year": 2021,
+            "studio": "Millepensee",
+            "episodes": 24
+        },
+        {
+            "tr": "The Eminence in Shadow",
+            "en": "Kage no Jitsuryokusha ni Naritakute!",
+            "year": 2022,
+            "studio": "Nexus",
+            "episodes": 32
+        },
+        {
+            "tr": "Cautious Hero",
+            "en": "Shinchou Yuusha",
+            "year": 2019,
+            "studio": "White Fox",
+            "episodes": 12
+        },
+        {
+            "tr": "BOFURI",
+            "en": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu",
+            "year": 2020,
+            "studio": "SILVER LINK",
+            "episodes": 24
+        },
+        {
+            "tr": "By the Grace of the Gods",
+            "en": "Kami-tachi ni Hirowareta Otoko",
+            "year": 2020,
+            "studio": "Maho Film",
+            "episodes": 24
+        },
+        {
+            "tr": "Didn't I Say to Make My Abilities Average?",
+            "en": "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!",
+            "year": 2019,
+            "studio": "Project No.9",
+            "episodes": 12
+        },
+        {
+            "tr": "Ascendance of a Bookworm",
+            "en": "Honzuki no Gekokujou",
+            "year": 2019,
+            "studio": "Ajia-do",
+            "episodes": 36
+        },
+        {
+            "tr": "My Next Life as a Villainess",
+            "en": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou",
+            "year": 2020,
+            "studio": "SILVER LINK",
+            "episodes": 24
+        },
+        {
+            "tr": "The Saint's Magic Power is Omnipotent",
+            "en": "Seijo no Maryoku wa Bannou Desu",
+            "year": 2021,
+            "studio": "Diomedéa",
+            "episodes": 24
+        },
+        {
+            "tr": "I've Been Killing Slimes for 300 Years",
+            "en": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita",
+            "year": 2021,
+            "studio": "REVOROOT",
+            "episodes": 12
+        },
+        {
+            "tr": "Welcome to Demon School! Iruma-kun",
+            "en": "Mairimashita! Iruma-kun",
+            "year": 2019,
+            "studio": "Bandai Namco Pictures",
+            "episodes": 63
+        },
+        {
+            "tr": "The World's Finest Assassin",
+            "en": "Sekai Saikou no Ansatsusha",
+            "year": 2021,
+            "studio": "SILVER LINK",
+            "episodes": 12
+        },
+        {
+            "tr": "Tsukimichi",
+            "en": "Tsuki ga Michibiku Isekai Douchuu",
+            "year": 2021,
+            "studio": "C2C",
+            "episodes": 24
+        },
+        {
+            "tr": ".hack//Sign",
+            "en": ".hack//Sign",
+            "year": 2002,
+            "studio": "Bee Train",
+            "episodes": 26
+        },
+        {
+            "tr": "Inuyasha",
+            "en": "Inuyasha",
+            "year": 2000,
+            "studio": "Sunrise",
+            "episodes": 193
+        },
+        {
+            "tr": "The Vision of Escaflowne",
+            "en": "Tenkuu no Escaflowne",
+            "year": 1996,
+            "studio": "Sunrise",
+            "episodes": 26
+        },
+        {
+            "tr": "Fushigi Yuugi",
+            "en": "Fushigi Yuugi",
+            "year": 1995,
+            "studio": "Pierrot",
+            "episodes": 52
+        },
+        {
+            "tr": "The Twelve Kingdoms",
+            "en": "Juuni Kokuki",
+            "year": 2002,
+            "studio": "Pierrot",
+            "episodes": 45
+        },
+        {
+            "tr": "Now and Then, Here and There",
+            "en": "Ima, Soko ni Iru Boku",
+            "year": 1999,
+            "studio": "AIC",
+            "episodes": 13
+        },
+        {
+            "tr": "Restaurant to Another World",
+            "en": "Isekai Shokudou",
+            "year": 2017,
+            "studio": "SILVER LINK",
+            "episodes": 24
+        },
+        {
+            "tr": "Isekai Quartet",
+            "en": "Isekai Quartet",
+            "year": 2019,
+            "studio": "Studio Puyukai",
+            "episodes": 24
+        },
+        {
+            "tr": "Drifters",
+            "en": "Drifters",
+            "year": 2016,
+            "studio": "Hoods Drifters Studio",
+            "episodes": 12
+        },
+        {
+            "tr": "Problem Children Are Coming from Another World",
+            "en": "Mondaiji-tachi ga Isekai kara Kuru Sou Desu yo?",
+            "year": 2013,
+            "studio": "Diomedéa",
+            "episodes": 10
+        },
+        {
+            "tr": "Outbreak Company",
+            "en": "Outbreak Company",
+            "year": 2013,
+            "studio": "feel.",
+            "episodes": 12
+        },
+        {
+            "tr": "Dog Days",
+            "en": "Dog Days",
+            "year": 2011,
+            "studio": "Seven Arcs",
+            "episodes": 38
+        },
+        {
+            "tr": "The Familiar of Zero",
+            "en": "Zero no Tsukaima",
+            "year": 2006,
+            "studio": "J.C.Staff",
+            "episodes": 49
+        },
+        {
+            "tr": "Digimon Adventure",
+            "en": "Digimon Adventure",
+            "year": 1999,
+            "studio": "Toei Animation",
+            "episodes": 54
+        },
+        {
+            "tr": "Magic Knight Rayearth",
+            "en": "Magic Knight Rayearth",
+            "year": 1994,
+            "studio": "TMS Entertainment",
+            "episodes": 49
+        },
+        {
+            "tr": "El-Hazard",
+            "en": "El-Hazard: The Magnificent World",
+            "year": 1995,
+            "studio": "AIC",
+            "episodes": 7
+        },
+        {
+            "tr": "Those Who Hunt Elves",
+            "en": "Elf wo Karu Mono-tachi",
+            "year": 1996,
+            "studio": "Group TAC",
+            "episodes": 24
+        },
+        {
+            "tr": "Frieren",
+            "en": "Sousou no Frieren",
+            "year": 2023,
+            "studio": "Madhouse",
+            "episodes": 28
+        },
+        {
+            "tr": "Solo Leveling",
+            "en": "Ore dake Level Up na Ken",
+            "year": 2024,
+            "studio": "A-1 Pictures",
+            "episodes": 12
+        }
+    ]
+}

@@ -1,0 +1,701 @@
+{
+    "id": "100-european-films",
+    "title": "100 Avrupa Filmi",
+    "description": "Avrupa sinemasının en önemli ve etkili yapıtları. Fransız, İtalyan, İskandinav ve diğer ülkelerden başyapıtlar.",
+    "category": "films",
+    "subcategory": "geography",
+    "tags": [
+        "🇪🇺 Avrupa",
+        "🎭 Sanat Sineması",
+        "🏆 Cannes"
+    ],
+    "cover": "european-films-cover.jpg",
+    "items": [
+        {
+            "tr": "Amelie",
+            "en": "Amélie",
+            "year": 2001,
+            "director": "Jean-Pierre Jeunet",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Hayat Güzeldir",
+            "en": "La Vita è Bella",
+            "year": 1997,
+            "director": "Roberto Benigni",
+            "country": "İtalya"
+        },
+        {
+            "tr": "İntikamcı",
+            "en": "Oldboy",
+            "year": 2003,
+            "director": "Park Chan-wook",
+            "country": "Güney Kore"
+        },
+        {
+            "tr": "Bisiklet Hırsızları",
+            "en": "Bicycle Thieves",
+            "year": 1948,
+            "director": "Vittorio De Sica",
+            "country": "İtalya"
+        },
+        {
+            "tr": "400 Darbe",
+            "en": "The 400 Blows",
+            "year": 1959,
+            "director": "François Truffaut",
+            "country": "Fransa"
+        },
+        {
+            "tr": "8½",
+            "en": "8½",
+            "year": 1963,
+            "director": "Federico Fellini",
+            "country": "İtalya"
+        },
+        {
+            "tr": "Tatlı Hayat",
+            "en": "La Dolce Vita",
+            "year": 1960,
+            "director": "Federico Fellini",
+            "country": "İtalya"
+        },
+        {
+            "tr": "Yedinci Mühür",
+            "en": "The Seventh Seal",
+            "year": 1957,
+            "director": "Ingmar Bergman",
+            "country": "İsveç"
+        },
+        {
+            "tr": "Persona",
+            "en": "Persona",
+            "year": 1966,
+            "director": "Ingmar Bergman",
+            "country": "İsveç"
+        },
+        {
+            "tr": "Çılgın Pierrot",
+            "en": "Pierrot le Fou",
+            "year": 1965,
+            "director": "Jean-Luc Godard",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Serseri Aşıklar",
+            "en": "Breathless",
+            "year": 1960,
+            "director": "Jean-Luc Godard",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Yeni Dalga",
+            "en": "Jules and Jim",
+            "year": 1962,
+            "director": "François Truffaut",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Casablanca",
+            "en": "Casablanca",
+            "year": 1942,
+            "director": "Michael Curtiz",
+            "country": "ABD"
+        },
+        {
+            "tr": "Nosferatu",
+            "en": "Nosferatu",
+            "year": 1922,
+            "director": "F.W. Murnau",
+            "country": "Almanya"
+        },
+        {
+            "tr": "Metropolis",
+            "en": "Metropolis",
+            "year": 1927,
+            "director": "Fritz Lang",
+            "country": "Almanya"
+        },
+        {
+            "tr": "M",
+            "en": "M",
+            "year": 1931,
+            "director": "Fritz Lang",
+            "country": "Almanya"
+        },
+        {
+            "tr": "Dr. Caligari'nin Muayenehanesi",
+            "en": "The Cabinet of Dr. Caligari",
+            "year": 1920,
+            "director": "Robert Wiene",
+            "country": "Almanya"
+        },
+        {
+            "tr": "Solaris",
+            "en": "Solaris",
+            "year": 1972,
+            "director": "Andrei Tarkovsky",
+            "country": "Rusya"
+        },
+        {
+            "tr": "Stalker",
+            "en": "Stalker",
+            "year": 1979,
+            "director": "Andrei Tarkovsky",
+            "country": "Rusya"
+        },
+        {
+            "tr": "Andrei Rublev",
+            "en": "Andrei Rublev",
+            "year": 1966,
+            "director": "Andrei Tarkovsky",
+            "country": "Rusya"
+        },
+        {
+            "tr": "Ayna",
+            "en": "Mirror",
+            "year": 1975,
+            "director": "Andrei Tarkovsky",
+            "country": "Rusya"
+        },
+        {
+            "tr": "Mavi",
+            "en": "Three Colors: Blue",
+            "year": 1993,
+            "director": "Krzysztof Kieślowski",
+            "country": "Fransa/Polonya"
+        },
+        {
+            "tr": "Beyaz",
+            "en": "Three Colors: White",
+            "year": 1994,
+            "director": "Krzysztof Kieślowski",
+            "country": "Fransa/Polonya"
+        },
+        {
+            "tr": "Kırmızı",
+            "en": "Three Colors: Red",
+            "year": 1994,
+            "director": "Krzysztof Kieślowski",
+            "country": "Fransa/Polonya"
+        },
+        {
+            "tr": "Dekalog",
+            "en": "Dekalog",
+            "year": 1989,
+            "director": "Krzysztof Kieślowski",
+            "country": "Polonya"
+        },
+        {
+            "tr": "Paris Texas",
+            "en": "Paris, Texas",
+            "year": 1984,
+            "director": "Wim Wenders",
+            "country": "Almanya"
+        },
+        {
+            "tr": "Berlin Üzerinde Gökyüzü",
+            "en": "Wings of Desire",
+            "year": 1987,
+            "director": "Wim Wenders",
+            "country": "Almanya"
+        },
+        {
+            "tr": "Run Lola Run",
+            "en": "Run Lola Run",
+            "year": 1998,
+            "director": "Tom Tykwer",
+            "country": "Almanya"
+        },
+        {
+            "tr": "Hayatımın Şenliği",
+            "en": "Good Bye Lenin!",
+            "year": 2003,
+            "director": "Wolfgang Becker",
+            "country": "Almanya"
+        },
+        {
+            "tr": "Başkalarının Hayatı",
+            "en": "The Lives of Others",
+            "year": 2006,
+            "director": "Florian Henckel von Donnersmarck",
+            "country": "Almanya"
+        },
+        {
+            "tr": "City of Lost Children",
+            "en": "The City of Lost Children",
+            "year": 1995,
+            "director": "Jean-Pierre Jeunet",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Delicatessen",
+            "en": "Delicatessen",
+            "year": 1991,
+            "director": "Jean-Pierre Jeunet",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Leon",
+            "en": "Léon: The Professional",
+            "year": 1994,
+            "director": "Luc Besson",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Beşinci Element",
+            "en": "The Fifth Element",
+            "year": 1997,
+            "director": "Luc Besson",
+            "country": "Fransa"
+        },
+        {
+            "tr": "La Haine",
+            "en": "La Haine",
+            "year": 1995,
+            "director": "Mathieu Kassovitz",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Peygamber",
+            "en": "A Prophet",
+            "year": 2009,
+            "director": "Jacques Audiard",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Dheepan",
+            "en": "Dheepan",
+            "year": 2015,
+            "director": "Jacques Audiard",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Intouchables",
+            "en": "The Intouchables",
+            "year": 2011,
+            "director": "Olivier Nakache",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Sanatçı",
+            "en": "The Artist",
+            "year": 2011,
+            "director": "Michel Hazanavicius",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Suspiria",
+            "en": "Suspiria",
+            "year": 1977,
+            "director": "Dario Argento",
+            "country": "İtalya"
+        },
+        {
+            "tr": "Bir Zamanlar Batı'da",
+            "en": "Once Upon a Time in the West",
+            "year": 1968,
+            "director": "Sergio Leone",
+            "country": "İtalya"
+        },
+        {
+            "tr": "İyi, Kötü ve Çirkin",
+            "en": "The Good, the Bad and the Ugly",
+            "year": 1966,
+            "director": "Sergio Leone",
+            "country": "İtalya"
+        },
+        {
+            "tr": "Cinema Paradiso",
+            "en": "Cinema Paradiso",
+            "year": 1988,
+            "director": "Giuseppe Tornatore",
+            "country": "İtalya"
+        },
+        {
+            "tr": "Malena",
+            "en": "Malèna",
+            "year": 2000,
+            "director": "Giuseppe Tornatore",
+            "country": "İtalya"
+        },
+        {
+            "tr": "Gomorra",
+            "en": "Gomorrah",
+            "year": 2008,
+            "director": "Matteo Garrone",
+            "country": "İtalya"
+        },
+        {
+            "tr": "Büyük Güzellik",
+            "en": "The Great Beauty",
+            "year": 2013,
+            "director": "Paolo Sorrentino",
+            "country": "İtalya"
+        },
+        {
+            "tr": "Labirent",
+            "en": "Pan's Labyrinth",
+            "year": 2006,
+            "director": "Guillermo del Toro",
+            "country": "İspanya/Meksika"
+        },
+        {
+            "tr": "Şeytan'ın Sırtı",
+            "en": "The Devil's Backbone",
+            "year": 2001,
+            "director": "Guillermo del Toro",
+            "country": "İspanya"
+        },
+        {
+            "tr": "Abre los ojos",
+            "en": "Open Your Eyes",
+            "year": 1997,
+            "director": "Alejandro Amenábar",
+            "country": "İspanya"
+        },
+        {
+            "tr": "Hayaletler",
+            "en": "The Others",
+            "year": 2001,
+            "director": "Alejandro Amenábar",
+            "country": "İspanya"
+        },
+        {
+            "tr": "Mar Adentro",
+            "en": "The Sea Inside",
+            "year": 2004,
+            "director": "Alejandro Amenábar",
+            "country": "İspanya"
+        },
+        {
+            "tr": "REC",
+            "en": "[REC]",
+            "year": 2007,
+            "director": "Jaume Balagueró",
+            "country": "İspanya"
+        },
+        {
+            "tr": "Yetim",
+            "en": "The Orphanage",
+            "year": 2007,
+            "director": "J.A. Bayona",
+            "country": "İspanya"
+        },
+        {
+            "tr": "Volver",
+            "en": "Volver",
+            "year": 2006,
+            "director": "Pedro Almodóvar",
+            "country": "İspanya"
+        },
+        {
+            "tr": "Hepsini Annem Hakkında",
+            "en": "All About My Mother",
+            "year": 1999,
+            "director": "Pedro Almodóvar",
+            "country": "İspanya"
+        },
+        {
+            "tr": "Konuş Onunla",
+            "en": "Talk to Her",
+            "year": 2002,
+            "director": "Pedro Almodóvar",
+            "country": "İspanya"
+        },
+        {
+            "tr": "Let the Right One In",
+            "en": "Let the Right One In",
+            "year": 2008,
+            "director": "Tomas Alfredson",
+            "country": "İsveç"
+        },
+        {
+            "tr": "Köpek Dişi",
+            "en": "Dogtooth",
+            "year": 2009,
+            "director": "Yorgos Lanthimos",
+            "country": "Yunanistan"
+        },
+        {
+            "tr": "Lobster",
+            "en": "The Lobster",
+            "year": 2015,
+            "director": "Yorgos Lanthimos",
+            "country": "Yunanistan"
+        },
+        {
+            "tr": "The Favourite",
+            "en": "The Favourite",
+            "year": 2018,
+            "director": "Yorgos Lanthimos",
+            "country": "İngiltere"
+        },
+        {
+            "tr": "Kutsal Geyik Cinayeti",
+            "en": "The Killing of a Sacred Deer",
+            "year": 2017,
+            "director": "Yorgos Lanthimos",
+            "country": "İngiltere"
+        },
+        {
+            "tr": "Trainspotting",
+            "en": "Trainspotting",
+            "year": 1996,
+            "director": "Danny Boyle",
+            "country": "İngiltere"
+        },
+        {
+            "tr": "Billy Elliot",
+            "en": "Billy Elliot",
+            "year": 2000,
+            "director": "Stephen Daldry",
+            "country": "İngiltere"
+        },
+        {
+            "tr": "The King's Speech",
+            "en": "The King's Speech",
+            "year": 2010,
+            "director": "Tom Hooper",
+            "country": "İngiltere"
+        },
+        {
+            "tr": "Dunkirk",
+            "en": "Dunkirk",
+            "year": 2017,
+            "director": "Christopher Nolan",
+            "country": "İngiltere"
+        },
+        {
+            "tr": "1917",
+            "en": "1917",
+            "year": 2019,
+            "director": "Sam Mendes",
+            "country": "İngiltere"
+        },
+        {
+            "tr": "Funny Games",
+            "en": "Funny Games",
+            "year": 1997,
+            "director": "Michael Haneke",
+            "country": "Avusturya"
+        },
+        {
+            "tr": "Aşk",
+            "en": "Amour",
+            "year": 2012,
+            "director": "Michael Haneke",
+            "country": "Avusturya/Fransa"
+        },
+        {
+            "tr": "Beyaz Şerit",
+            "en": "The White Ribbon",
+            "year": 2009,
+            "director": "Michael Haneke",
+            "country": "Avusturya"
+        },
+        {
+            "tr": "Caché",
+            "en": "Caché",
+            "year": 2005,
+            "director": "Michael Haneke",
+            "country": "Fransa/Avusturya"
+        },
+        {
+            "tr": "Dalgalar",
+            "en": "Force Majeure",
+            "year": 2014,
+            "director": "Ruben Östlund",
+            "country": "İsveç"
+        },
+        {
+            "tr": "Kare",
+            "en": "The Square",
+            "year": 2017,
+            "director": "Ruben Östlund",
+            "country": "İsveç"
+        },
+        {
+            "tr": "Triangle of Sadness",
+            "en": "Triangle of Sadness",
+            "year": 2022,
+            "director": "Ruben Östlund",
+            "country": "İsveç"
+        },
+        {
+            "tr": "Av",
+            "en": "The Hunt",
+            "year": 2012,
+            "director": "Thomas Vinterberg",
+            "country": "Danimarka"
+        },
+        {
+            "tr": "Dogville",
+            "en": "Dogville",
+            "year": 2003,
+            "director": "Lars von Trier",
+            "country": "Danimarka"
+        },
+        {
+            "tr": "Melancholia",
+            "en": "Melancholia",
+            "year": 2011,
+            "director": "Lars von Trier",
+            "country": "Danimarka"
+        },
+        {
+            "tr": "Dancer in the Dark",
+            "en": "Dancer in the Dark",
+            "year": 2000,
+            "director": "Lars von Trier",
+            "country": "Danimarka"
+        },
+        {
+            "tr": "Another Round",
+            "en": "Another Round",
+            "year": 2020,
+            "director": "Thomas Vinterberg",
+            "country": "Danimarka"
+        },
+        {
+            "tr": "Kış Uykusu",
+            "en": "Winter Sleep",
+            "year": 2014,
+            "director": "Nuri Bilge Ceylan",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "Bir Zamanlar Anadolu'da",
+            "en": "Once Upon a Time in Anatolia",
+            "year": 2011,
+            "director": "Nuri Bilge Ceylan",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "Ahlat Ağacı",
+            "en": "The Wild Pear Tree",
+            "year": 2018,
+            "director": "Nuri Bilge Ceylan",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "Kuru Otlar Üstüne",
+            "en": "About Dry Grasses",
+            "year": 2023,
+            "director": "Nuri Bilge Ceylan",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "İklimler",
+            "en": "Climates",
+            "year": 2006,
+            "director": "Nuri Bilge Ceylan",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "Uzak",
+            "en": "Distant",
+            "year": 2002,
+            "director": "Nuri Bilge Ceylan",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "Mustang",
+            "en": "Mustang",
+            "year": 2015,
+            "director": "Deniz Gamze Ergüven",
+            "country": "Türkiye/Fransa"
+        },
+        {
+            "tr": "Babam ve Oğlum",
+            "en": "My Father and My Son",
+            "year": 2005,
+            "director": "Çağan Irmak",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "Eşkiya",
+            "en": "The Bandit",
+            "year": 1996,
+            "director": "Yavuz Turgul",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "Yol",
+            "en": "Yol",
+            "year": 1982,
+            "director": "Yılmaz Güney",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "Sürü",
+            "en": "The Herd",
+            "year": 1978,
+            "director": "Zeki Ökten/Yılmaz Güney",
+            "country": "Türkiye"
+        },
+        {
+            "tr": "Cold War",
+            "en": "Cold War",
+            "year": 2018,
+            "director": "Paweł Pawlikowski",
+            "country": "Polonya"
+        },
+        {
+            "tr": "Ida",
+            "en": "Ida",
+            "year": 2013,
+            "director": "Paweł Pawlikowski",
+            "country": "Polonya"
+        },
+        {
+            "tr": "Salt",
+            "en": "4 Months, 3 Weeks and 2 Days",
+            "year": 2007,
+            "director": "Cristian Mungiu",
+            "country": "Romanya"
+        },
+        {
+            "tr": "Leviathan",
+            "en": "Leviathan",
+            "year": 2014,
+            "director": "Andrey Zvyagintsev",
+            "country": "Rusya"
+        },
+        {
+            "tr": "Loveless",
+            "en": "Loveless",
+            "year": 2017,
+            "director": "Andrey Zvyagintsev",
+            "country": "Rusya"
+        },
+        {
+            "tr": "Sınıf",
+            "en": "The Class",
+            "year": 2008,
+            "director": "Laurent Cantet",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Portrait of a Lady on Fire",
+            "en": "Portrait of a Lady on Fire",
+            "year": 2019,
+            "director": "Céline Sciamma",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Titane",
+            "en": "Titane",
+            "year": 2021,
+            "director": "Julia Ducournau",
+            "country": "Fransa"
+        },
+        {
+            "tr": "Raw",
+            "en": "Raw",
+            "year": 2016,
+            "director": "Julia Ducournau",
+            "country": "Fransa"
+        }
+    ]
+}

@@ -1,0 +1,609 @@
+{
+    "id": "100-psychological-thriller-films",
+    "title": "100 Psikolojik Gerilim Filmi",
+    "description": "Zihnin karanlık köşelerini keşfeden, sizi düşündüren ve şaşırtan psikolojik gerilim filmleri.",
+    "category": "films",
+    "subcategory": "genre",
+    "tags": [
+        "🧠 Psikolojik",
+        "😱 Gerilim",
+        "🔮 Gizem"
+    ],
+    "cover": "psychological-thriller-cover.jpg",
+    "items": [
+        {
+            "tr": "Yedi",
+            "en": "Se7en",
+            "year": 1995,
+            "director": "David Fincher"
+        },
+        {
+            "tr": "Dövüş Kulübü",
+            "en": "Fight Club",
+            "year": 1999,
+            "director": "David Fincher"
+        },
+        {
+            "tr": "Sessizlerin Çığlığı",
+            "en": "The Silence of the Lambs",
+            "year": 1991,
+            "director": "Jonathan Demme"
+        },
+        {
+            "tr": "Psiko",
+            "en": "Psycho",
+            "year": 1960,
+            "director": "Alfred Hitchcock"
+        },
+        {
+            "tr": "Zindan Adası",
+            "en": "Shutter Island",
+            "year": 2010,
+            "director": "Martin Scorsese"
+        },
+        {
+            "tr": "Memento",
+            "en": "Memento",
+            "year": 2000,
+            "director": "Christopher Nolan"
+        },
+        {
+            "tr": "Başlangıç",
+            "en": "Inception",
+            "year": 2010,
+            "director": "Christopher Nolan"
+        },
+        {
+            "tr": "Altıncı His",
+            "en": "The Sixth Sense",
+            "year": 1999,
+            "director": "M. Night Shyamalan"
+        },
+        {
+            "tr": "Prestij",
+            "en": "The Prestige",
+            "year": 2006,
+            "director": "Christopher Nolan"
+        },
+        {
+            "tr": "Aranıyor",
+            "en": "Gone Girl",
+            "year": 2014,
+            "director": "David Fincher"
+        },
+        {
+            "tr": "Black Swan",
+            "en": "Black Swan",
+            "year": 2010,
+            "director": "Darren Aronofsky"
+        },
+        {
+            "tr": "Requiem for a Dream",
+            "en": "Requiem for a Dream",
+            "year": 2000,
+            "director": "Darren Aronofsky"
+        },
+        {
+            "tr": "Pi",
+            "en": "Pi",
+            "year": 1998,
+            "director": "Darren Aronofsky"
+        },
+        {
+            "tr": "Olağan Şüpheliler",
+            "en": "The Usual Suspects",
+            "year": 1995,
+            "director": "Bryan Singer"
+        },
+        {
+            "tr": "Vertigo",
+            "en": "Vertigo",
+            "year": 1958,
+            "director": "Alfred Hitchcock"
+        },
+        {
+            "tr": "Arka Pencere",
+            "en": "Rear Window",
+            "year": 1954,
+            "director": "Alfred Hitchcock"
+        },
+        {
+            "tr": "Mulholland Drive",
+            "en": "Mulholland Drive",
+            "year": 2001,
+            "director": "David Lynch"
+        },
+        {
+            "tr": "Oldboy",
+            "en": "Oldboy",
+            "year": 2003,
+            "director": "Park Chan-wook"
+        },
+        {
+            "tr": "Jacob's Ladder",
+            "en": "Jacob's Ladder",
+            "year": 1990,
+            "director": "Adrian Lyne"
+        },
+        {
+            "tr": "Oyun",
+            "en": "The Game",
+            "year": 1997,
+            "director": "David Fincher"
+        },
+        {
+            "tr": "Panik Odası",
+            "en": "Panic Room",
+            "year": 2002,
+            "director": "David Fincher"
+        },
+        {
+            "tr": "Zodiac",
+            "en": "Zodiac",
+            "year": 2007,
+            "director": "David Fincher"
+        },
+        {
+            "tr": "Sosyal Ağ",
+            "en": "The Social Network",
+            "year": 2010,
+            "director": "David Fincher"
+        },
+        {
+            "tr": "Donnie Darko",
+            "en": "Donnie Darko",
+            "year": 2001,
+            "director": "Richard Kelly"
+        },
+        {
+            "tr": "American Psycho",
+            "en": "American Psycho",
+            "year": 2000,
+            "director": "Mary Harron"
+        },
+        {
+            "tr": "Ölüm Kalım Meselesi",
+            "en": "A Beautiful Mind",
+            "year": 2001,
+            "director": "Ron Howard"
+        },
+        {
+            "tr": "Shutter",
+            "en": "Shutter",
+            "year": 2004,
+            "director": "Banjong Pisanthanakun"
+        },
+        {
+            "tr": "The Others",
+            "en": "The Others",
+            "year": 2001,
+            "director": "Alejandro Amenábar"
+        },
+        {
+            "tr": "Aç Gözünü",
+            "en": "Abre los ojos",
+            "year": 1997,
+            "director": "Alejandro Amenábar"
+        },
+        {
+            "tr": "Vanilya Gökyüzü",
+            "en": "Vanilla Sky",
+            "year": 2001,
+            "director": "Cameron Crowe"
+        },
+        {
+            "tr": "Machinist",
+            "en": "The Machinist",
+            "year": 2004,
+            "director": "Brad Anderson"
+        },
+        {
+            "tr": "Session 9",
+            "en": "Session 9",
+            "year": 2001,
+            "director": "Brad Anderson"
+        },
+        {
+            "tr": "Identity",
+            "en": "Identity",
+            "year": 2003,
+            "director": "James Mangold"
+        },
+        {
+            "tr": "Primal Fear",
+            "en": "Primal Fear",
+            "year": 1996,
+            "director": "Gregory Hoblit"
+        },
+        {
+            "tr": "Falling Down",
+            "en": "Falling Down",
+            "year": 1993,
+            "director": "Joel Schumacher"
+        },
+        {
+            "tr": "Köpek Günü Öğleden Sonrası",
+            "en": "Dog Day Afternoon",
+            "year": 1975,
+            "director": "Sidney Lumet"
+        },
+        {
+            "tr": "12 Öfkeli Adam",
+            "en": "12 Angry Men",
+            "year": 1957,
+            "director": "Sidney Lumet"
+        },
+        {
+            "tr": "Bir Zamanlar Amerika'da",
+            "en": "Once Upon a Time in America",
+            "year": 1984,
+            "director": "Sergio Leone"
+        },
+        {
+            "tr": "Kelebek Etkisi",
+            "en": "The Butterfly Effect",
+            "year": 2004,
+            "director": "Eric Bress"
+        },
+        {
+            "tr": "Cube",
+            "en": "Cube",
+            "year": 1997,
+            "director": "Vincenzo Natali"
+        },
+        {
+            "tr": "Coherence",
+            "en": "Coherence",
+            "year": 2013,
+            "director": "James Ward Byrkit"
+        },
+        {
+            "tr": "Predestination",
+            "en": "Predestination",
+            "year": 2014,
+            "director": "Spierig Brothers"
+        },
+        {
+            "tr": "Triangle",
+            "en": "Triangle",
+            "year": 2009,
+            "director": "Christopher Smith"
+        },
+        {
+            "tr": "Time Crimes",
+            "en": "Timecrimes",
+            "year": 2007,
+            "director": "Nacho Vigalondo"
+        },
+        {
+            "tr": "Kayıp Kız",
+            "en": "Prisoners",
+            "year": 2013,
+            "director": "Denis Villeneuve"
+        },
+        {
+            "tr": "Enemy",
+            "en": "Enemy",
+            "year": 2013,
+            "director": "Denis Villeneuve"
+        },
+        {
+            "tr": "Sicario",
+            "en": "Sicario",
+            "year": 2015,
+            "director": "Denis Villeneuve"
+        },
+        {
+            "tr": "Nightcrawler",
+            "en": "Nightcrawler",
+            "year": 2014,
+            "director": "Dan Gilroy"
+        },
+        {
+            "tr": "Unbreakable",
+            "en": "Unbreakable",
+            "year": 2000,
+            "director": "M. Night Shyamalan"
+        },
+        {
+            "tr": "Split",
+            "en": "Split",
+            "year": 2016,
+            "director": "M. Night Shyamalan"
+        },
+        {
+            "tr": "Glass",
+            "en": "Glass",
+            "year": 2019,
+            "director": "M. Night Shyamalan"
+        },
+        {
+            "tr": "Signs",
+            "en": "Signs",
+            "year": 2002,
+            "director": "M. Night Shyamalan"
+        },
+        {
+            "tr": "The Village",
+            "en": "The Village",
+            "year": 2004,
+            "director": "M. Night Shyamalan"
+        },
+        {
+            "tr": "Secret Window",
+            "en": "Secret Window",
+            "year": 2004,
+            "director": "David Koepp"
+        },
+        {
+            "tr": "1408",
+            "en": "1408",
+            "year": 2007,
+            "director": "Mikael Håfström"
+        },
+        {
+            "tr": "Misery",
+            "en": "Misery",
+            "year": 1990,
+            "director": "Rob Reiner"
+        },
+        {
+            "tr": "Uyku",
+            "en": "Insomnia",
+            "year": 2002,
+            "director": "Christopher Nolan"
+        },
+        {
+            "tr": "Red Lights",
+            "en": "Red Lights",
+            "year": 2012,
+            "director": "Rodrigo Cortés"
+        },
+        {
+            "tr": "Buried",
+            "en": "Buried",
+            "year": 2010,
+            "director": "Rodrigo Cortés"
+        },
+        {
+            "tr": "Phone Booth",
+            "en": "Phone Booth",
+            "year": 2002,
+            "director": "Joel Schumacher"
+        },
+        {
+            "tr": "Frailty",
+            "en": "Frailty",
+            "year": 2001,
+            "director": "Bill Paxton"
+        },
+        {
+            "tr": "Hard Candy",
+            "en": "Hard Candy",
+            "year": 2005,
+            "director": "David Slade"
+        },
+        {
+            "tr": "Funny Games",
+            "en": "Funny Games",
+            "year": 1997,
+            "director": "Michael Haneke"
+        },
+        {
+            "tr": "Aşkın Gücü",
+            "en": "Amour",
+            "year": 2012,
+            "director": "Michael Haneke"
+        },
+        {
+            "tr": "Caché",
+            "en": "Caché",
+            "year": 2005,
+            "director": "Michael Haneke"
+        },
+        {
+            "tr": "Mother",
+            "en": "Mother",
+            "year": 2009,
+            "director": "Bong Joon-ho"
+        },
+        {
+            "tr": "Katil Anıları",
+            "en": "Memories of Murder",
+            "year": 2003,
+            "director": "Bong Joon-ho"
+        },
+        {
+            "tr": "Parazit",
+            "en": "Parasite",
+            "year": 2019,
+            "director": "Bong Joon-ho"
+        },
+        {
+            "tr": "I Saw the Devil",
+            "en": "I Saw the Devil",
+            "year": 2010,
+            "director": "Kim Jee-woon"
+        },
+        {
+            "tr": "İki Kız Kardeş",
+            "en": "A Tale of Two Sisters",
+            "year": 2003,
+            "director": "Kim Jee-woon"
+        },
+        {
+            "tr": "Kusursuz Plan",
+            "en": "Inside Man",
+            "year": 2006,
+            "director": "Spike Lee"
+        },
+        {
+            "tr": "Yalanlar Zamanı",
+            "en": "Fracture",
+            "year": 2007,
+            "director": "Gregory Hoblit"
+        },
+        {
+            "tr": "Before I Go to Sleep",
+            "en": "Before I Go to Sleep",
+            "year": 2014,
+            "director": "Rowan Joffe"
+        },
+        {
+            "tr": "Treni Kaçırmak",
+            "en": "Source Code",
+            "year": 2011,
+            "director": "Duncan Jones"
+        },
+        {
+            "tr": "Moon",
+            "en": "Moon",
+            "year": 2009,
+            "director": "Duncan Jones"
+        },
+        {
+            "tr": "The Invitation",
+            "en": "The Invitation",
+            "year": 2015,
+            "director": "Karyn Kusama"
+        },
+        {
+            "tr": "Green Room",
+            "en": "Green Room",
+            "year": 2015,
+            "director": "Jeremy Saulnier"
+        },
+        {
+            "tr": "Blue Ruin",
+            "en": "Blue Ruin",
+            "year": 2013,
+            "director": "Jeremy Saulnier"
+        },
+        {
+            "tr": "The Gift",
+            "en": "The Gift",
+            "year": 2015,
+            "director": "Joel Edgerton"
+        },
+        {
+            "tr": "Get Out",
+            "en": "Get Out",
+            "year": 2017,
+            "director": "Jordan Peele"
+        },
+        {
+            "tr": "Us",
+            "en": "Us",
+            "year": 2019,
+            "director": "Jordan Peele"
+        },
+        {
+            "tr": "Hereditary",
+            "en": "Hereditary",
+            "year": 2018,
+            "director": "Ari Aster"
+        },
+        {
+            "tr": "Midsommar",
+            "en": "Midsommar",
+            "year": 2019,
+            "director": "Ari Aster"
+        },
+        {
+            "tr": "Mother!",
+            "en": "Mother!",
+            "year": 2017,
+            "director": "Darren Aronofsky"
+        },
+        {
+            "tr": "The Witch",
+            "en": "The Witch",
+            "year": 2015,
+            "director": "Robert Eggers"
+        },
+        {
+            "tr": "It Comes at Night",
+            "en": "It Comes at Night",
+            "year": 2017,
+            "director": "Trey Edward Shults"
+        },
+        {
+            "tr": "Under the Skin",
+            "en": "Under the Skin",
+            "year": 2013,
+            "director": "Jonathan Glazer"
+        },
+        {
+            "tr": "Wind River",
+            "en": "Wind River",
+            "year": 2017,
+            "director": "Taylor Sheridan"
+        },
+        {
+            "tr": "Hell or High Water",
+            "en": "Hell or High Water",
+            "year": 2016,
+            "director": "David Mackenzie"
+        },
+        {
+            "tr": "No Country for Old Men",
+            "en": "No Country for Old Men",
+            "year": 2007,
+            "director": "Coen Brothers"
+        },
+        {
+            "tr": "Fargo",
+            "en": "Fargo",
+            "year": 1996,
+            "director": "Coen Brothers"
+        },
+        {
+            "tr": "Blood Simple",
+            "en": "Blood Simple",
+            "year": 1984,
+            "director": "Coen Brothers"
+        },
+        {
+            "tr": "Berberian Sound Studio",
+            "en": "Berberian Sound Studio",
+            "year": 2012,
+            "director": "Peter Strickland"
+        },
+        {
+            "tr": "Suspiria",
+            "en": "Suspiria",
+            "year": 2018,
+            "director": "Luca Guadagnino"
+        },
+        {
+            "tr": "The Lighthouse",
+            "en": "The Lighthouse",
+            "year": 2019,
+            "director": "Robert Eggers"
+        },
+        {
+            "tr": "The Neon Demon",
+            "en": "The Neon Demon",
+            "year": 2016,
+            "director": "Nicolas Winding Refn"
+        },
+        {
+            "tr": "Drive",
+            "en": "Drive",
+            "year": 2011,
+            "director": "Nicolas Winding Refn"
+        },
+        {
+            "tr": "Only God Forgives",
+            "en": "Only God Forgives",
+            "year": 2013,
+            "director": "Nicolas Winding Refn"
+        },
+        {
+            "tr": "The Killing of a Sacred Deer",
+            "en": "The Killing of a Sacred Deer",
+            "year": 2017,
+            "director": "Yorgos Lanthimos"
+        }
+    ]
+}

@@ -1,0 +1,603 @@
+{
+    "id": "100-scifi-films",
+    "title": "100 Bilim Kurgu Filmi",
+    "description": "Geleceği hayal eden, teknoloji ve insanlığın sınırlarını zorlayan en iyi bilim kurgu filmleri.",
+    "category": "films",
+    "subcategory": "genre",
+    "tags": [
+        "🚀 Bilim Kurgu",
+        "🤖 Yapay Zeka",
+        "🌌 Uzay"
+    ],
+    "cover": "scifi-films-cover.jpg",
+    "items": [
+        {
+            "tr": "2001: Bir Uzay Destanı",
+            "en": "2001: A Space Odyssey",
+            "year": 1968,
+            "director": "Stanley Kubrick"
+        },
+        {
+            "tr": "Blade Runner",
+            "en": "Blade Runner",
+            "year": 1982,
+            "director": "Ridley Scott"
+        },
+        {
+            "tr": "Matrix",
+            "en": "The Matrix",
+            "year": 1999,
+            "director": "The Wachowskis"
+        },
+        {
+            "tr": "Yıldızlararası",
+            "en": "Interstellar",
+            "year": 2014,
+            "director": "Christopher Nolan"
+        },
+        {
+            "tr": "Başlangıç",
+            "en": "Inception",
+            "year": 2010,
+            "director": "Christopher Nolan"
+        },
+        {
+            "tr": "Terminatör 2",
+            "en": "Terminator 2: Judgment Day",
+            "year": 1991,
+            "director": "James Cameron"
+        },
+        {
+            "tr": "Yaratık",
+            "en": "Alien",
+            "year": 1979,
+            "director": "Ridley Scott"
+        },
+        {
+            "tr": "Yaratıklar",
+            "en": "Aliens",
+            "year": 1986,
+            "director": "James Cameron"
+        },
+        {
+            "tr": "Geri Dönüş",
+            "en": "Back to the Future",
+            "year": 1985,
+            "director": "Robert Zemeckis"
+        },
+        {
+            "tr": "E.T.",
+            "en": "E.T. the Extra-Terrestrial",
+            "year": 1982,
+            "director": "Steven Spielberg"
+        },
+        {
+            "tr": "Yıldız Savaşları",
+            "en": "Star Wars: Episode IV",
+            "year": 1977,
+            "director": "George Lucas"
+        },
+        {
+            "tr": "İmparatorun Dönüşü",
+            "en": "Star Wars: Episode V",
+            "year": 1980,
+            "director": "Irvin Kershner"
+        },
+        {
+            "tr": "Jedi'ın Dönüşü",
+            "en": "Star Wars: Episode VI",
+            "year": 1983,
+            "director": "Richard Marquand"
+        },
+        {
+            "tr": "Yakın Temas",
+            "en": "Close Encounters of the Third Kind",
+            "year": 1977,
+            "director": "Steven Spielberg"
+        },
+        {
+            "tr": "Jurassic Park",
+            "en": "Jurassic Park",
+            "year": 1993,
+            "director": "Steven Spielberg"
+        },
+        {
+            "tr": "Azınlık Raporu",
+            "en": "Minority Report",
+            "year": 2002,
+            "director": "Steven Spielberg"
+        },
+        {
+            "tr": "A.I. Yapay Zeka",
+            "en": "A.I. Artificial Intelligence",
+            "year": 2001,
+            "director": "Steven Spielberg"
+        },
+        {
+            "tr": "Avatar",
+            "en": "Avatar",
+            "year": 2009,
+            "director": "James Cameron"
+        },
+        {
+            "tr": "Abyss",
+            "en": "The Abyss",
+            "year": 1989,
+            "director": "James Cameron"
+        },
+        {
+            "tr": "Terminatör",
+            "en": "The Terminator",
+            "year": 1984,
+            "director": "James Cameron"
+        },
+        {
+            "tr": "Total Recall",
+            "en": "Total Recall",
+            "year": 1990,
+            "director": "Paul Verhoeven"
+        },
+        {
+            "tr": "RoboCop",
+            "en": "RoboCop",
+            "year": 1987,
+            "director": "Paul Verhoeven"
+        },
+        {
+            "tr": "Starship Troopers",
+            "en": "Starship Troopers",
+            "year": 1997,
+            "director": "Paul Verhoeven"
+        },
+        {
+            "tr": "Yıldızlararası Savaşlar",
+            "en": "Star Trek II: The Wrath of Khan",
+            "year": 1982,
+            "director": "Nicholas Meyer"
+        },
+        {
+            "tr": "Dünya Savaşı",
+            "en": "War of the Worlds",
+            "year": 2005,
+            "director": "Steven Spielberg"
+        },
+        {
+            "tr": "Maymunlar Cehennemi",
+            "en": "Planet of the Apes",
+            "year": 1968,
+            "director": "Franklin J. Schaffner"
+        },
+        {
+            "tr": "Maymunlar Cehennemi: Başlangıç",
+            "en": "Rise of the Planet of the Apes",
+            "year": 2011,
+            "director": "Rupert Wyatt"
+        },
+        {
+            "tr": "Wall-E",
+            "en": "WALL·E",
+            "year": 2008,
+            "director": "Andrew Stanton"
+        },
+        {
+            "tr": "Her",
+            "en": "Her",
+            "year": 2013,
+            "director": "Spike Jonze"
+        },
+        {
+            "tr": "Ex Machina",
+            "en": "Ex Machina",
+            "year": 2014,
+            "director": "Alex Garland"
+        },
+        {
+            "tr": "Annihilation",
+            "en": "Annihilation",
+            "year": 2018,
+            "director": "Alex Garland"
+        },
+        {
+            "tr": "Varış",
+            "en": "Arrival",
+            "year": 2016,
+            "director": "Denis Villeneuve"
+        },
+        {
+            "tr": "Blade Runner 2049",
+            "en": "Blade Runner 2049",
+            "year": 2017,
+            "director": "Denis Villeneuve"
+        },
+        {
+            "tr": "Dune",
+            "en": "Dune",
+            "year": 2021,
+            "director": "Denis Villeneuve"
+        },
+        {
+            "tr": "Solaris",
+            "en": "Solaris",
+            "year": 1972,
+            "director": "Andrei Tarkovsky"
+        },
+        {
+            "tr": "Stalker",
+            "en": "Stalker",
+            "year": 1979,
+            "director": "Andrei Tarkovsky"
+        },
+        {
+            "tr": "Metropolis",
+            "en": "Metropolis",
+            "year": 1927,
+            "director": "Fritz Lang"
+        },
+        {
+            "tr": "Mad Max: Fury Road",
+            "en": "Mad Max: Fury Road",
+            "year": 2015,
+            "director": "George Miller"
+        },
+        {
+            "tr": "Mad Max 2",
+            "en": "Mad Max 2: The Road Warrior",
+            "year": 1981,
+            "director": "George Miller"
+        },
+        {
+            "tr": "Beşinci Element",
+            "en": "The Fifth Element",
+            "year": 1997,
+            "director": "Luc Besson"
+        },
+        {
+            "tr": "Akira",
+            "en": "Akira",
+            "year": 1988,
+            "director": "Katsuhiro Otomo"
+        },
+        {
+            "tr": "Ghost in the Shell",
+            "en": "Ghost in the Shell",
+            "year": 1995,
+            "director": "Mamoru Oshii"
+        },
+        {
+            "tr": "Kayıp Tercüme",
+            "en": "District 9",
+            "year": 2009,
+            "director": "Neill Blomkamp"
+        },
+        {
+            "tr": "Elysium",
+            "en": "Elysium",
+            "year": 2013,
+            "director": "Neill Blomkamp"
+        },
+        {
+            "tr": "Gravity",
+            "en": "Gravity",
+            "year": 2013,
+            "director": "Alfonso Cuarón"
+        },
+        {
+            "tr": "İnsanlığın Çocukları",
+            "en": "Children of Men",
+            "year": 2006,
+            "director": "Alfonso Cuarón"
+        },
+        {
+            "tr": "Marslı",
+            "en": "The Martian",
+            "year": 2015,
+            "director": "Ridley Scott"
+        },
+        {
+            "tr": "Prometheus",
+            "en": "Prometheus",
+            "year": 2012,
+            "director": "Ridley Scott"
+        },
+        {
+            "tr": "Moon",
+            "en": "Moon",
+            "year": 2009,
+            "director": "Duncan Jones"
+        },
+        {
+            "tr": "Kaynak Kod",
+            "en": "Source Code",
+            "year": 2011,
+            "director": "Duncan Jones"
+        },
+        {
+            "tr": "Looper",
+            "en": "Looper",
+            "year": 2012,
+            "director": "Rian Johnson"
+        },
+        {
+            "tr": "Primer",
+            "en": "Primer",
+            "year": 2004,
+            "director": "Shane Carruth"
+        },
+        {
+            "tr": "12 Maymun",
+            "en": "12 Monkeys",
+            "year": 1995,
+            "director": "Terry Gilliam"
+        },
+        {
+            "tr": "Brazil",
+            "en": "Brazil",
+            "year": 1985,
+            "director": "Terry Gilliam"
+        },
+        {
+            "tr": "Gattaca",
+            "en": "Gattaca",
+            "year": 1997,
+            "director": "Andrew Niccol"
+        },
+        {
+            "tr": "Truman Show",
+            "en": "The Truman Show",
+            "year": 1998,
+            "director": "Peter Weir"
+        },
+        {
+            "tr": "Karanlık Şehir",
+            "en": "Dark City",
+            "year": 1998,
+            "director": "Alex Proyas"
+        },
+        {
+            "tr": "Equilibrium",
+            "en": "Equilibrium",
+            "year": 2002,
+            "director": "Kurt Wimmer"
+        },
+        {
+            "tr": "Azınlık Raporu",
+            "en": "The Adjustment Bureau",
+            "year": 2011,
+            "director": "George Nolfi"
+        },
+        {
+            "tr": "Prestij",
+            "en": "The Prestige",
+            "year": 2006,
+            "director": "Christopher Nolan"
+        },
+        {
+            "tr": "Limitless",
+            "en": "Limitless",
+            "year": 2011,
+            "director": "Neil Burger"
+        },
+        {
+            "tr": "Edge of Tomorrow",
+            "en": "Edge of Tomorrow",
+            "year": 2014,
+            "director": "Doug Liman"
+        },
+        {
+            "tr": "Oblivion",
+            "en": "Oblivion",
+            "year": 2013,
+            "director": "Joseph Kosinski"
+        },
+        {
+            "tr": "Tron: Legacy",
+            "en": "Tron: Legacy",
+            "year": 2010,
+            "director": "Joseph Kosinski"
+        },
+        {
+            "tr": "Tenet",
+            "en": "Tenet",
+            "year": 2020,
+            "director": "Christopher Nolan"
+        },
+        {
+            "tr": "Uyanış",
+            "en": "Passengers",
+            "year": 2016,
+            "director": "Morten Tyldum"
+        },
+        {
+            "tr": "Ender'in Oyunu",
+            "en": "Ender's Game",
+            "year": 2013,
+            "director": "Gavin Hood"
+        },
+        {
+            "tr": "Maze Runner",
+            "en": "The Maze Runner",
+            "year": 2014,
+            "director": "Wes Ball"
+        },
+        {
+            "tr": "Açlık Oyunları",
+            "en": "The Hunger Games",
+            "year": 2012,
+            "director": "Gary Ross"
+        },
+        {
+            "tr": "Divergent",
+            "en": "Divergent",
+            "year": 2014,
+            "director": "Neil Burger"
+        },
+        {
+            "tr": "Snowpiercer",
+            "en": "Snowpiercer",
+            "year": 2013,
+            "director": "Bong Joon-ho"
+        },
+        {
+            "tr": "Her Şeyin Teorisi",
+            "en": "The Theory of Everything",
+            "year": 2014,
+            "director": "James Marsh"
+        },
+        {
+            "tr": "Yapay Zeka",
+            "en": "I, Robot",
+            "year": 2004,
+            "director": "Alex Proyas"
+        },
+        {
+            "tr": "Beni Asla Bırakma",
+            "en": "Never Let Me Go",
+            "year": 2010,
+            "director": "Mark Romanek"
+        },
+        {
+            "tr": "Predestination",
+            "en": "Predestination",
+            "year": 2014,
+            "director": "Spierig Brothers"
+        },
+        {
+            "tr": "Coherence",
+            "en": "Coherence",
+            "year": 2013,
+            "director": "James Ward Byrkit"
+        },
+        {
+            "tr": "Upgrade",
+            "en": "Upgrade",
+            "year": 2018,
+            "director": "Leigh Whannell"
+        },
+        {
+            "tr": "Cloverfield Lane",
+            "en": "10 Cloverfield Lane",
+            "year": 2016,
+            "director": "Dan Trachtenberg"
+        },
+        {
+            "tr": "Melancholia",
+            "en": "Melancholia",
+            "year": 2011,
+            "director": "Lars von Trier"
+        },
+        {
+            "tr": "Under the Skin",
+            "en": "Under the Skin",
+            "year": 2013,
+            "director": "Jonathan Glazer"
+        },
+        {
+            "tr": "High Life",
+            "en": "High Life",
+            "year": 2018,
+            "director": "Claire Denis"
+        },
+        {
+            "tr": "Sunshine",
+            "en": "Sunshine",
+            "year": 2007,
+            "director": "Danny Boyle"
+        },
+        {
+            "tr": "28 Gün Sonra",
+            "en": "28 Days Later",
+            "year": 2002,
+            "director": "Danny Boyle"
+        },
+        {
+            "tr": "Serenity",
+            "en": "Serenity",
+            "year": 2005,
+            "director": "Joss Whedon"
+        },
+        {
+            "tr": "Pacific Rim",
+            "en": "Pacific Rim",
+            "year": 2013,
+            "director": "Guillermo del Toro"
+        },
+        {
+            "tr": "Ready Player One",
+            "en": "Ready Player One",
+            "year": 2018,
+            "director": "Steven Spielberg"
+        },
+        {
+            "tr": "Valerian",
+            "en": "Valerian and the City of a Thousand Planets",
+            "year": 2017,
+            "director": "Luc Besson"
+        },
+        {
+            "tr": "Alita: Battle Angel",
+            "en": "Alita: Battle Angel",
+            "year": 2019,
+            "director": "Robert Rodriguez"
+        },
+        {
+            "tr": "Uzay Yolcusu",
+            "en": "Ad Astra",
+            "year": 2019,
+            "director": "James Gray"
+        },
+        {
+            "tr": "Başka Dünya",
+            "en": "Another Earth",
+            "year": 2011,
+            "director": "Mike Cahill"
+        },
+        {
+            "tr": "İnsan Oyunu",
+            "en": "The Host",
+            "year": 2006,
+            "director": "Bong Joon-ho"
+        },
+        {
+            "tr": "Güç Oyunu",
+            "en": "Chronicle",
+            "year": 2012,
+            "director": "Josh Trank"
+        },
+        {
+            "tr": "Midnight Special",
+            "en": "Midnight Special",
+            "year": 2016,
+            "director": "Jeff Nichols"
+        },
+        {
+            "tr": "Vestige",
+            "en": "Vestige",
+            "year": 2019,
+            "director": "Various"
+        },
+        {
+            "tr": "Tomorrowland",
+            "en": "Tomorrowland",
+            "year": 2015,
+            "director": "Brad Bird"
+        },
+        {
+            "tr": "Rogue One",
+            "en": "Rogue One: A Star Wars Story",
+            "year": 2016,
+            "director": "Gareth Edwards"
+        },
+        {
+            "tr": "The Adam Project",
+            "en": "The Adam Project",
+            "year": 2022,
+            "director": "Shawn Levy"
+        },
+        {
+            "tr": "Everything Everywhere",
+            "en": "Everything Everywhere All at Once",
+            "year": 2022,
+            "director": "Daniels"
+        }
+    ]
+}

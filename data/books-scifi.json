@@ -1,0 +1,609 @@
+{
+    "id": "100-scifi-books",
+    "title": "100 Bilim Kurgu Romanı",
+    "description": "Geleceği hayal eden, teknoloji ve insanlığın sınırlarını sorgulayan en iyi bilim kurgu romanları.",
+    "category": "books",
+    "subcategory": "genre",
+    "tags": [
+        "🚀 Bilim Kurgu",
+        "🤖 Yapay Zeka",
+        "🌌 Uzay"
+    ],
+    "cover": "scifi-books-cover.jpg",
+    "items": [
+        {
+            "title": "1984",
+            "originalTitle": "Nineteen Eighty-Four",
+            "author": "George Orwell",
+            "year": 1949
+        },
+        {
+            "title": "Cesur Yeni Dünya",
+            "originalTitle": "Brave New World",
+            "author": "Aldous Huxley",
+            "year": 1932
+        },
+        {
+            "title": "Fahrenheit 451",
+            "originalTitle": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "year": 1953
+        },
+        {
+            "title": "Dune",
+            "originalTitle": "Dune",
+            "author": "Frank Herbert",
+            "year": 1965
+        },
+        {
+            "title": "Vakıf",
+            "originalTitle": "Foundation",
+            "author": "Isaac Asimov",
+            "year": 1951
+        },
+        {
+            "title": "Ben Robot",
+            "originalTitle": "I, Robot",
+            "author": "Isaac Asimov",
+            "year": 1950
+        },
+        {
+            "title": "Vakıf ve İmparatorluk",
+            "originalTitle": "Foundation and Empire",
+            "author": "Isaac Asimov",
+            "year": 1952
+        },
+        {
+            "title": "İkinci Vakıf",
+            "originalTitle": "Second Foundation",
+            "author": "Isaac Asimov",
+            "year": 1953
+        },
+        {
+            "title": "Ender'in Oyunu",
+            "originalTitle": "Ender's Game",
+            "author": "Orson Scott Card",
+            "year": 1985
+        },
+        {
+            "title": "Ender'in Gölgesi",
+            "originalTitle": "Ender's Shadow",
+            "author": "Orson Scott Card",
+            "year": 1999
+        },
+        {
+            "title": "Yıldız Gemisi Askerleri",
+            "originalTitle": "Starship Troopers",
+            "author": "Robert A. Heinlein",
+            "year": 1959
+        },
+        {
+            "title": "Ay Sert Bir Öğretmendir",
+            "originalTitle": "The Moon Is a Harsh Mistress",
+            "author": "Robert A. Heinlein",
+            "year": 1966
+        },
+        {
+            "title": "Uzaylı",
+            "originalTitle": "Stranger in a Strange Land",
+            "author": "Robert A. Heinlein",
+            "year": 1961
+        },
+        {
+            "title": "2001: Bir Uzay Destanı",
+            "originalTitle": "2001: A Space Odyssey",
+            "author": "Arthur C. Clarke",
+            "year": 1968
+        },
+        {
+            "title": "Çocukluk Sonu",
+            "originalTitle": "Childhood's End",
+            "author": "Arthur C. Clarke",
+            "year": 1953
+        },
+        {
+            "title": "Buluşma Noktası",
+            "originalTitle": "Rendezvous with Rama",
+            "author": "Arthur C. Clarke",
+            "year": 1973
+        },
+        {
+            "title": "Androyid Elektrikli Koyun Düşler Mi?",
+            "originalTitle": "Do Androids Dream of Electric Sheep?",
+            "author": "Philip K. Dick",
+            "year": 1968
+        },
+        {
+            "title": "Yüksek Şatodaki Adam",
+            "originalTitle": "The Man in the High Castle",
+            "author": "Philip K. Dick",
+            "year": 1962
+        },
+        {
+            "title": "Ubik",
+            "originalTitle": "Ubik",
+            "author": "Philip K. Dick",
+            "year": 1969
+        },
+        {
+            "title": "VALIS",
+            "originalTitle": "VALIS",
+            "author": "Philip K. Dick",
+            "year": 1981
+        },
+        {
+            "title": "Solaris",
+            "originalTitle": "Solaris",
+            "author": "Stanisław Lem",
+            "year": 1961
+        },
+        {
+            "title": "Futuresyon Kongresi",
+            "originalTitle": "The Futurological Congress",
+            "author": "Stanisław Lem",
+            "year": 1971
+        },
+        {
+            "title": "Yıldız Günlükleri",
+            "originalTitle": "The Star Diaries",
+            "author": "Stanisław Lem",
+            "year": 1971
+        },
+        {
+            "title": "Nöromancer",
+            "originalTitle": "Neuromancer",
+            "author": "William Gibson",
+            "year": 1984
+        },
+        {
+            "title": "Sanal Işık",
+            "originalTitle": "Virtual Light",
+            "author": "William Gibson",
+            "year": 1993
+        },
+        {
+            "title": "Örüntü Tanıma",
+            "originalTitle": "Pattern Recognition",
+            "author": "William Gibson",
+            "year": 2003
+        },
+        {
+            "title": "Kar Kazası",
+            "originalTitle": "Snow Crash",
+            "author": "Neal Stephenson",
+            "year": 1992
+        },
+        {
+            "title": "Elmas Çağı",
+            "originalTitle": "The Diamond Age",
+            "author": "Neal Stephenson",
+            "year": 1995
+        },
+        {
+            "title": "Cryptonomicon",
+            "originalTitle": "Cryptonomicon",
+            "author": "Neal Stephenson",
+            "year": 1999
+        },
+        {
+            "title": "Hiper Uzay",
+            "originalTitle": "Hyperion",
+            "author": "Dan Simmons",
+            "year": 1989
+        },
+        {
+            "title": "Endymion'un Düşüşü",
+            "originalTitle": "The Fall of Hyperion",
+            "author": "Dan Simmons",
+            "year": 1990
+        },
+        {
+            "title": "Marslı",
+            "originalTitle": "The Martian",
+            "author": "Andy Weir",
+            "year": 2011
+        },
+        {
+            "title": "Project Hail Mary",
+            "originalTitle": "Project Hail Mary",
+            "author": "Andy Weir",
+            "year": 2021
+        },
+        {
+            "title": "Artemis",
+            "originalTitle": "Artemis",
+            "author": "Andy Weir",
+            "year": 2017
+        },
+        {
+            "title": "Karanlık Orman",
+            "originalTitle": "The Dark Forest",
+            "author": "Liu Cixin",
+            "year": 2008
+        },
+        {
+            "title": "Üç Cisim Problemi",
+            "originalTitle": "The Three-Body Problem",
+            "author": "Liu Cixin",
+            "year": 2008
+        },
+        {
+            "title": "Ölümsüz",
+            "originalTitle": "Death's End",
+            "author": "Liu Cixin",
+            "year": 2010
+        },
+        {
+            "title": "Red Mars",
+            "originalTitle": "Red Mars",
+            "author": "Kim Stanley Robinson",
+            "year": 1992
+        },
+        {
+            "title": "Green Mars",
+            "originalTitle": "Green Mars",
+            "author": "Kim Stanley Robinson",
+            "year": 1993
+        },
+        {
+            "title": "Blue Mars",
+            "originalTitle": "Blue Mars",
+            "author": "Kim Stanley Robinson",
+            "year": 1996
+        },
+        {
+            "title": "Sol'un Eli",
+            "originalTitle": "The Left Hand of Darkness",
+            "author": "Ursula K. Le Guin",
+            "year": 1969
+        },
+        {
+            "title": "Mülksüzler",
+            "originalTitle": "The Dispossessed",
+            "author": "Ursula K. Le Guin",
+            "year": 1974
+        },
+        {
+            "title": "Yerdeniz Büyücüsü",
+            "originalTitle": "A Wizard of Earthsea",
+            "author": "Ursula K. Le Guin",
+            "year": 1968
+        },
+        {
+            "title": "Lathe of Heaven",
+            "originalTitle": "The Lathe of Heaven",
+            "author": "Ursula K. Le Guin",
+            "year": 1971
+        },
+        {
+            "title": "Kahya",
+            "originalTitle": "The Handmaid's Tale",
+            "author": "Margaret Atwood",
+            "year": 1985
+        },
+        {
+            "title": "Oryx ve Crake",
+            "originalTitle": "Oryx and Crake",
+            "author": "Margaret Atwood",
+            "year": 2003
+        },
+        {
+            "title": "Tanıklıklar",
+            "originalTitle": "The Testaments",
+            "author": "Margaret Atwood",
+            "year": 2019
+        },
+        {
+            "title": "İnsan Avcısı",
+            "originalTitle": "Contact",
+            "author": "Carl Sagan",
+            "year": 1985
+        },
+        {
+            "title": "Ready Player One",
+            "originalTitle": "Ready Player One",
+            "author": "Ernest Cline",
+            "year": 2011
+        },
+        {
+            "title": "Ready Player Two",
+            "originalTitle": "Ready Player Two",
+            "author": "Ernest Cline",
+            "year": 2020
+        },
+        {
+            "title": "Armada",
+            "originalTitle": "Armada",
+            "author": "Ernest Cline",
+            "year": 2015
+        },
+        {
+            "title": "Otostopçunun Galaksi Rehberi",
+            "originalTitle": "The Hitchhiker's Guide to the Galaxy",
+            "author": "Douglas Adams",
+            "year": 1979
+        },
+        {
+            "title": "Evrenin Sonundaki Restoran",
+            "originalTitle": "The Restaurant at the End of the Universe",
+            "author": "Douglas Adams",
+            "year": 1980
+        },
+        {
+            "title": "Hayat, Evren ve Her Şey",
+            "originalTitle": "Life, the Universe and Everything",
+            "author": "Douglas Adams",
+            "year": 1982
+        },
+        {
+            "title": "Slaughterhouse-Five",
+            "originalTitle": "Slaughterhouse-Five",
+            "author": "Kurt Vonnegut",
+            "year": 1969
+        },
+        {
+            "title": "Kedi'nin Beşiği",
+            "originalTitle": "Cat's Cradle",
+            "author": "Kurt Vonnegut",
+            "year": 1963
+        },
+        {
+            "title": "Sirenlerin Titanı",
+            "originalTitle": "The Sirens of Titan",
+            "author": "Kurt Vonnegut",
+            "year": 1959
+        },
+        {
+            "title": "Zaman Makinesi",
+            "originalTitle": "The Time Machine",
+            "author": "H.G. Wells",
+            "year": 1895
+        },
+        {
+            "title": "Dünyalar Savaşı",
+            "originalTitle": "The War of the Worlds",
+            "author": "H.G. Wells",
+            "year": 1898
+        },
+        {
+            "title": "Görünmez Adam",
+            "originalTitle": "The Invisible Man",
+            "author": "H.G. Wells",
+            "year": 1897
+        },
+        {
+            "title": "Moreau Adasının Hikayesi",
+            "originalTitle": "The Island of Doctor Moreau",
+            "author": "H.G. Wells",
+            "year": 1896
+        },
+        {
+            "title": "Frankenstein",
+            "originalTitle": "Frankenstein",
+            "author": "Mary Shelley",
+            "year": 1818
+        },
+        {
+            "title": "Deniz Altında Yirmi Bin Fersah",
+            "originalTitle": "Twenty Thousand Leagues Under the Sea",
+            "author": "Jules Verne",
+            "year": 1870
+        },
+        {
+            "title": "Aya Yolculuk",
+            "originalTitle": "From the Earth to the Moon",
+            "author": "Jules Verne",
+            "year": 1865
+        },
+        {
+            "title": "Seksen Günde Dünya Turu",
+            "originalTitle": "Around the World in Eighty Days",
+            "author": "Jules Verne",
+            "year": 1872
+        },
+        {
+            "title": "Yeryüzünün Merkezine Yolculuk",
+            "originalTitle": "Journey to the Center of the Earth",
+            "author": "Jules Verne",
+            "year": 1864
+        },
+        {
+            "title": "Biz",
+            "originalTitle": "We",
+            "author": "Yevgeny Zamyatin",
+            "year": 1924
+        },
+        {
+            "title": "Flowers for Algernon",
+            "originalTitle": "Flowers for Algernon",
+            "author": "Daniel Keyes",
+            "year": 1966
+        },
+        {
+            "title": "Bir Zamanlar Gelecekte",
+            "originalTitle": "The Forever War",
+            "author": "Joe Haldeman",
+            "year": 1974
+        },
+        {
+            "title": "Old Man's War",
+            "originalTitle": "Old Man's War",
+            "author": "John Scalzi",
+            "year": 2005
+        },
+        {
+            "title": "Redshirts",
+            "originalTitle": "Redshirts",
+            "author": "John Scalzi",
+            "year": 2012
+        },
+        {
+            "title": "Android Kabusu",
+            "originalTitle": "Lock In",
+            "author": "John Scalzi",
+            "year": 2014
+        },
+        {
+            "title": "Ex Machina",
+            "originalTitle": "Machines Like Me",
+            "author": "Ian McEwan",
+            "year": 2019
+        },
+        {
+            "title": "Klara ve Güneş",
+            "originalTitle": "Klara and the Sun",
+            "author": "Kazuo Ishiguro",
+            "year": 2021
+        },
+        {
+            "title": "Beni Asla Bırakma",
+            "originalTitle": "Never Let Me Go",
+            "author": "Kazuo Ishiguro",
+            "year": 2005
+        },
+        {
+            "title": "Uzay Korsanı",
+            "originalTitle": "Piranesi",
+            "author": "Susanna Clarke",
+            "year": 2020
+        },
+        {
+            "title": "Annihilation",
+            "originalTitle": "Annihilation",
+            "author": "Jeff VanderMeer",
+            "year": 2014
+        },
+        {
+            "title": "Ölüm Zamanı",
+            "originalTitle": "Authority",
+            "author": "Jeff VanderMeer",
+            "year": 2014
+        },
+        {
+            "title": "Beyaz Karga",
+            "originalTitle": "Acceptance",
+            "author": "Jeff VanderMeer",
+            "year": 2014
+        },
+        {
+            "title": "Station Eleven",
+            "originalTitle": "Station Eleven",
+            "author": "Emily St. John Mandel",
+            "year": 2014
+        },
+        {
+            "title": "Deniz Camı",
+            "originalTitle": "Sea of Rust",
+            "author": "C. Robert Cargill",
+            "year": 2017
+        },
+        {
+            "title": "Dark Intelligence",
+            "originalTitle": "Dark Intelligence",
+            "author": "Neal Asher",
+            "year": 2015
+        },
+        {
+            "title": "Seveneves",
+            "originalTitle": "Seveneves",
+            "author": "Neal Stephenson",
+            "year": 2015
+        },
+        {
+            "title": "Aurora",
+            "originalTitle": "Aurora",
+            "author": "Kim Stanley Robinson",
+            "year": 2015
+        },
+        {
+            "title": "Uzun Yol",
+            "originalTitle": "The Long Way to a Small, Angry Planet",
+            "author": "Becky Chambers",
+            "year": 2014
+        },
+        {
+            "title": "Record of a Spaceborn Few",
+            "originalTitle": "Record of a Spaceborn Few",
+            "author": "Becky Chambers",
+            "year": 2018
+        },
+        {
+            "title": "Kayıp Dünyalar",
+            "originalTitle": "A Closed and Common Orbit",
+            "author": "Becky Chambers",
+            "year": 2016
+        },
+        {
+            "title": "Exhalation",
+            "originalTitle": "Exhalation",
+            "author": "Ted Chiang",
+            "year": 2019
+        },
+        {
+            "title": "Stories of Your Life and Others",
+            "originalTitle": "Stories of Your Life and Others",
+            "author": "Ted Chiang",
+            "year": 2002
+        },
+        {
+            "title": "Amerikan Tanrıları",
+            "originalTitle": "American Gods",
+            "author": "Neil Gaiman",
+            "year": 2001
+        },
+        {
+            "title": "Güzel Hayaletler",
+            "originalTitle": "Good Omens",
+            "author": "Neil Gaiman & Terry Pratchett",
+            "year": 1990
+        },
+        {
+            "title": "Kum Adam",
+            "originalTitle": "The Sandman",
+            "author": "Neil Gaiman",
+            "year": 1989
+        },
+        {
+            "title": "Infinite Jest",
+            "originalTitle": "Infinite Jest",
+            "author": "David Foster Wallace",
+            "year": 1996
+        },
+        {
+            "title": "The Road",
+            "originalTitle": "The Road",
+            "author": "Cormac McCarthy",
+            "year": 2006
+        },
+        {
+            "title": "Silo",
+            "originalTitle": "Wool",
+            "author": "Hugh Howey",
+            "year": 2011
+        },
+        {
+            "title": "Shift",
+            "originalTitle": "Shift",
+            "author": "Hugh Howey",
+            "year": 2013
+        },
+        {
+            "title": "Dust",
+            "originalTitle": "Dust",
+            "author": "Hugh Howey",
+            "year": 2013
+        },
+        {
+            "title": "The Peripheral",
+            "originalTitle": "The Peripheral",
+            "author": "William Gibson",
+            "year": 2014
+        },
+        {
+            "title": "Agency",
+            "originalTitle": "Agency",
+            "author": "William Gibson",
+            "year": 2020
+        }
+    ]
+}

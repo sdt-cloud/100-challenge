@@ -1,0 +1,615 @@
+{
+    "id": "100-cult-films",
+    "title": "100 Kült Film",
+    "description": "Ana akımın dışında, zamanla efsaneleşmiş ve sadık hayran kitlesine sahip kült yapımlar.",
+    "category": "films",
+    "subcategory": "genre",
+    "tags": [
+        "🎭 Kült",
+        "🌙 Alternatif",
+        "🔥 Underground"
+    ],
+    "cover": "cult-films-cover.jpg",
+    "items": [
+        {
+            "tr": "Ucuz Roman",
+            "en": "Pulp Fiction",
+            "year": 1994,
+            "director": "Quentin Tarantino"
+        },
+        {
+            "tr": "Dövüş Kulübü",
+            "en": "Fight Club",
+            "year": 1999,
+            "director": "David Fincher"
+        },
+        {
+            "tr": "Otomatik Portakal",
+            "en": "A Clockwork Orange",
+            "year": 1971,
+            "director": "Stanley Kubrick"
+        },
+        {
+            "tr": "Kayıp Otoban",
+            "en": "Lost Highway",
+            "year": 1997,
+            "director": "David Lynch"
+        },
+        {
+            "tr": "Donnie Darko",
+            "en": "Donnie Darko",
+            "year": 2001,
+            "director": "Richard Kelly"
+        },
+        {
+            "tr": "Rocky Horror Picture Show",
+            "en": "The Rocky Horror Picture Show",
+            "year": 1975,
+            "director": "Jim Sharman"
+        },
+        {
+            "tr": "Büyük Lebowski",
+            "en": "The Big Lebowski",
+            "year": 1998,
+            "director": "Joel Coen"
+        },
+        {
+            "tr": "Trainspotting",
+            "en": "Trainspotting",
+            "year": 1996,
+            "director": "Danny Boyle"
+        },
+        {
+            "tr": "Amerikan Psikopat",
+            "en": "American Psycho",
+            "year": 2000,
+            "director": "Mary Harron"
+        },
+        {
+            "tr": "Eraserhead",
+            "en": "Eraserhead",
+            "year": 1977,
+            "director": "David Lynch"
+        },
+        {
+            "tr": "Blade Runner",
+            "en": "Blade Runner",
+            "year": 1982,
+            "director": "Ridley Scott"
+        },
+        {
+            "tr": "Rezervuar Köpekleri",
+            "en": "Reservoir Dogs",
+            "year": 1992,
+            "director": "Quentin Tarantino"
+        },
+        {
+            "tr": "Fear and Loathing in Las Vegas",
+            "en": "Fear and Loathing in Las Vegas",
+            "year": 1998,
+            "director": "Terry Gilliam"
+        },
+        {
+            "tr": "Brazil",
+            "en": "Brazil",
+            "year": 1985,
+            "director": "Terry Gilliam"
+        },
+        {
+            "tr": "12 Maymun",
+            "en": "12 Monkeys",
+            "year": 1995,
+            "director": "Terry Gilliam"
+        },
+        {
+            "tr": "Mavi Kadife",
+            "en": "Blue Velvet",
+            "year": 1986,
+            "director": "David Lynch"
+        },
+        {
+            "tr": "Heathers",
+            "en": "Heathers",
+            "year": 1988,
+            "director": "Michael Lehmann"
+        },
+        {
+            "tr": "Evil Dead 2",
+            "en": "Evil Dead II",
+            "year": 1987,
+            "director": "Sam Raimi"
+        },
+        {
+            "tr": "Oldboy",
+            "en": "Oldboy",
+            "year": 2003,
+            "director": "Park Chan-wook"
+        },
+        {
+            "tr": "Battle Royale",
+            "en": "Battle Royale",
+            "year": 2000,
+            "director": "Kinji Fukasaku"
+        },
+        {
+            "tr": "Pi",
+            "en": "Pi",
+            "year": 1998,
+            "director": "Darren Aronofsky"
+        },
+        {
+            "tr": "Memento",
+            "en": "Memento",
+            "year": 2000,
+            "director": "Christopher Nolan"
+        },
+        {
+            "tr": "Mulholland Drive",
+            "en": "Mulholland Drive",
+            "year": 2001,
+            "director": "David Lynch"
+        },
+        {
+            "tr": "El Topo",
+            "en": "El Topo",
+            "year": 1970,
+            "director": "Alejandro Jodorowsky"
+        },
+        {
+            "tr": "Holy Mountain",
+            "en": "The Holy Mountain",
+            "year": 1973,
+            "director": "Alejandro Jodorowsky"
+        },
+        {
+            "tr": "Suspiria",
+            "en": "Suspiria",
+            "year": 1977,
+            "director": "Dario Argento"
+        },
+        {
+            "tr": "Akira",
+            "en": "Akira",
+            "year": 1988,
+            "director": "Katsuhiro Otomo"
+        },
+        {
+            "tr": "Ghost in the Shell",
+            "en": "Ghost in the Shell",
+            "year": 1995,
+            "director": "Mamoru Oshii"
+        },
+        {
+            "tr": "Barton Fink",
+            "en": "Barton Fink",
+            "year": 1991,
+            "director": "Joel Coen"
+        },
+        {
+            "tr": "Şeytan",
+            "en": "The Exorcist",
+            "year": 1973,
+            "director": "William Friedkin"
+        },
+        {
+            "tr": "Paris Texas",
+            "en": "Paris, Texas",
+            "year": 1984,
+            "director": "Wim Wenders"
+        },
+        {
+            "tr": "Harold and Maude",
+            "en": "Harold and Maude",
+            "year": 1971,
+            "director": "Hal Ashby"
+        },
+        {
+            "tr": "Freaks",
+            "en": "Freaks",
+            "year": 1932,
+            "director": "Tod Browning"
+        },
+        {
+            "tr": "Reefer Madness",
+            "en": "Reefer Madness",
+            "year": 1936,
+            "director": "Louis J. Gasnier"
+        },
+        {
+            "tr": "Plan 9 from Outer Space",
+            "en": "Plan 9 from Outer Space",
+            "year": 1959,
+            "director": "Ed Wood"
+        },
+        {
+            "tr": "The Room",
+            "en": "The Room",
+            "year": 2003,
+            "director": "Tommy Wiseau"
+        },
+        {
+            "tr": "Boondock Saints",
+            "en": "The Boondock Saints",
+            "year": 1999,
+            "director": "Troy Duffy"
+        },
+        {
+            "tr": "Office Space",
+            "en": "Office Space",
+            "year": 1999,
+            "director": "Mike Judge"
+        },
+        {
+            "tr": "Napoleon Dynamite",
+            "en": "Napoleon Dynamite",
+            "year": 2004,
+            "director": "Jared Hess"
+        },
+        {
+            "tr": "Scott Pilgrim vs. the World",
+            "en": "Scott Pilgrim vs. the World",
+            "year": 2010,
+            "director": "Edgar Wright"
+        },
+        {
+            "tr": "Shaun of the Dead",
+            "en": "Shaun of the Dead",
+            "year": 2004,
+            "director": "Edgar Wright"
+        },
+        {
+            "tr": "Hot Fuzz",
+            "en": "Hot Fuzz",
+            "year": 2007,
+            "director": "Edgar Wright"
+        },
+        {
+            "tr": "Princess Bride",
+            "en": "The Princess Bride",
+            "year": 1987,
+            "director": "Rob Reiner"
+        },
+        {
+            "tr": "Labyrinth",
+            "en": "Labyrinth",
+            "year": 1986,
+            "director": "Jim Henson"
+        },
+        {
+            "tr": "Dark Crystal",
+            "en": "The Dark Crystal",
+            "year": 1982,
+            "director": "Jim Henson"
+        },
+        {
+            "tr": "Willow",
+            "en": "Willow",
+            "year": 1988,
+            "director": "Ron Howard"
+        },
+        {
+            "tr": "Conan the Barbarian",
+            "en": "Conan the Barbarian",
+            "year": 1982,
+            "director": "John Milius"
+        },
+        {
+            "tr": "Solaris",
+            "en": "Solaris",
+            "year": 1972,
+            "director": "Andrei Tarkovsky"
+        },
+        {
+            "tr": "Stalker",
+            "en": "Stalker",
+            "year": 1979,
+            "director": "Andrei Tarkovsky"
+        },
+        {
+            "tr": "Metropolis",
+            "en": "Metropolis",
+            "year": 1927,
+            "director": "Fritz Lang"
+        },
+        {
+            "tr": "Nosferatu",
+            "en": "Nosferatu",
+            "year": 1922,
+            "director": "F.W. Murnau"
+        },
+        {
+            "tr": "Cabinet of Dr. Caligari",
+            "en": "The Cabinet of Dr. Caligari",
+            "year": 1920,
+            "director": "Robert Wiene"
+        },
+        {
+            "tr": "M",
+            "en": "M",
+            "year": 1931,
+            "director": "Fritz Lang"
+        },
+        {
+            "tr": "Mad Max",
+            "en": "Mad Max",
+            "year": 1979,
+            "director": "George Miller"
+        },
+        {
+            "tr": "Repo Man",
+            "en": "Repo Man",
+            "year": 1984,
+            "director": "Alex Cox"
+        },
+        {
+            "tr": "Videodrome",
+            "en": "Videodrome",
+            "year": 1983,
+            "director": "David Cronenberg"
+        },
+        {
+            "tr": "Sinek",
+            "en": "The Fly",
+            "year": 1986,
+            "director": "David Cronenberg"
+        },
+        {
+            "tr": "Scanners",
+            "en": "Scanners",
+            "year": 1981,
+            "director": "David Cronenberg"
+        },
+        {
+            "tr": "Naked Lunch",
+            "en": "Naked Lunch",
+            "year": 1991,
+            "director": "David Cronenberg"
+        },
+        {
+            "tr": "Re-Animator",
+            "en": "Re-Animator",
+            "year": 1985,
+            "director": "Stuart Gordon"
+        },
+        {
+            "tr": "Phantasm",
+            "en": "Phantasm",
+            "year": 1979,
+            "director": "Don Coscarelli"
+        },
+        {
+            "tr": "They Live",
+            "en": "They Live",
+            "year": 1988,
+            "director": "John Carpenter"
+        },
+        {
+            "tr": "Big Trouble in Little China",
+            "en": "Big Trouble in Little China",
+            "year": 1986,
+            "director": "John Carpenter"
+        },
+        {
+            "tr": "Escape from New York",
+            "en": "Escape from New York",
+            "year": 1981,
+            "director": "John Carpenter"
+        },
+        {
+            "tr": "The Thing",
+            "en": "The Thing",
+            "year": 1982,
+            "director": "John Carpenter"
+        },
+        {
+            "tr": "Halloween",
+            "en": "Halloween",
+            "year": 1978,
+            "director": "John Carpenter"
+        },
+        {
+            "tr": "Assault on Precinct 13",
+            "en": "Assault on Precinct 13",
+            "year": 1976,
+            "director": "John Carpenter"
+        },
+        {
+            "tr": "Faster, Pussycat! Kill! Kill!",
+            "en": "Faster, Pussycat! Kill! Kill!",
+            "year": 1965,
+            "director": "Russ Meyer"
+        },
+        {
+            "tr": "Pink Flamingos",
+            "en": "Pink Flamingos",
+            "year": 1972,
+            "director": "John Waters"
+        },
+        {
+            "tr": "Female Trouble",
+            "en": "Female Trouble",
+            "year": 1974,
+            "director": "John Waters"
+        },
+        {
+            "tr": "Polyester",
+            "en": "Polyester",
+            "year": 1981,
+            "director": "John Waters"
+        },
+        {
+            "tr": "Hairspray",
+            "en": "Hairspray",
+            "year": 1988,
+            "director": "John Waters"
+        },
+        {
+            "tr": "Barbarella",
+            "en": "Barbarella",
+            "year": 1968,
+            "director": "Roger Vadim"
+        },
+        {
+            "tr": "Flash Gordon",
+            "en": "Flash Gordon",
+            "year": 1980,
+            "director": "Mike Hodges"
+        },
+        {
+            "tr": "Tron",
+            "en": "Tron",
+            "year": 1982,
+            "director": "Steven Lisberger"
+        },
+        {
+            "tr": "WarGames",
+            "en": "WarGames",
+            "year": 1983,
+            "director": "John Badham"
+        },
+        {
+            "tr": "Weird Science",
+            "en": "Weird Science",
+            "year": 1985,
+            "director": "John Hughes"
+        },
+        {
+            "tr": "Ferris Bueller's Day Off",
+            "en": "Ferris Bueller's Day Off",
+            "year": 1986,
+            "director": "John Hughes"
+        },
+        {
+            "tr": "Breakfast Club",
+            "en": "The Breakfast Club",
+            "year": 1985,
+            "director": "John Hughes"
+        },
+        {
+            "tr": "Sixteen Candles",
+            "en": "Sixteen Candles",
+            "year": 1984,
+            "director": "John Hughes"
+        },
+        {
+            "tr": "Say Anything",
+            "en": "Say Anything...",
+            "year": 1989,
+            "director": "Cameron Crowe"
+        },
+        {
+            "tr": "Dazed and Confused",
+            "en": "Dazed and Confused",
+            "year": 1993,
+            "director": "Richard Linklater"
+        },
+        {
+            "tr": "Clerks",
+            "en": "Clerks",
+            "year": 1994,
+            "director": "Kevin Smith"
+        },
+        {
+            "tr": "Mallrats",
+            "en": "Mallrats",
+            "year": 1995,
+            "director": "Kevin Smith"
+        },
+        {
+            "tr": "Chasing Amy",
+            "en": "Chasing Amy",
+            "year": 1997,
+            "director": "Kevin Smith"
+        },
+        {
+            "tr": "Swingers",
+            "en": "Swingers",
+            "year": 1996,
+            "director": "Doug Liman"
+        },
+        {
+            "tr": "Rushmore",
+            "en": "Rushmore",
+            "year": 1998,
+            "director": "Wes Anderson"
+        },
+        {
+            "tr": "Royal Tenenbaums",
+            "en": "The Royal Tenenbaums",
+            "year": 2001,
+            "director": "Wes Anderson"
+        },
+        {
+            "tr": "Bottle Rocket",
+            "en": "Bottle Rocket",
+            "year": 1996,
+            "director": "Wes Anderson"
+        },
+        {
+            "tr": "Being John Malkovich",
+            "en": "Being John Malkovich",
+            "year": 1999,
+            "director": "Spike Jonze"
+        },
+        {
+            "tr": "Adaptation",
+            "en": "Adaptation",
+            "year": 2002,
+            "director": "Spike Jonze"
+        },
+        {
+            "tr": "Eternal Sunshine of the Spotless Mind",
+            "en": "Eternal Sunshine of the Spotless Mind",
+            "year": 2004,
+            "director": "Michel Gondry"
+        },
+        {
+            "tr": "Run Lola Run",
+            "en": "Run Lola Run",
+            "year": 1998,
+            "director": "Tom Tykwer"
+        },
+        {
+            "tr": "City of Lost Children",
+            "en": "The City of Lost Children",
+            "year": 1995,
+            "director": "Jean-Pierre Jeunet"
+        },
+        {
+            "tr": "Delicatessen",
+            "en": "Delicatessen",
+            "year": 1991,
+            "director": "Jean-Pierre Jeunet"
+        },
+        {
+            "tr": "Tokyo Story",
+            "en": "Tokyo Story",
+            "year": 1953,
+            "director": "Yasujirō Ozu"
+        },
+        {
+            "tr": "In the Mood for Love",
+            "en": "In the Mood for Love",
+            "year": 2000,
+            "director": "Wong Kar-wai"
+        },
+        {
+            "tr": "Chungking Express",
+            "en": "Chungking Express",
+            "year": 1994,
+            "director": "Wong Kar-wai"
+        },
+        {
+            "tr": "Hard Boiled",
+            "en": "Hard Boiled",
+            "year": 1992,
+            "director": "John Woo"
+        },
+        {
+            "tr": "The Killer",
+            "en": "The Killer",
+            "year": 1989,
+            "director": "John Woo"
+        }
+    ]
+}

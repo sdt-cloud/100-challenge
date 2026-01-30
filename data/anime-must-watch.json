@@ -1,0 +1,694 @@
+{
+    "id": "100-must-watch-anime",
+    "title": "Mutlaka İzlenmesi Gereken 100 Anime",
+    "description": "Anime dünyasının en önemli ve etkili yapıtları. Her anime severin izlemesi gereken başyapıtlar.",
+    "category": "anime",
+    "subcategory": "must-watch",
+    "tags": [
+        "⭐ Efsane",
+        "🏆 Başyapıt",
+        "📺 Mutlaka İzle"
+    ],
+    "cover": "must-watch-anime-cover.jpg",
+    "items": [
+        {
+            "tr": "Death Note",
+            "en": "Death Note",
+            "year": 2006,
+            "studio": "Madhouse",
+            "episodes": 37
+        },
+        {
+            "tr": "Fullmetal Alchemist: Brotherhood",
+            "en": "Fullmetal Alchemist: Brotherhood",
+            "year": 2009,
+            "studio": "Bones",
+            "episodes": 64
+        },
+        {
+            "tr": "Steins;Gate",
+            "en": "Steins;Gate",
+            "year": 2011,
+            "studio": "White Fox",
+            "episodes": 24
+        },
+        {
+            "tr": "Attack on Titan",
+            "en": "Shingeki no Kyojin",
+            "year": 2013,
+            "studio": "Wit Studio",
+            "episodes": 87
+        },
+        {
+            "tr": "Code Geass",
+            "en": "Code Geass",
+            "year": 2006,
+            "studio": "Sunrise",
+            "episodes": 50
+        },
+        {
+            "tr": "Cowboy Bebop",
+            "en": "Cowboy Bebop",
+            "year": 1998,
+            "studio": "Sunrise",
+            "episodes": 26
+        },
+        {
+            "tr": "Neon Genesis Evangelion",
+            "en": "Neon Genesis Evangelion",
+            "year": 1995,
+            "studio": "Gainax",
+            "episodes": 26
+        },
+        {
+            "tr": "Monster",
+            "en": "Monster",
+            "year": 2004,
+            "studio": "Madhouse",
+            "episodes": 74
+        },
+        {
+            "tr": "Hunter x Hunter",
+            "en": "Hunter x Hunter (2011)",
+            "year": 2011,
+            "studio": "Madhouse",
+            "episodes": 148
+        },
+        {
+            "tr": "One Punch Man",
+            "en": "One Punch Man",
+            "year": 2015,
+            "studio": "Madhouse",
+            "episodes": 24
+        },
+        {
+            "tr": "Mob Psycho 100",
+            "en": "Mob Psycho 100",
+            "year": 2016,
+            "studio": "Bones",
+            "episodes": 37
+        },
+        {
+            "tr": "Vinland Saga",
+            "en": "Vinland Saga",
+            "year": 2019,
+            "studio": "Wit Studio",
+            "episodes": 48
+        },
+        {
+            "tr": "Demon Slayer",
+            "en": "Kimetsu no Yaiba",
+            "year": 2019,
+            "studio": "ufotable",
+            "episodes": 44
+        },
+        {
+            "tr": "Jujutsu Kaisen",
+            "en": "Jujutsu Kaisen",
+            "year": 2020,
+            "studio": "MAPPA",
+            "episodes": 47
+        },
+        {
+            "tr": "My Hero Academia",
+            "en": "Boku no Hero Academia",
+            "year": 2016,
+            "studio": "Bones",
+            "episodes": 138
+        },
+        {
+            "tr": "Haikyuu!!",
+            "en": "Haikyuu!!",
+            "year": 2014,
+            "studio": "Production I.G",
+            "episodes": 85
+        },
+        {
+            "tr": "Kuroko's Basketball",
+            "en": "Kuroko no Basket",
+            "year": 2012,
+            "studio": "Production I.G",
+            "episodes": 75
+        },
+        {
+            "tr": "Your Lie in April",
+            "en": "Shigatsu wa Kimi no Uso",
+            "year": 2014,
+            "studio": "A-1 Pictures",
+            "episodes": 22
+        },
+        {
+            "tr": "Clannad: After Story",
+            "en": "Clannad: After Story",
+            "year": 2008,
+            "studio": "Kyoto Animation",
+            "episodes": 24
+        },
+        {
+            "tr": "Anohana",
+            "en": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai",
+            "year": 2011,
+            "studio": "A-1 Pictures",
+            "episodes": 11
+        },
+        {
+            "tr": "Violet Evergarden",
+            "en": "Violet Evergarden",
+            "year": 2018,
+            "studio": "Kyoto Animation",
+            "episodes": 13
+        },
+        {
+            "tr": "A Silent Voice",
+            "en": "Koe no Katachi",
+            "year": 2016,
+            "studio": "Kyoto Animation",
+            "episodes": 1
+        },
+        {
+            "tr": "Your Name",
+            "en": "Kimi no Na wa",
+            "year": 2016,
+            "studio": "CoMix Wave Films",
+            "episodes": 1
+        },
+        {
+            "tr": "Spirited Away",
+            "en": "Sen to Chihiro no Kamikakushi",
+            "year": 2001,
+            "studio": "Studio Ghibli",
+            "episodes": 1
+        },
+        {
+            "tr": "Princess Mononoke",
+            "en": "Mononoke Hime",
+            "year": 1997,
+            "studio": "Studio Ghibli",
+            "episodes": 1
+        },
+        {
+            "tr": "Howl's Moving Castle",
+            "en": "Howl no Ugoku Shiro",
+            "year": 2004,
+            "studio": "Studio Ghibli",
+            "episodes": 1
+        },
+        {
+            "tr": "Grave of the Fireflies",
+            "en": "Hotaru no Haka",
+            "year": 1988,
+            "studio": "Studio Ghibli",
+            "episodes": 1
+        },
+        {
+            "tr": "My Neighbor Totoro",
+            "en": "Tonari no Totoro",
+            "year": 1988,
+            "studio": "Studio Ghibli",
+            "episodes": 1
+        },
+        {
+            "tr": "Akira",
+            "en": "Akira",
+            "year": 1988,
+            "studio": "Tokyo Movie Shinsha",
+            "episodes": 1
+        },
+        {
+            "tr": "Ghost in the Shell",
+            "en": "Koukaku Kidoutai",
+            "year": 1995,
+            "studio": "Production I.G",
+            "episodes": 1
+        },
+        {
+            "tr": "Perfect Blue",
+            "en": "Perfect Blue",
+            "year": 1997,
+            "studio": "Madhouse",
+            "episodes": 1
+        },
+        {
+            "tr": "Paprika",
+            "en": "Paprika",
+            "year": 2006,
+            "studio": "Madhouse",
+            "episodes": 1
+        },
+        {
+            "tr": "Tokyo Ghoul",
+            "en": "Tokyo Ghoul",
+            "year": 2014,
+            "studio": "Pierrot",
+            "episodes": 48
+        },
+        {
+            "tr": "Parasyte",
+            "en": "Kiseijuu: Sei no Kakuritsu",
+            "year": 2014,
+            "studio": "Madhouse",
+            "episodes": 24
+        },
+        {
+            "tr": "Psycho-Pass",
+            "en": "Psycho-Pass",
+            "year": 2012,
+            "studio": "Production I.G",
+            "episodes": 41
+        },
+        {
+            "tr": "Erased",
+            "en": "Boku dake ga Inai Machi",
+            "year": 2016,
+            "studio": "A-1 Pictures",
+            "episodes": 12
+        },
+        {
+            "tr": "The Promised Neverland",
+            "en": "Yakusoku no Neverland",
+            "year": 2019,
+            "studio": "CloverWorks",
+            "episodes": 23
+        },
+        {
+            "tr": "Made in Abyss",
+            "en": "Made in Abyss",
+            "year": 2017,
+            "studio": "Kinema Citrus",
+            "episodes": 25
+        },
+        {
+            "tr": "Re:Zero",
+            "en": "Re:Zero kara Hajimeru Isekai Seikatsu",
+            "year": 2016,
+            "studio": "White Fox",
+            "episodes": 50
+        },
+        {
+            "tr": "Sword Art Online",
+            "en": "Sword Art Online",
+            "year": 2012,
+            "studio": "A-1 Pictures",
+            "episodes": 96
+        },
+        {
+            "tr": "No Game No Life",
+            "en": "No Game No Life",
+            "year": 2014,
+            "studio": "Madhouse",
+            "episodes": 12
+        },
+        {
+            "tr": "Overlord",
+            "en": "Overlord",
+            "year": 2015,
+            "studio": "Madhouse",
+            "episodes": 52
+        },
+        {
+            "tr": "That Time I Got Reincarnated as a Slime",
+            "en": "Tensei shitara Slime Datta Ken",
+            "year": 2018,
+            "studio": "8bit",
+            "episodes": 72
+        },
+        {
+            "tr": "Konosuba",
+            "en": "Kono Subarashii Sekai ni Shukufuku wo!",
+            "year": 2016,
+            "studio": "Studio Deen",
+            "episodes": 22
+        },
+        {
+            "tr": "Fate/Zero",
+            "en": "Fate/Zero",
+            "year": 2011,
+            "studio": "ufotable",
+            "episodes": 25
+        },
+        {
+            "tr": "Fate/Stay Night: Unlimited Blade Works",
+            "en": "Fate/stay night: Unlimited Blade Works",
+            "year": 2014,
+            "studio": "ufotable",
+            "episodes": 26
+        },
+        {
+            "tr": "Monogatari Series",
+            "en": "Bakemonogatari",
+            "year": 2009,
+            "studio": "Shaft",
+            "episodes": 100
+        },
+        {
+            "tr": "March Comes in Like a Lion",
+            "en": "3-gatsu no Lion",
+            "year": 2016,
+            "studio": "Shaft",
+            "episodes": 44
+        },
+        {
+            "tr": "Mushishi",
+            "en": "Mushishi",
+            "year": 2005,
+            "studio": "Artland",
+            "episodes": 46
+        },
+        {
+            "tr": "Samurai Champloo",
+            "en": "Samurai Champloo",
+            "year": 2004,
+            "studio": "Manglobe",
+            "episodes": 26
+        },
+        {
+            "tr": "Rurouni Kenshin",
+            "en": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+            "year": 1996,
+            "studio": "Studio Gallop",
+            "episodes": 94
+        },
+        {
+            "tr": "Gintama",
+            "en": "Gintama",
+            "year": 2006,
+            "studio": "Sunrise",
+            "episodes": 367
+        },
+        {
+            "tr": "Great Teacher Onizuka",
+            "en": "Great Teacher Onizuka",
+            "year": 1999,
+            "studio": "Pierrot",
+            "episodes": 43
+        },
+        {
+            "tr": "Slam Dunk",
+            "en": "Slam Dunk",
+            "year": 1993,
+            "studio": "Toei Animation",
+            "episodes": 101
+        },
+        {
+            "tr": "Dragon Ball Z",
+            "en": "Dragon Ball Z",
+            "year": 1989,
+            "studio": "Toei Animation",
+            "episodes": 291
+        },
+        {
+            "tr": "Naruto Shippuden",
+            "en": "Naruto: Shippuuden",
+            "year": 2007,
+            "studio": "Pierrot",
+            "episodes": 500
+        },
+        {
+            "tr": "One Piece",
+            "en": "One Piece",
+            "year": 1999,
+            "studio": "Toei Animation",
+            "episodes": 1100
+        },
+        {
+            "tr": "Bleach",
+            "en": "Bleach",
+            "year": 2004,
+            "studio": "Pierrot",
+            "episodes": 366
+        },
+        {
+            "tr": "Yu Yu Hakusho",
+            "en": "Yuu Yuu Hakusho",
+            "year": 1992,
+            "studio": "Pierrot",
+            "episodes": 112
+        },
+        {
+            "tr": "Black Clover",
+            "en": "Black Clover",
+            "year": 2017,
+            "studio": "Pierrot",
+            "episodes": 170
+        },
+        {
+            "tr": "Fairy Tail",
+            "en": "Fairy Tail",
+            "year": 2009,
+            "studio": "A-1 Pictures",
+            "episodes": 328
+        },
+        {
+            "tr": "Berserk",
+            "en": "Berserk",
+            "year": 1997,
+            "studio": "OLM",
+            "episodes": 25
+        },
+        {
+            "tr": "Claymore",
+            "en": "Claymore",
+            "year": 2007,
+            "studio": "Madhouse",
+            "episodes": 26
+        },
+        {
+            "tr": "Elfen Lied",
+            "en": "Elfen Lied",
+            "year": 2004,
+            "studio": "Arms",
+            "episodes": 13
+        },
+        {
+            "tr": "Hellsing Ultimate",
+            "en": "Hellsing Ultimate",
+            "year": 2006,
+            "studio": "Madhouse",
+            "episodes": 10
+        },
+        {
+            "tr": "Trigun",
+            "en": "Trigun",
+            "year": 1998,
+            "studio": "Madhouse",
+            "episodes": 26
+        },
+        {
+            "tr": "Inuyasha",
+            "en": "Inuyasha",
+            "year": 2000,
+            "studio": "Sunrise",
+            "episodes": 193
+        },
+        {
+            "tr": "Toradora!",
+            "en": "Toradora!",
+            "year": 2008,
+            "studio": "J.C.Staff",
+            "episodes": 25
+        },
+        {
+            "tr": "Oregairu",
+            "en": "Yahari Ore no Seishun Love Comedy wa Machigatteiru",
+            "year": 2013,
+            "studio": "Brain's Base",
+            "episodes": 38
+        },
+        {
+            "tr": "Kaguya-sama: Love is War",
+            "en": "Kaguya-sama wa Kokurasetai",
+            "year": 2019,
+            "studio": "A-1 Pictures",
+            "episodes": 37
+        },
+        {
+            "tr": "Spy x Family",
+            "en": "Spy x Family",
+            "year": 2022,
+            "studio": "Wit Studio",
+            "episodes": 37
+        },
+        {
+            "tr": "Chainsaw Man",
+            "en": "Chainsaw Man",
+            "year": 2022,
+            "studio": "MAPPA",
+            "episodes": 12
+        },
+        {
+            "tr": "Bocchi the Rock!",
+            "en": "Bocchi the Rock!",
+            "year": 2022,
+            "studio": "CloverWorks",
+            "episodes": 12
+        },
+        {
+            "tr": "Nichijou",
+            "en": "Nichijou",
+            "year": 2011,
+            "studio": "Kyoto Animation",
+            "episodes": 26
+        },
+        {
+            "tr": "K-On!",
+            "en": "K-On!",
+            "year": 2009,
+            "studio": "Kyoto Animation",
+            "episodes": 41
+        },
+        {
+            "tr": "The Melancholy of Haruhi Suzumiya",
+            "en": "Suzumiya Haruhi no Yuuutsu",
+            "year": 2006,
+            "studio": "Kyoto Animation",
+            "episodes": 28
+        },
+        {
+            "tr": "Lucky Star",
+            "en": "Lucky Star",
+            "year": 2007,
+            "studio": "Kyoto Animation",
+            "episodes": 24
+        },
+        {
+            "tr": "Assassination Classroom",
+            "en": "Ansatsu Kyoushitsu",
+            "year": 2015,
+            "studio": "Lerche",
+            "episodes": 47
+        },
+        {
+            "tr": "Classroom of the Elite",
+            "en": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+            "year": 2017,
+            "studio": "Lerche",
+            "episodes": 25
+        },
+        {
+            "tr": "Dr. Stone",
+            "en": "Dr. Stone",
+            "year": 2019,
+            "studio": "TMS Entertainment",
+            "episodes": 59
+        },
+        {
+            "tr": "The Quintessential Quintuplets",
+            "en": "Go-toubun no Hanayome",
+            "year": 2019,
+            "studio": "Tezuka Productions",
+            "episodes": 24
+        },
+        {
+            "tr": "Rent-a-Girlfriend",
+            "en": "Kanojo, Okarishimasu",
+            "year": 2020,
+            "studio": "TMS Entertainment",
+            "episodes": 36
+        },
+        {
+            "tr": "Bunny Girl Senpai",
+            "en": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+            "year": 2018,
+            "studio": "CloverWorks",
+            "episodes": 13
+        },
+        {
+            "tr": "Horimiya",
+            "en": "Horimiya",
+            "year": 2021,
+            "studio": "CloverWorks",
+            "episodes": 13
+        },
+        {
+            "tr": "Fruits Basket",
+            "en": "Fruits Basket",
+            "year": 2019,
+            "studio": "TMS Entertainment",
+            "episodes": 63
+        },
+        {
+            "tr": "Ouran High School Host Club",
+            "en": "Ouran Koukou Host Club",
+            "year": 2006,
+            "studio": "Bones",
+            "episodes": 26
+        },
+        {
+            "tr": "Maid Sama!",
+            "en": "Kaichou wa Maid-sama!",
+            "year": 2010,
+            "studio": "J.C.Staff",
+            "episodes": 26
+        },
+        {
+            "tr": "Golden Time",
+            "en": "Golden Time",
+            "year": 2013,
+            "studio": "J.C.Staff",
+            "episodes": 24
+        },
+        {
+            "tr": "Angel Beats!",
+            "en": "Angel Beats!",
+            "year": 2010,
+            "studio": "P.A. Works",
+            "episodes": 13
+        },
+        {
+            "tr": "Charlotte",
+            "en": "Charlotte",
+            "year": 2015,
+            "studio": "P.A. Works",
+            "episodes": 13
+        },
+        {
+            "tr": "Plastic Memories",
+            "en": "Plastic Memories",
+            "year": 2015,
+            "studio": "Doga Kobo",
+            "episodes": 13
+        },
+        {
+            "tr": "Sword of the Stranger",
+            "en": "Stranger: Mukou Hadan",
+            "year": 2007,
+            "studio": "Bones",
+            "episodes": 1
+        },
+        {
+            "tr": "Redline",
+            "en": "Redline",
+            "year": 2009,
+            "studio": "Madhouse",
+            "episodes": 1
+        },
+        {
+            "tr": "Wolf Children",
+            "en": "Ookami Kodomo no Ame to Yuki",
+            "year": 2012,
+            "studio": "Studio Chizu",
+            "episodes": 1
+        },
+        {
+            "tr": "Summer Wars",
+            "en": "Summer Wars",
+            "year": 2009,
+            "studio": "Madhouse",
+            "episodes": 1
+        },
+        {
+            "tr": "Weathering with You",
+            "en": "Tenki no Ko",
+            "year": 2019,
+            "studio": "CoMix Wave Films",
+            "episodes": 1
+        },
+        {
+            "tr": "I Want to Eat Your Pancreas",
+            "en": "Kimi no Suizou wo Tabetai",
+            "year": 2018,
+            "studio": "Studio VOLN",
+            "episodes": 1
+        }
+    ]
+}

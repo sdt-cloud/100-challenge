@@ -1,0 +1,208 @@
+{
+    "version": "1.0",
+    "lastUpdated": "2026-01-31",
+    "categories": {
+        "films": {
+            "name": "Filmler",
+            "emoji": "🎬",
+            "subcategories": {
+                "must-watch": {
+                    "name": "Mutlaka İzlenmesi Gerekenler",
+                    "emoji": "⭐",
+                    "lists": [
+                        "films-must-watch.json"
+                    ]
+                },
+                "genre": {
+                    "name": "Tür Bazlı",
+                    "emoji": "🎭",
+                    "lists": [
+                        "films-cult.json",
+                        "films-horror.json",
+                        "films-scifi.json",
+                        "films-psychological.json"
+                    ]
+                },
+                "editors": {
+                    "name": "Editörün Seçimi",
+                    "emoji": "✨",
+                    "lists": [
+                        "films-editors-hidden-gems.json"
+                    ]
+                },
+                "geography": {
+                    "name": "Coğrafya / Akım",
+                    "emoji": "🌍",
+                    "lists": [
+                        "films-european.json",
+                        "films-asian.json"
+                    ]
+                }
+            }
+        },
+        "books": {
+            "name": "Kitaplar",
+            "emoji": "📚",
+            "subcategories": {
+                "turkish": {
+                    "name": "Türkçe / Yerli",
+                    "emoji": "🇹🇷",
+                    "lists": [
+                        "books-turkish-1.json"
+                    ]
+                },
+                "classics": {
+                    "name": "Dünya Klasikleri",
+                    "emoji": "🌍",
+                    "lists": [
+                        "books-world-classics.json"
+                    ]
+                },
+                "genre": {
+                    "name": "Tür Bazlı",
+                    "emoji": "🧠",
+                    "lists": [
+                        "books-scifi.json"
+                    ]
+                }
+            }
+        },
+        "anime": {
+            "name": "Animeler",
+            "emoji": "🎌",
+            "subcategories": {
+                "must-watch": {
+                    "name": "Mutlaka İzlenmesi Gerekenler",
+                    "emoji": "⭐",
+                    "lists": [
+                        "anime-must-watch.json"
+                    ]
+                },
+                "genre": {
+                    "name": "Tür Bazlı",
+                    "emoji": "🎭",
+                    "lists": [
+                        "anime-shounen.json",
+                        "anime-seinen.json",
+                        "anime-isekai.json",
+                        "anime-romance.json"
+                    ]
+                }
+            }
+        },
+        "expandable": {
+            "name": "Yakında",
+            "emoji": "🔮",
+            "comingSoon": true,
+            "placeholders": [
+                {
+                    "id": "music",
+                    "title": "100 Albüm – Müzik Tarihi",
+                    "emoji": "🎧"
+                },
+                {
+                    "id": "games",
+                    "title": "100 Oyun – Oynamadan Geçme",
+                    "emoji": "🎮"
+                },
+                {
+                    "id": "documentaries",
+                    "title": "100 Belgesel",
+                    "emoji": "📺"
+                },
+                {
+                    "id": "podcasts",
+                    "title": "100 Podcast Bölümü",
+                    "emoji": "🎙️"
+                },
+                {
+                    "id": "youtube",
+                    "title": "100 YouTube Kanalı",
+                    "emoji": "📹"
+                }
+            ]
+        }
+    },
+    "allLists": [
+        {
+            "file": "films-must-watch.json",
+            "category": "films",
+            "subcategory": "must-watch"
+        },
+        {
+            "file": "films-cult.json",
+            "category": "films",
+            "subcategory": "genre"
+        },
+        {
+            "file": "films-horror.json",
+            "category": "films",
+            "subcategory": "genre"
+        },
+        {
+            "file": "films-scifi.json",
+            "category": "films",
+            "subcategory": "genre"
+        },
+        {
+            "file": "films-psychological.json",
+            "category": "films",
+            "subcategory": "genre"
+        },
+        {
+            "file": "films-european.json",
+            "category": "films",
+            "subcategory": "geography"
+        },
+        {
+            "file": "films-asian.json",
+            "category": "films",
+            "subcategory": "geography"
+        },
+        {
+            "file": "films-editors-hidden-gems.json",
+            "category": "films",
+            "subcategory": "editors"
+        },
+        {
+            "file": "books-turkish-1.json",
+            "category": "books",
+            "subcategory": "turkish"
+        },
+        {
+            "file": "books-world-classics.json",
+            "category": "books",
+            "subcategory": "classics"
+        },
+        {
+            "file": "books-scifi.json",
+            "category": "books",
+            "subcategory": "genre"
+        },
+        {
+            "file": "anime-must-watch.json",
+            "category": "anime",
+            "subcategory": "must-watch"
+        },
+        {
+            "file": "anime-shounen.json",
+            "category": "anime",
+            "subcategory": "genre"
+        },
+        {
+            "file": "anime-seinen.json",
+            "category": "anime",
+            "subcategory": "genre"
+        },
+        {
+            "file": "anime-isekai.json",
+            "category": "anime",
+            "subcategory": "genre"
+        },
+        {
+            "file": "anime-romance.json",
+            "category": "anime",
+            "subcategory": "genre"
+        }
+    ]
+}

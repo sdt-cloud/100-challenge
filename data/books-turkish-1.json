@@ -1,0 +1,603 @@
+{
+    "id": "100-turkish-literature-1",
+    "title": "Türk Edebiyatında Mutlaka Okunması Gereken 100 Eser – I",
+    "description": "Türk edebiyatının temel taşları. Tanzimat'tan Cumhuriyet'e, klasiklerden modern ustalara uzanan bir yolculuk. (1. Bölüm)",
+    "category": "books",
+    "subcategory": "turkish",
+    "tags": [
+        "🇹🇷 Türk Edebiyatı",
+        "📖 Klasik",
+        "✍️ Roman"
+    ],
+    "cover": "turkish-literature-cover.jpg",
+    "items": [
+        {
+            "title": "İnce Memed",
+            "author": "Yaşar Kemal",
+            "year": 1955,
+            "genre": "Roman"
+        },
+        {
+            "title": "Tutunamayanlar",
+            "author": "Oğuz Atay",
+            "year": 1971,
+            "genre": "Roman"
+        },
+        {
+            "title": "Saatleri Ayarlama Enstitüsü",
+            "author": "Ahmet Hamdi Tanpınar",
+            "year": 1961,
+            "genre": "Roman"
+        },
+        {
+            "title": "Huzur",
+            "author": "Ahmet Hamdi Tanpınar",
+            "year": 1949,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kürk Mantolu Madonna",
+            "author": "Sabahattin Ali",
+            "year": 1943,
+            "genre": "Roman"
+        },
+        {
+            "title": "Yaban",
+            "author": "Yakup Kadri Karaosmanoğlu",
+            "year": 1932,
+            "genre": "Roman"
+        },
+        {
+            "title": "Çalıkuşu",
+            "author": "Reşat Nuri Güntekin",
+            "year": 1922,
+            "genre": "Roman"
+        },
+        {
+            "title": "Sinekli Bakkal",
+            "author": "Halide Edib Adıvar",
+            "year": 1936,
+            "genre": "Roman"
+        },
+        {
+            "title": "Sultanahmet Bağları",
+            "author": "Reşat Nuri Güntekin",
+            "year": 1940,
+            "genre": "Roman"
+        },
+        {
+            "title": "Yaprak Dökümü",
+            "author": "Reşat Nuri Güntekin",
+            "year": 1930,
+            "genre": "Roman"
+        },
+        {
+            "title": "Aşk-ı Memnu",
+            "author": "Halit Ziya Uşaklıgil",
+            "year": 1900,
+            "genre": "Roman"
+        },
+        {
+            "title": "Mai ve Siyah",
+            "author": "Halit Ziya Uşaklıgil",
+            "year": 1897,
+            "genre": "Roman"
+        },
+        {
+            "title": "Acımak",
+            "author": "Halide Edib Adıvar",
+            "year": 1928,
+            "genre": "Roman"
+        },
+        {
+            "title": "Ateşten Gömlek",
+            "author": "Halide Edib Adıvar",
+            "year": 1923,
+            "genre": "Roman"
+        },
+        {
+            "title": "Araba Sevdası",
+            "author": "Recaizade Mahmut Ekrem",
+            "year": 1898,
+            "genre": "Roman"
+        },
+        {
+            "title": "Sergüzeşt",
+            "author": "Samipaşazade Sezai",
+            "year": 1889,
+            "genre": "Roman"
+        },
+        {
+            "title": "İntibah",
+            "author": "Namık Kemal",
+            "year": 1876,
+            "genre": "Roman"
+        },
+        {
+            "title": "Cezmi",
+            "author": "Namık Kemal",
+            "year": 1880,
+            "genre": "Roman"
+        },
+        {
+            "title": "Felâtun Bey ile Râkım Efendi",
+            "author": "Ahmet Mithat Efendi",
+            "year": 1875,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kuyucaklı Yusuf",
+            "author": "Sabahattin Ali",
+            "year": 1937,
+            "genre": "Roman"
+        },
+        {
+            "title": "İçimizdeki Şeytan",
+            "author": "Sabahattin Ali",
+            "year": 1940,
+            "genre": "Roman"
+        },
+        {
+            "title": "Bereketli Topraklar Üzerinde",
+            "author": "Orhan Kemal",
+            "year": 1954,
+            "genre": "Roman"
+        },
+        {
+            "title": "Cemile",
+            "author": "Orhan Kemal",
+            "year": 1952,
+            "genre": "Roman"
+        },
+        {
+            "title": "Murtaza",
+            "author": "Orhan Kemal",
+            "year": 1952,
+            "genre": "Roman"
+        },
+        {
+            "title": "Avare Yıllar",
+            "author": "Orhan Kemal",
+            "year": 1950,
+            "genre": "Roman"
+        },
+        {
+            "title": "Devlet Ana",
+            "author": "Kemal Tahir",
+            "year": 1967,
+            "genre": "Roman"
+        },
+        {
+            "title": "Yorgun Savaşçı",
+            "author": "Kemal Tahir",
+            "year": 1965,
+            "genre": "Roman"
+        },
+        {
+            "title": "Esir Şehrin İnsanları",
+            "author": "Kemal Tahir",
+            "year": 1956,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kurt Kanunu",
+            "author": "Kemal Tahir",
+            "year": 1969,
+            "genre": "Roman"
+        },
+        {
+            "title": "Tehlikeli Oyunlar",
+            "author": "Oğuz Atay",
+            "year": 1973,
+            "genre": "Roman"
+        },
+        {
+            "title": "Bir Bilim Adamının Romanı",
+            "author": "Oğuz Atay",
+            "year": 1975,
+            "genre": "Roman"
+        },
+        {
+            "title": "Anayurt Oteli",
+            "author": "Yusuf Atılgan",
+            "year": 1973,
+            "genre": "Roman"
+        },
+        {
+            "title": "Aylak Adam",
+            "author": "Yusuf Atılgan",
+            "year": 1959,
+            "genre": "Roman"
+        },
+        {
+            "title": "Sevgili Arsız Ölüm",
+            "author": "Latife Tekin",
+            "year": 1983,
+            "genre": "Roman"
+        },
+        {
+            "title": "Berci Kristin Çöp Masalları",
+            "author": "Latife Tekin",
+            "year": 1984,
+            "genre": "Roman"
+        },
+        {
+            "title": "Gece Dersleri",
+            "author": "Latife Tekin",
+            "year": 1986,
+            "genre": "Roman"
+        },
+        {
+            "title": "Benim Adım Kırmızı",
+            "author": "Orhan Pamuk",
+            "year": 1998,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kar",
+            "author": "Orhan Pamuk",
+            "year": 2002,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kafamda Bir Tuhaflık",
+            "author": "Orhan Pamuk",
+            "year": 2014,
+            "genre": "Roman"
+        },
+        {
+            "title": "Masumiyet Müzesi",
+            "author": "Orhan Pamuk",
+            "year": 2008,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kara Kitap",
+            "author": "Orhan Pamuk",
+            "year": 1990,
+            "genre": "Roman"
+        },
+        {
+            "title": "Beyaz Kale",
+            "author": "Orhan Pamuk",
+            "year": 1985,
+            "genre": "Roman"
+        },
+        {
+            "title": "Sessiz Ev",
+            "author": "Orhan Pamuk",
+            "year": 1983,
+            "genre": "Roman"
+        },
+        {
+            "title": "Cevdet Bey ve Oğulları",
+            "author": "Orhan Pamuk",
+            "year": 1982,
+            "genre": "Roman"
+        },
+        {
+            "title": "Puslu Kıtalar Atlası",
+            "author": "İhsan Oktay Anar",
+            "year": 1995,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kitab-ül Hiyel",
+            "author": "İhsan Oktay Anar",
+            "year": 1996,
+            "genre": "Roman"
+        },
+        {
+            "title": "Amat",
+            "author": "İhsan Oktay Anar",
+            "year": 2005,
+            "genre": "Roman"
+        },
+        {
+            "title": "Efrasiyab'ın Hikayeleri",
+            "author": "İhsan Oktay Anar",
+            "year": 1998,
+            "genre": "Roman"
+        },
+        {
+            "title": "Parasız Yatılı",
+            "author": "Füruzan",
+            "year": 1971,
+            "genre": "Roman"
+        },
+        {
+            "title": "47'liler",
+            "author": "Füruzan",
+            "year": 1974,
+            "genre": "Roman"
+        },
+        {
+            "title": "Fiskeye Yedi",
+            "author": "Adalet Ağaoğlu",
+            "year": 1987,
+            "genre": "Roman"
+        },
+        {
+            "title": "Ölmeye Yatmak",
+            "author": "Adalet Ağaoğlu",
+            "year": 1973,
+            "genre": "Roman"
+        },
+        {
+            "title": "Bir Düğün Gecesi",
+            "author": "Adalet Ağaoğlu",
+            "year": 1979,
+            "genre": "Roman"
+        },
+        {
+            "title": "Hayır...",
+            "author": "Adalet Ağaoğlu",
+            "year": 1987,
+            "genre": "Roman"
+        },
+        {
+            "title": "Fikrimin İnce Gülü",
+            "author": "Adalet Ağaoğlu",
+            "year": 1976,
+            "genre": "Roman"
+        },
+        {
+            "title": "Eylül",
+            "author": "Mehmet Rauf",
+            "year": 1901,
+            "genre": "Roman"
+        },
+        {
+            "title": "Dokuzuncu Hariciye Koğuşu",
+            "author": "Peyami Safa",
+            "year": 1931,
+            "genre": "Roman"
+        },
+        {
+            "title": "Fatih Harbiye",
+            "author": "Peyami Safa",
+            "year": 1931,
+            "genre": "Roman"
+        },
+        {
+            "title": "Bir Akşamdı Geldi",
+            "author": "Peyami Safa",
+            "year": 1931,
+            "genre": "Roman"
+        },
+        {
+            "title": "Sözde Kızlar",
+            "author": "Peyami Safa",
+            "year": 1923,
+            "genre": "Roman"
+        },
+        {
+            "title": "Matmazel Noraliya'nın Koltuğu",
+            "author": "Peyami Safa",
+            "year": 1949,
+            "genre": "Roman"
+        },
+        {
+            "title": "Biz İnsanlar",
+            "author": "Peyami Safa",
+            "year": 1959,
+            "genre": "Roman"
+        },
+        {
+            "title": "Yalnızız",
+            "author": "Peyami Safa",
+            "year": 1951,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kiralık Konak",
+            "author": "Yakup Kadri Karaosmanoğlu",
+            "year": 1922,
+            "genre": "Roman"
+        },
+        {
+            "title": "Sodom ve Gomore",
+            "author": "Yakup Kadri Karaosmanoğlu",
+            "year": 1928,
+            "genre": "Roman"
+        },
+        {
+            "title": "Panorama",
+            "author": "Yakup Kadri Karaosmanoğlu",
+            "year": 1954,
+            "genre": "Roman"
+        },
+        {
+            "title": "Ankara",
+            "author": "Yakup Kadri Karaosmanoğlu",
+            "year": 1934,
+            "genre": "Roman"
+        },
+        {
+            "title": "Hep O Şarkı",
+            "author": "Yakup Kadri Karaosmanoğlu",
+            "year": 1956,
+            "genre": "Roman"
+        },
+        {
+            "title": "Vurun Kahpeye",
+            "author": "Halide Edib Adıvar",
+            "year": 1926,
+            "genre": "Roman"
+        },
+        {
+            "title": "Tatarcık",
+            "author": "Halide Edib Adıvar",
+            "year": 1939,
+            "genre": "Roman"
+        },
+        {
+            "title": "Sonsuzluğa",
+            "author": "Halide Edib Adıvar",
+            "year": 1942,
+            "genre": "Roman"
+        },
+        {
+            "title": "Akile Hanım Sokağı",
+            "author": "Halide Edib Adıvar",
+            "year": 1958,
+            "genre": "Roman"
+        },
+        {
+            "title": "Mor Salkımlı Ev",
+            "author": "Halide Edib Adıvar",
+            "year": 1963,
+            "genre": "Otobiyografi"
+        },
+        {
+            "title": "Türk'ün Ateşle İmtihanı",
+            "author": "Halide Edib Adıvar",
+            "year": 1962,
+            "genre": "Anı"
+        },
+        {
+            "title": "Bir Gün Tek Başına",
+            "author": "Vedat Türkali",
+            "year": 1974,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kayıp Aranıyor",
+            "author": "Vedat Türkali",
+            "year": 2007,
+            "genre": "Roman"
+        },
+        {
+            "title": "Yılanların Öcü",
+            "author": "Fakir Baykurt",
+            "year": 1959,
+            "genre": "Roman"
+        },
+        {
+            "title": "Irazca'nın Dirliği",
+            "author": "Fakir Baykurt",
+            "year": 1961,
+            "genre": "Roman"
+        },
+        {
+            "title": "Kara Ahmet Destanı",
+            "author": "Fakir Baykurt",
+            "year": 1977,
+            "genre": "Roman"
+        },
+        {
+            "title": "Amerikan Sargısı",
+            "author": "Fakir Baykurt",
+            "year": 1967,
+            "genre": "Roman"
+        },
+        {
+            "title": "Tırpan",
+            "author": "Fakir Baykurt",
+            "year": 1970,
+            "genre": "Roman"
+        },
+        {
+            "title": "Suçu",
+            "author": "Samim Kocagöz",
+            "year": 1958,
+            "genre": "Roman"
+        },
+        {
+            "title": "Sap Oğlan",
+            "author": "Necati Cumalı",
+            "year": 1940,
+            "genre": "Roman"
+        },
+        {
+            "title": "Tütün Zamanı",
+            "author": "Necati Cumalı",
+            "year": 1959,
+            "genre": "Roman"
+        },
+        {
+            "title": "Zelzele Bitti mi?",
+            "author": "Necati Cumalı",
+            "year": 1963,
+            "genre": "Roman"
+        },
+        {
+            "title": "Bu Ülke",
+            "author": "Cemil Meriç",
+            "year": 1974,
+            "genre": "Deneme"
+        },
+        {
+            "title": "Mağaradakiler",
+            "author": "Cemil Meriç",
+            "year": 1978,
+            "genre": "Deneme"
+        },
+        {
+            "title": "Umrandan Uygarlığa",
+            "author": "Cemil Meriç",
+            "year": 1974,
+            "genre": "Deneme"
+        },
+        {
+            "title": "Jurnal",
+            "author": "Cemil Meriç",
+            "year": 1992,
+            "genre": "Günlük"
+        },
+        {
+            "title": "Safahat",
+            "author": "Mehmet Akif Ersoy",
+            "year": 1911,
+            "genre": "Şiir"
+        },
+        {
+            "title": "Şiirler",
+            "author": "Nâzım Hikmet",
+            "year": 1945,
+            "genre": "Şiir"
+        },
+        {
+            "title": "Memleketimden İnsan Manzaraları",
+            "author": "Nâzım Hikmet",
+            "year": 1966,
+            "genre": "Şiir"
+        },
+        {
+            "title": "Kurtuluş Savaşı Destanı",
+            "author": "Nâzım Hikmet",
+            "year": 1965,
+            "genre": "Şiir"
+        },
+        {
+            "title": "Yaşamaya Dair",
+            "author": "Nâzım Hikmet",
+            "year": 1962,
+            "genre": "Şiir"
+        },
+        {
+            "title": "Şeyh Bedreddin Destanı",
+            "author": "Nâzım Hikmet",
+            "year": 1936,
+            "genre": "Şiir"
+        },
+        {
+            "title": "Rubailer ve Hayyam'ın Rubailerini Türkçe Söyleyiş",
+            "author": "Yahya Kemal Beyatlı",
+            "year": 1963,
+            "genre": "Şiir"
+        },
+        {
+            "title": "Kendi Gök Kubbemiz",
+            "author": "Yahya Kemal Beyatlı",
+            "year": 1961,
+            "genre": "Şiir"
+        },
+        {
+            "title": "Eski Şiirin Rüzgarıyla",
+            "author": "Yahya Kemal Beyatlı",
+            "year": 1962,
+            "genre": "Şiir"
+        }
+    ]
+}

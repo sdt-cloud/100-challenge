@@ -1,0 +1,165 @@
+{
+    "id": "editors-pick-hidden-gems",
+    "title": "Editörün Seçimi: Az Bilinen Ama Efsane 25 Film",
+    "description": "Ana akımın dışında kalmış ama sinema severler tarafından keşfedilmeyi bekleyen unutulmaz yapımlar.",
+    "category": "films",
+    "subcategory": "editors",
+    "tags": [
+        "💎 Gizli Hazine",
+        "🎯 Editör Seçimi",
+        "🌟 Keşfet"
+    ],
+    "cover": "hidden-gems-cover.jpg",
+    "items": [
+        {
+            "tr": "Moon",
+            "en": "Moon",
+            "year": 2009,
+            "director": "Duncan Jones"
+        },
+        {
+            "tr": "Coherence",
+            "en": "Coherence",
+            "year": 2013,
+            "director": "James Ward Byrkit"
+        },
+        {
+            "tr": "Primer",
+            "en": "Primer",
+            "year": 2004,
+            "director": "Shane Carruth"
+        },
+        {
+            "tr": "Predestination",
+            "en": "Predestination",
+            "year": 2014,
+            "director": "Spierig Brothers"
+        },
+        {
+            "tr": "The Man from Earth",
+            "en": "The Man from Earth",
+            "year": 2007,
+            "director": "Richard Schenkman"
+        },
+        {
+            "tr": "Timecrimes",
+            "en": "Timecrimes",
+            "year": 2007,
+            "director": "Nacho Vigalondo"
+        },
+        {
+            "tr": "Triangle",
+            "en": "Triangle",
+            "year": 2009,
+            "director": "Christopher Smith"
+        },
+        {
+            "tr": "Another Earth",
+            "en": "Another Earth",
+            "year": 2011,
+            "director": "Mike Cahill"
+        },
+        {
+            "tr": "The One I Love",
+            "en": "The One I Love",
+            "year": 2014,
+            "director": "Charlie McDowell"
+        },
+        {
+            "tr": "Safety Not Guaranteed",
+            "en": "Safety Not Guaranteed",
+            "year": 2012,
+            "director": "Colin Trevorrow"
+        },
+        {
+            "tr": "A Ghost Story",
+            "en": "A Ghost Story",
+            "year": 2017,
+            "director": "David Lowery"
+        },
+        {
+            "tr": "The Invitation",
+            "en": "The Invitation",
+            "year": 2015,
+            "director": "Karyn Kusama"
+        },
+        {
+            "tr": "Blue Ruin",
+            "en": "Blue Ruin",
+            "year": 2013,
+            "director": "Jeremy Saulnier"
+        },
+        {
+            "tr": "Green Room",
+            "en": "Green Room",
+            "year": 2015,
+            "director": "Jeremy Saulnier"
+        },
+        {
+            "tr": "The Guest",
+            "en": "The Guest",
+            "year": 2014,
+            "director": "Adam Wingard"
+        },
+        {
+            "tr": "You're Next",
+            "en": "You're Next",
+            "year": 2011,
+            "director": "Adam Wingard"
+        },
+        {
+            "tr": "Upgrade",
+            "en": "Upgrade",
+            "year": 2018,
+            "director": "Leigh Whannell"
+        },
+        {
+            "tr": "Super Dark Times",
+            "en": "Super Dark Times",
+            "year": 2017,
+            "director": "Kevin Phillips"
+        },
+        {
+            "tr": "The Vast of Night",
+            "en": "The Vast of Night",
+            "year": 2019,
+            "director": "Andrew Patterson"
+        },
+        {
+            "tr": "Resolution",
+            "en": "Resolution",
+            "year": 2012,
+            "director": "Justin Benson"
+        },
+        {
+            "tr": "The Endless",
+            "en": "The Endless",
+            "year": 2017,
+            "director": "Justin Benson"
+        },
+        {
+            "tr": "Spring",
+            "en": "Spring",
+            "year": 2014,
+            "director": "Justin Benson"
+        },
+        {
+            "tr": "The Battery",
+            "en": "The Battery",
+            "year": 2012,
+            "director": "Jeremy Gardner"
+        },
+        {
+            "tr": "Pontypool",
+            "en": "Pontypool",
+            "year": 2008,
+            "director": "Bruce McDonald"
+        },
+        {
+            "tr": "Midnight Special",
+            "en": "Midnight Special",
+            "year": 2016,
+            "director": "Jeff Nichols"
+        }
+    ]
+}

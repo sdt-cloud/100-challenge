@@ -1,85 +1,64 @@
-# 🚀 100 Challenge
+# 🚀 100 Challenge (Android & Web)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/username/repository/main/assets/hero.png" alt="100 Challenge Hero Banner" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20Web-blue.svg" alt="Platform">
+  <img src="https://img.shields.io/badge/APK-Ready%20to%20Download-success.svg" alt="APK Ready">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome">
 </p>
+
+---
+
+## 📱 Android APK İndir / Download APK
+
+Uygulamayı hemen Android telefonunuza yükleyip test etmek için aşağıdaki butona tıklayarak GitHub Actions üzerinden son sürüm APK dosyasını indirebilirsiniz:
+
+👉 **[📥 100 Challenge APK İndir (GitHub Actions Releases)](https://github.com/sdt-cloud/100-challenge/actions)** *(En son başarılı derlemeden `100-Challenge-APK` artifact'ini indirebilirsiniz)*
 
 ---
 
 ## 🌟 Proje Hakkında / About the Project
 
-**100 Challenge**, kişisel gelişim yolculuğunu eğlenceli ve takip edilebilir bir hale getiren modern bir web platformudur. Filmlerden kitaplara, oyunlardan animelere kadar editörler tarafından özenle seçilmiş "100'lük listeler" ile ilerlemenizi kaydedebilir, istatistiklerinizi görebilir ve kendinize meydan okuyabilirsiniz.
+**100 Challenge**, kişisel gelişim yolculuğunu eğlenceli ve takip edilebilir bir hale getiren modern bir mobil öncelikli web platformudur. Filmlerden kitaplara, oyunlardan animelere kadar ilerlemenizi kaydedebilir, istatistiklerinizi görebilir ve kendinize meydan okuyabilirsiniz. 
 
-**100 Challenge** is a modern web platform that makes your personal growth journey fun and trackable. With carefully curated "top 100 lists" ranging from films and books to games and anime, you can record your progress, view your statistics, and challenge yourself.
+> **Not:** Tamamen **yerel odaklı (local-first)** çalışır; giriş/kayıt gerektirmez, tüm veriler doğrudan telefonunuzda güvenle saklanır.
 
 ---
 
 ## ✨ Öne Çıkan Özellikler / Key Features
 
+- **📱 Android Uyumlu & Yerel**: Giriş ekranı yok, doğrudan açılır ve veriler cihazınızda saklanır.
 - **📊 Gelişmiş İstatistikler**: Toplam tamamlanma oranınızı ve aktif listelerinizi anlık olarak takip edin.
-- **🔍 Keşfet Sayfası**: Filmler, Kitaplar, Animeler ve Oyunlar için hazır listeleri tek tıkla hesabınıza ekleyin.
-- **📡 Canlı API Entegrasyonu**: OMDB, Jikan (MAL) ve RAWG API'leri ile içerik afişlerini ve bilgilerini otomatik yükleyin.
-- **🌓 Dinamik Tema**: Göz yorgunluğunu önleyen karanlık (dark) ve aydınlık (light) mod desteği.
-- **🎲 Rastgele Seçim**: Kararsız kaldığınızda listenizden sizin için rastgele bir madde seçen "Rastgele Seç" özelliği.
-- **📱 Responsive Tasarım**: Mobil ve tablet cihazlarla tam uyumlu, akıcı kullanıcı deneyimi.
+- **🔍 Keşfet & Listelerim**: Filmler, Kitaplar, Animeler ve Oyunlar için hazır listeler oluşturun veya ekleyin.
+- **📡 Canlı API Entegrasyonu**: OMDB, Jikan (MAL) ve RAWG API'leri ile içerik afişlerini otomatik yükleyin.
+- **🌓 Dinamik Tema**: Karanlık (dark) ve aydınlık (light) mod desteği.
+- **🎲 Rastgele Seçim**: Kararsız kaldığınızda listenizden sizin için rastgele bir hedef seçin.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler / Tech Stack
 
-- **HTML5 & CSS3**: Modern ve esnek yapı taşları.
-- **Vanilla JavaScript**: Saf JS ile hızlı ve hafif çalışma mantığı.
-- **LocalStorage**: Verileriniz tamamen tarayıcınızda güvende kalır.
-- **External APIs**:
-  - [OMDB API](https://www.omdbapi.com/) (Movie posters)
-  - [Jikan API](https://jikan.moe/) (Anime data)
-  - [RAWG API](https://rawg.io/apidocs) (Game database)
+- **HTML5, CSS3 & JavaScript (Vanilla JS)**: Hızlı, hafif ve akıcı performans.
+- **Apache Cordova**: Android yerel paketleme altyapısı.
+- **GitHub Actions (CI/CD)**: Her push işleminde otomatik Android APK derleme sistemi.
+- **LocalStorage**: Cihaz içi güvenli veri saklama.
 
 ---
 
 ## 🚀 Hızlı Başlangıç / Quick Start
 
-Projenin çalışması için bir sunucuya ihtiyacı yoktur. Sadece dosyaları indirip `index.html` dosyasını tarayıcınızda açmanız yeterlidir.
-
-The project does not require a backend server. Simply download the files and open `index.html` in your browser.
-
 ```bash
 # Depoyu klonlayın
-git clone https://github.com/sedatorman/100-challenge.git
+git clone https://github.com/sdt-cloud/100-challenge.git
 
 # Dizine gidin
 cd 100-challenge
 
-# Tarayıcıda açın
-start index.html
+# Tarayıcıda test edin
+open index.html
 ```
-
----
-
-## 📸 Ekran Görüntüleri / Screenshots
-
-| Giriş Ekranı | Dashboard | Challenge Detay |
-| :---: | :---: | :---: |
-| ✨ | 📊 | 🎬 |
-
-*(Ekran görüntüleri yakında eklenecektir / Screenshots coming soon)*
 
 ---
 
 ## 📄 Lisans / License
 
 Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/sedatorman">Sedat Orman</a>
-</p>

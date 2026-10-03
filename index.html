@@ -20,61 +20,14 @@
     </button>
 
     <div id="app">
-        <!-- Login/Register Page -->
-        <div id="auth-page" class="page">
-            <div class="auth-container">
-                <div class="logo">
-                    <span class="logo-number">100</span>
-                    <span class="logo-text">Challenge</span>
-                </div>
-                <p class="tagline">Ne yapacağını sen belirlersin.<br>Biz sadece neredesin onu gösteririz.</p>
-
-                <div class="auth-tabs">
-                    <button class="auth-tab active" data-tab="login">Giriş Yap</button>
-                    <button class="auth-tab" data-tab="register">Kayıt Ol</button>
-                </div>
-
-                <form id="login-form" class="auth-form">
-                    <div class="form-group">
-                        <label for="login-email">E-posta</label>
-                        <input type="email" id="login-email" required placeholder="ornek@email.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="login-password">Şifre</label>
-                        <input type="password" id="login-password" required placeholder="••••••••">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Giriş Yap</button>
-                </form>
-
-                <form id="register-form" class="auth-form hidden">
-                    <div class="form-group">
-                        <label for="register-email">E-posta</label>
-                        <input type="email" id="register-email" required placeholder="ornek@email.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="register-password">Şifre</label>
-                        <input type="password" id="register-password" required placeholder="En az 6 karakter">
-                    </div>
-                    <div class="form-group">
-                        <label for="register-password-confirm">Şifre Tekrar</label>
-                        <input type="password" id="register-password-confirm" required placeholder="••••••••">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Kayıt Ol</button>
-                </form>
-
-                <div id="auth-error" class="error-message hidden"></div>
-            </div>
-        </div>
-
         <!-- Dashboard Page -->
-        <div id="dashboard-page" class="page hidden">
+        <div id="dashboard-page" class="page">
             <header class="header">
                 <div class="header-left">
                     <span class="logo-small">100 Challenge</span>
                 </div>
                 <div class="header-right">
                     <span id="current-year" class="year-badge">2026</span>
-                    <button id="logout-btn" class="btn btn-ghost">Çıkış</button>
                 </div>
             </header>
 

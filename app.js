@@ -11,6 +11,22 @@ const APP_STATE = {
     posterCache: {}
 };
 
+// Persist poster URL lookups so previously resolved items do not repeatedly
+// call remote catalogue APIs. This stores URLs only, not image files.
+const PosterCache = {
+    KEY: '100challenge_poster_urls_v1',
+    load() {
+        try { APP_STATE.posterCache = JSON.parse(localStorage.getItem(this.KEY) || '{}'); }
+        catch (_) { APP_STATE.posterCache = {}; }
+    },
+    get(key) { return APP_STATE.posterCache[key] || null; },
+    set(key, url) {
+        if (!url) return;
+        APP_STATE.posterCache[key] = url;
+        try { localStorage.setItem(this.KEY, JSON.stringify(APP_STATE.posterCache)); } catch (_) {}
+    }
+};
+
 // ============ OMDB API Configuration ============
 const MOVIE_API = {
     API_KEY: '3e974fca',
@@ -44,17 +60,21 @@ const MOVIE_API = {
     },
     async searchMovie(query) {
         try {
+            const cacheKey = 'film:' + query.toLowerCase().trim();
+            const cached = PosterCache.get(cacheKey);
+            if (cached) return cached;
             const parenthesesMatch = query.match(/\(([^)]+)\)\s*$/);
             if (parenthesesMatch) {
                 const englishName = parenthesesMatch[1];
                 const posterUrl = await this.fetchPoster(englishName);
-                if (posterUrl) return posterUrl;
+                if (posterUrl) { PosterCache.set(cacheKey, posterUrl); return posterUrl; }
             }
             let posterUrl = await this.fetchPoster(query);
             if (!posterUrl) {
                 const englishName = this.translateToEnglish(query);
                 if (englishName) posterUrl = await this.fetchPoster(englishName);
             }
+            if (posterUrl) PosterCache.set(cacheKey, posterUrl);
             return posterUrl;
         } catch (error) {
             return null;
@@ -80,6 +100,8 @@ const ANIME_API = {
     async searchAnime(query) {
         try {
             const cacheKey = query.toLowerCase().trim();
+            const persisted = PosterCache.get('anime:' + cacheKey);
+            if (persisted) return persisted;
             if (this.cache[cacheKey]) return this.cache[cacheKey];
             let searchQuery = query;
             const parenthesesMatch = query.match(/\(([^)]+)\)\s*$/);
@@ -91,6 +113,7 @@ const ANIME_API = {
             if (data.data && data.data.length > 0) {
                 const imageUrl = data.data[0].images?.jpg?.image_url || null;
                 this.cache[cacheKey] = imageUrl;
+                if (imageUrl) PosterCache.set('anime:' + cacheKey, imageUrl);
                 return imageUrl;
             }
             return null;
@@ -108,6 +131,8 @@ const GAME_API = {
     async searchGame(query) {
         try {
             const cacheKey = query.toLowerCase().trim();
+            const persisted = PosterCache.get('game:' + cacheKey);
+            if (persisted) return persisted;
             if (this.cache[cacheKey]) return this.cache[cacheKey];
             const response = await fetch(`${this.BASE_URL}/games?key=${this.API_KEY}&search=${encodeURIComponent(query)}&page_size=1`);
             if (!response.ok) return null;
@@ -115,6 +140,7 @@ const GAME_API = {
             if (data.results && data.results.length > 0) {
                 const imageUrl = data.results[0].background_image || null;
                 this.cache[cacheKey] = imageUrl;
+                if (imageUrl) PosterCache.set('game:' + cacheKey, imageUrl);
                 return imageUrl;
             }
             return null;
@@ -541,9 +567,10 @@ function renderItems() {
         </li>
     `).join('');
 
-    if (isFilmCategory) loadMoviePosters(items);
-    else if (isAnimeCategory) loadAnimePosters(items);
-    else if (isGamesCategory) loadGamePosters(items);
+    if (showPoster) {
+        const type = isFilmCategory ? 'film' : (isAnimeCategory ? 'anime' : 'game');
+        loadVisiblePosters(items, type);
+    }
 
     DOM.itemsList.querySelectorAll('.item').forEach(itemEl => {
         const itemId = itemEl.dataset.id;
@@ -553,63 +580,73 @@ function renderItems() {
     });
 }
 
-async function loadMoviePosters(items) {
-    for (const item of items) {
-        const posterEl = document.querySelector(`.item-poster[data-item-id="${item.id}"]`);
-        if (!posterEl) continue;
-        if (APP_STATE.posterCache[item.name]) {
-            displayPoster(posterEl, APP_STATE.posterCache[item.name]);
-            continue;
-        }
-        const posterUrl = await MOVIE_API.searchMovie(item.name);
-        if (posterUrl) {
-            APP_STATE.posterCache[item.name] = posterUrl;
-            displayPoster(posterEl, posterUrl);
-        } else {
-            posterEl.classList.remove('loading');
-            posterEl.classList.add('no-poster');
-            posterEl.textContent = '🎬';
-        }
-    }
+function posterFallback(type) {
+    return type === 'anime' ? '🎌' : (type === 'game' ? '🎮' : '🎬');
 }
 
-async function loadAnimePosters(items) {
-    for (const item of items) {
-        const posterEl = document.querySelector(`.item-poster[data-item-id="${item.id}"]`);
-        if (!posterEl) continue;
-        if (APP_STATE.posterCache[item.name]) {
-            displayPoster(posterEl, APP_STATE.posterCache[item.name]);
-            continue;
-        }
-        const posterUrl = await ANIME_API.searchAnime(item.name);
-        if (posterUrl) {
-            APP_STATE.posterCache[item.name] = posterUrl;
-            displayPoster(posterEl, posterUrl);
-        } else {
-            posterEl.classList.remove('loading');
-            posterEl.classList.add('no-poster');
-            posterEl.textContent = '🎌';
-        }
-    }
+function setPosterFallback(element, type) {
+    if (!element) return;
+    element.classList.remove('loading');
+    element.classList.add('no-poster');
+    element.textContent = posterFallback(type);
 }
 
-async function loadGamePosters(items) {
-    for (const item of items) {
-        const posterEl = document.querySelector(`.item-poster[data-item-id="${item.id}"]`);
-        if (!posterEl) continue;
-        if (APP_STATE.posterCache[item.name]) {
-            displayPoster(posterEl, APP_STATE.posterCache[item.name]);
-            continue;
-        }
-        const posterUrl = await GAME_API.searchGame(item.name);
-        if (posterUrl) {
-            APP_STATE.posterCache[item.name] = posterUrl;
-            displayPoster(posterEl, posterUrl);
+async function resolvePosterUrl(type, name) {
+    if (type === 'film') return MOVIE_API.searchMovie(name);
+    if (type === 'anime') return ANIME_API.searchAnime(name);
+    return GAME_API.searchGame(name);
+}
+
+function loadVisiblePosters(items, type) {
+    const root = DOM.itemsList;
+    const els = new Map();
+    root.querySelectorAll('.item-poster[data-item-id]').forEach(el => els.set(el.dataset.itemId, el));
+    if (!('IntersectionObserver' in window)) {
+        items.slice(0, 8).forEach(item => loadSinglePoster(item, type, els.get(item.id)));
+        return;
+    }
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            observer.unobserve(el);
+            const item = items.find(x => x.id === el.dataset.itemId);
+            if (item) loadSinglePoster(item, type, el);
+        });
+    }, { root: null, rootMargin: '500px 0px', threshold: 0.01 });
+    els.forEach(el => observer.observe(el));
+}
+
+async function loadSinglePoster(item, type, el) {
+    if (!el || el.dataset.requested === 'true') return;
+    el.dataset.requested = 'true';
+    const key = `${type}:${item.name.toLowerCase().trim()}`;
+    const cached = PosterCache.get(key);
+    if (cached) {
+        displayPoster(el, cached, posterFallback(type));
+        return;
+    }
+    // Older cache entries created by API-specific search methods are migrated
+    // to the shared key and used without another lookup.
+    const legacyKey = type === 'film'
+        ? `film:${item.name.toLowerCase().trim()}`
+        : `${type}:${item.name.toLowerCase().trim()}`;
+    const legacyUrl = PosterCache.get(legacyKey);
+    if (legacyUrl) {
+        PosterCache.set(key, legacyUrl);
+        displayPoster(el, legacyUrl, posterFallback(type));
+        return;
+    }
+    try {
+        const url = await resolvePosterUrl(type, item.name);
+        if (url) {
+            PosterCache.set(key, url);
+            displayPoster(el, url, posterFallback(type));
         } else {
-            posterEl.classList.remove('loading');
-            posterEl.classList.add('no-poster');
-            posterEl.textContent = '🎮';
+            setPosterFallback(el, type);
         }
+    } catch (_) {
+        setPosterFallback(el, type);
     }
 }
 
@@ -618,6 +655,8 @@ function displayPoster(element, url, fallbackEmoji = '🎬') {
     img.src = url;
     img.alt = 'Afiş';
     img.className = 'item-poster';
+    img.loading = 'lazy';
+    img.decoding = 'async';
     img.onerror = () => {
         element.classList.remove('loading');
         element.classList.add('no-poster');
@@ -1054,6 +1093,7 @@ const Theme = {
 
 // ============ Initialize App ============
 function initApp() {
+    PosterCache.load();
     Theme.init();
     initEventListeners();
     initDashboardTabs();

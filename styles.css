@@ -1317,12 +1317,14 @@ textarea::placeholder {
         padding: 1.5rem;
     }
 
-    /* Mobile theme toggle - below header */
+    /* Mobile theme toggle - floating action button */
     .theme-toggle {
-        top: 4.5rem;
-        left: 1rem;
-        width: 40px;
-        height: 40px;
+        bottom: 1.25rem;
+        right: 1.25rem;
+        top: auto;
+        left: auto;
+        width: 44px;
+        height: 44px;
     }
 
     .theme-toggle .icon-sun,

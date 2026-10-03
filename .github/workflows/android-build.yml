@@ -5,6 +5,9 @@ on:
     branches: [ main, master ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build APK
@@ -17,7 +20,7 @@ jobs:
       - name: Set up NodeJS
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -28,29 +31,54 @@ jobs:
       - name: Install Cordova
         run: npm install -g cordova
 
+      - name: Regenerate Curated Data Bundle
+        run: python3 build_data_bundle.py
+
       - name: Create Cordova Project Wrapper
         run: |
-          # Create a temporary Cordova project
-          cordova create wrapper com.sdtcloud.challenge "100 Challenge"
-          
-          # Move cordova files to current root directory
+          cordova create wrapper com.sdtcloud.challenge "100 Challenge" --no-telemetry
           mv wrapper/config.xml .
-          mv wrapper/package.json cordova-package.json
-          
-          # Prepare www directory
           mkdir -p www
-          # Copy app assets (except the wrapper itself and git files)
-          rsync -av --exclude='wrapper' --exclude='.git' --exclude='.github' ./ www/
-          
-          # Add Android platform
+          rsync -av --exclude='wrapper' --exclude='.git' --exclude='.github' \
+                --exclude='www' --exclude='platforms' --exclude='plugins' \
+                --exclude='node_modules' ./ www/
           cordova platform add android --no-telemetry
 
-      - name: Build Android APK (Debug)
+      - name: Configure App (name + internet permission)
         run: |
-          cordova build android --device --no-telemetry
+          sed -i 's|<content src="index.html" />|<content src="index.html" />\n    <allow-intent href="http://*/*" />\n    <allow-intent href="https://*/*" />|' config.xml || true
+          python3 - <<'PY'
+          import re
+          with open('www/index.html', 'r', encoding='utf-8') as f:
+              html = f.read()
+          print('index.html size:', len(html))
+          PY
+
+      - name: Build Android APK (Debug)
+        run: cordova build android --no-telemetry
+
+      - name: Locate APK
+        id: apk
+        run: |
+          APK=$(find platforms/android/app/build/outputs/apk -name "*.apk" | head -n 1)
+          echo "Found APK: $APK"
+          echo "path=$APK" >> $GITHUB_OUTPUT
+          cp "$APK" ./100-Challenge.apk
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: 100-Challenge-APK
-          path: platforms/android/app/build/outputs/apk/debug/app-debug.apk
+          path: ./100-Challenge.apk
+          if-no-files-found: error
+
+      - name: Publish Downloadable Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete v1.0.0-test --yes --cleanup-tag || true
+          gh release create v1.0.0-test ./100-Challenge.apk \
+            --title "100 Challenge — Son Test Sürümü (APK)" \
+            --notes "Otomatik derlendi. Aşağıdaki APK dosyasını indirip telefona kurabilirsin.
+
+          Değişiklikler: Keşfet bölümü düzeltildi, tüm hazır listeler uygulamayla geliyor, toplu madde ekleme ve yedekle/geri yükle eklendi."

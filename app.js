@@ -1,5 +1,5 @@
 /* ============================================
-   100 Challenge - Application Logic (Local / No Auth)
+   100 Challenge - Application Logic (Local-First + Curated + Backup/Restore)
    ============================================ */
 
 // ============ State Management ============
@@ -36,13 +36,9 @@ const MOVIE_API = {
     },
     translateToEnglish(turkishName) {
         const lowerName = turkishName.toLowerCase().trim();
-        if (this.TURKISH_TRANSLATIONS[lowerName]) {
-            return this.TURKISH_TRANSLATIONS[lowerName];
-        }
+        if (this.TURKISH_TRANSLATIONS[lowerName]) return this.TURKISH_TRANSLATIONS[lowerName];
         for (const [tr, en] of Object.entries(this.TURKISH_TRANSLATIONS)) {
-            if (lowerName.includes(tr) || tr.includes(lowerName)) {
-                return en;
-            }
+            if (lowerName.includes(tr) || tr.includes(lowerName)) return en;
         }
         return null;
     },
@@ -57,9 +53,7 @@ const MOVIE_API = {
             let posterUrl = await this.fetchPoster(query);
             if (!posterUrl) {
                 const englishName = this.translateToEnglish(query);
-                if (englishName) {
-                    posterUrl = await this.fetchPoster(englishName);
-                }
+                if (englishName) posterUrl = await this.fetchPoster(englishName);
             }
             return posterUrl;
         } catch (error) {
@@ -68,14 +62,10 @@ const MOVIE_API = {
     },
     async fetchPoster(query) {
         try {
-            const response = await fetch(
-                `${this.BASE_URL}/?apikey=${this.API_KEY}&t=${encodeURIComponent(query)}&type=movie`
-            );
+            const response = await fetch(`${this.BASE_URL}/?apikey=${this.API_KEY}&t=${encodeURIComponent(query)}&type=movie`);
             if (!response.ok) return null;
             const data = await response.json();
-            if (data.Response === 'True' && data.Poster && data.Poster !== 'N/A') {
-                return data.Poster;
-            }
+            if (data.Response === 'True' && data.Poster && data.Poster !== 'N/A') return data.Poster;
             return null;
         } catch (error) {
             return null;
@@ -94,7 +84,7 @@ const ANIME_API = {
             let searchQuery = query;
             const parenthesesMatch = query.match(/\(([^)]+)\)\s*$/);
             if (parenthesesMatch) searchQuery = parenthesesMatch[1];
-            
+
             const response = await fetch(`${this.BASE_URL}/anime?q=${encodeURIComponent(searchQuery)}&limit=1&sfw=true`);
             if (!response.ok) return null;
             const data = await response.json();
@@ -137,31 +127,100 @@ const GAME_API = {
 // ============ Local Storage Data Layer ============
 const Storage = {
     KEYS: {
-        CHALLENGES: '100challenge_local_lists',
+        CHALLENGES: '100challenge_local_challenges',
         THEME: '100challenge_theme'
     },
     getData() {
         const data = localStorage.getItem(this.KEYS.CHALLENGES);
-        return data ? JSON.parse(data) : {
-            '2026': [
-                {
-                    id: 'sample_1',
-                    category: 'films',
-                    title: '100 Klasik Film',
-                    emoji: '🎬',
-                    items: [
-                        { id: 'i1', name: 'The Godfather (Baba)', completed: true, note: 'Harika bir başyapıt.' },
-                        { id: 'i2', name: 'The Shawshank Redemption (Esaretin Bedeli)', completed: false, note: '' },
-                        { id: 'i3', name: 'Pulp Fiction (Ucuz Roman)', completed: false, note: '' }
-                    ]
-                }
-            ]
-        };
+        if (data) {
+            try { return JSON.parse(data); } catch (e) { /* fall through to migration */ }
+        }
+        // Migrate data saved by the previous local APK version; never discard it.
+        const legacy = localStorage.getItem('100challenge_local_lists');
+        if (legacy) {
+            try {
+                const migrated = JSON.parse(legacy);
+                const seeded = buildSeedData();
+                const year = new Date().getFullYear().toString();
+                const oldYear = Object.keys(migrated).find(k => Array.isArray(migrated[k]));
+                const oldLists = oldYear ? migrated[oldYear] : [];
+                const curatedIds = new Set(oldLists.map(c => c.curatedListId).filter(Boolean));
+                seeded[year] = [...oldLists, ...(seeded[year] || []).filter(c => !curatedIds.has(c.curatedListId))];
+                this.saveData(seeded);
+                return seeded;
+            } catch (e) { /* malformed legacy data; seed cleanly */ }
+        }
+        // First run: seed ALL curated lists into the user's collection.
+        const seed = buildSeedData();
+        this.saveData(seed);
+        return seed;
     },
+    ensureCuratedLists() {
+        const data = this.getData();
+        const year = new Date().getFullYear().toString();
+        const current = data[year] || [];
+        const known = new Set(current.map(c => c.curatedListId).filter(Boolean));
+        const seeds = buildSeedData()[year] || [];
+        const missing = seeds.filter(c => c.curatedListId && !known.has(c.curatedListId));
+        if (missing.length) {
+            data[year] = [...current, ...missing];
+            this.saveData(data);
+        }
+        return data;
+    },
+
     saveData(data) {
         localStorage.setItem(this.KEYS.CHALLENGES, JSON.stringify(data));
     }
 };
+
+// Build the initial collection from every curated list in the data bundle.
+function buildSeedData() {
+    const year = new Date().getFullYear().toString();
+    const challenges = [];
+
+    const bundle = window.CURATED_DATA || {};
+    const all = [];
+    for (const filename in bundle) {
+        if (filename === 'lists-index.json') continue;
+        const list = bundle[filename];
+        if (!list || !Array.isArray(list.items)) continue;
+        all.push(list);
+    }
+
+    // Curated category order for a nicer first impression
+    const order = { films: 0, books: 1, anime: 2, games: 3, music: 4, custom: 5 };
+    all.sort((a, b) => (order[a.category] ?? 9) - (order[b.category] ?? 9));
+
+    for (const list of all) {
+        challenges.push({
+            id: 'curated_' + (list.id || list.title),
+            title: list.title || 'Liste',
+            category: list.category || 'custom',
+            emoji: null,
+            curatedListId: list.id || list.title,
+            createdAt: new Date().toISOString(),
+            items: list.items.map((item, index) => ({
+                id: `${list.id || list.title}-${index}`,
+                name: item.tr || item.title || item.name || String(item),
+                completed: false,
+                note: ''
+            }))
+        });
+    }
+
+    // Fallback: if no bundle is available, keep a small starter list.
+    if (challenges.length === 0) {
+        challenges.push({
+            id: 'sample_1', category: 'films', title: '100 Klasik Film', emoji: '🎬',
+            items: [
+                { id: 'i1', name: 'The Godfather (Baba)', completed: false, note: '' }
+            ]
+        });
+    }
+
+    return { [year]: challenges };
+}
 
 function generateId() {
     return Date.now().toString(36) + Math.random().toString(36).substr(2);
@@ -233,6 +292,14 @@ function setUserChallenges(challenges) {
 function showDashboard() {
     showPage('dashboard-page');
     DOM.currentYear.textContent = APP_STATE.currentYear;
+    // Add curated collections missing from the current local data without overwriting user lists.
+    const updated = Storage.ensureCuratedLists();
+    const yearLists = updated[APP_STATE.currentYear] || [];
+    if (yearLists.length !== (getUserChallenges() || []).length) {
+        // Store any newly discovered catalog lists for this selected year.
+        updated[APP_STATE.currentYear] = yearLists;
+        Storage.saveData(updated);
+    }
     renderChallengesList();
     updateStats();
 }
@@ -252,13 +319,14 @@ function renderChallengesList() {
         const total = challenge.items.length;
         const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;
         const categoryInfo = getCategoryInfo(challenge.category);
+        const title = challenge.title || challenge.name || 'İsimsiz Liste';
 
         return `
             <div class="challenge-card" data-id="${challenge.id}" data-index="${index}">
                 <div class="challenge-card-header">
                     <span class="challenge-card-emoji">${challenge.emoji || categoryInfo.emoji}</span>
                     <div class="challenge-card-info">
-                        <h3 class="challenge-card-title">${escapeHtml(challenge.title)}</h3>
+                        <h3 class="challenge-card-title">${escapeHtml(title)}</h3>
                         <span class="challenge-card-category">${categoryInfo.name}</span>
                     </div>
                 </div>
@@ -333,7 +401,7 @@ function renderChallengeDetail() {
     const categoryInfo = getCategoryInfo(challenge.category);
 
     DOM.challengeEmoji.textContent = challenge.emoji || categoryInfo.emoji;
-    DOM.challengeTitle.textContent = challenge.title;
+    DOM.challengeTitle.textContent = challenge.title || challenge.name;
     DOM.newItemInput.placeholder = categoryInfo.placeholder;
 
     updateChallengeProgress();
@@ -365,6 +433,27 @@ function addItem(name) {
     saveCurrentChallenge();
     renderItems();
     updateChallengeProgress();
+}
+
+// Add multiple items in bulk
+function addBulkItems(text) {
+    if (!text.trim() || !APP_STATE.currentChallenge) return;
+    const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+    let addedCount = 0;
+    lines.forEach(line => {
+        APP_STATE.currentChallenge.items.push({
+            id: generateId(),
+            name: line,
+            completed: false,
+            note: '',
+            createdAt: new Date().toISOString()
+        });
+        addedCount++;
+    });
+    saveCurrentChallenge();
+    renderItems();
+    updateChallengeProgress();
+    showToast(`${addedCount} madde toplu olarak eklendi!`);
 }
 
 function toggleItem(itemId) {
@@ -540,7 +629,7 @@ function displayPoster(element, url, fallbackEmoji = '🎬') {
 }
 
 // ============ Random Pick ============
-function pickRandomItem() {
+function randomPick() {
     const challenge = APP_STATE.currentChallenge;
     if (!challenge || challenge.items.length === 0) return;
 
@@ -550,6 +639,283 @@ function pickRandomItem() {
 
     DOM.randomItemName.textContent = randomItem.name;
     DOM.randomModal.classList.remove('hidden');
+}
+
+// ============ Curated Lists Module ============
+const CuratedLists = {
+    cache: {},
+    index: null,
+    async loadList(filename) {
+        if (this.cache[filename]) return this.cache[filename];
+        // 1) Prefer the embedded bundle (works offline in APK / file://)
+        if (window.CURATED_DATA && window.CURATED_DATA[filename]) {
+            this.cache[filename] = window.CURATED_DATA[filename];
+            return this.cache[filename];
+        }
+        // 2) Fallback to fetching the JSON file (works on web servers)
+        try {
+            const response = await fetch(`data/${filename}`);
+            if (!response.ok) throw new Error(`Failed to load ${filename}`);
+            const data = await response.json();
+            this.cache[filename] = data;
+            return data;
+        } catch (error) {
+            return null;
+        }
+    },
+    async loadIndex() {
+        if (this.index) return this.index;
+        // 1) Prefer the embedded bundle
+        if (window.CURATED_DATA && window.CURATED_DATA['lists-index.json']) {
+            this.index = window.CURATED_DATA['lists-index.json'];
+            return this.index;
+        }
+        // 2) Fallback to fetch
+        try {
+            const response = await fetch('data/lists-index.json');
+            if (!response.ok) throw new Error('Failed to load lists index');
+            this.index = await response.json();
+            return this.index;
+        } catch (error) {
+            return null;
+        }
+    },
+    getCategoryEmoji(category) {
+        const emojis = { films: '🎬', books: '📚', anime: '🎌', music: '🎧', games: '🎮' };
+        return emojis[category] || '📋';
+    },
+    renderListCard(listData) {
+        const itemCount = listData.items?.length || 100;
+        const tags = listData.tags?.slice(0, 3) || [];
+        const emoji = this.getCategoryEmoji(listData.category);
+        const alreadyAdded = getUserChallenges().some(c => c.curatedListId === listData.id);
+
+        return `
+            <div class="curated-list-card" data-list-id="${listData.id}" onclick="CuratedLists.showListDetail('${listData.id}')">
+                <div class="curated-list-header">
+                    <span class="curated-list-emoji">${emoji}</span>
+                    <div class="curated-list-info">
+                        <h4 class="curated-list-title">${listData.title}</h4>
+                        <p class="curated-list-description">${listData.description}</p>
+                    </div>
+                </div>
+                <div class="curated-list-meta">
+                    <div class="curated-list-tags">
+                        ${tags.map(tag => `<span class="tag-badge">${tag}</span>`).join('')}
+                    </div>
+                    <span class="curated-list-count">${itemCount} öğe</span>
+                </div>
+                <div class="curated-list-actions">
+                    <button class="btn btn-secondary" onclick="event.stopPropagation(); CuratedLists.previewList('${listData.id}')">👁️ Önizle</button>
+                    ${alreadyAdded
+                        ? `<button class="btn btn-ghost curated-added-btn" onclick="event.stopPropagation(); CuratedLists.openInCollection('${listData.id}')">✓ Listelerimde — Aç</button>`
+                        : `<button class="btn btn-primary" onclick="event.stopPropagation(); CuratedLists.addListToCollections('${listData.id}')">+ Koleksiyonuma Ekle</button>`}
+                </div>
+            </div>
+        `;
+    },
+    openInCollection(listId) {
+        const challenge = getUserChallenges().find(c => c.curatedListId === listId);
+        if (!challenge) return;
+        switchToMyListsTab();
+        openChallenge(challenge.id);
+    },
+    async loadAndRenderGrid(gridId, listFiles) {
+        const grid = document.getElementById(gridId);
+        if (!grid) return;
+        grid.innerHTML = '<div class="loading-indicator">Yükleniyor...</div>';
+        const lists = [];
+        for (const file of listFiles) {
+            const data = await this.loadList(file);
+            if (data) lists.push(data);
+        }
+        if (lists.length === 0) {
+            grid.innerHTML = '<p class="no-lists">Liste bulunamadı.</p>';
+            return;
+        }
+        grid.innerHTML = lists.map(list => this.renderListCard(list)).join('');
+    },
+    async initExploreSection() {
+        const index = await this.loadIndex();
+        if (!index) return;
+        if (index.categories.films?.subcategories) {
+            const filmSubs = index.categories.films.subcategories;
+            if (filmSubs['must-watch']?.lists) await this.loadAndRenderGrid('films-must-watch-grid', filmSubs['must-watch'].lists);
+            if (filmSubs['genre']?.lists) await this.loadAndRenderGrid('films-genre-grid', filmSubs['genre'].lists);
+            if (filmSubs['editors']?.lists) await this.loadAndRenderGrid('films-editors-grid', filmSubs['editors'].lists);
+            if (filmSubs['geography']?.lists) await this.loadAndRenderGrid('films-geography-grid', filmSubs['geography'].lists);
+        }
+        if (index.categories.books?.subcategories) {
+            const bookSubs = index.categories.books.subcategories;
+            if (bookSubs['turkish']?.lists) await this.loadAndRenderGrid('books-turkish-grid', bookSubs['turkish'].lists);
+            if (bookSubs['classics']?.lists) await this.loadAndRenderGrid('books-classics-grid', bookSubs['classics'].lists);
+            if (bookSubs['genre']?.lists) await this.loadAndRenderGrid('books-genre-grid', bookSubs['genre'].lists);
+        }
+        if (index.categories.anime?.subcategories) {
+            const animeSubs = index.categories.anime.subcategories;
+            if (animeSubs['must-watch']?.lists) await this.loadAndRenderGrid('anime-must-watch-grid', animeSubs['must-watch'].lists);
+            if (animeSubs['genre']?.lists) await this.loadAndRenderGrid('anime-genre-grid', animeSubs['genre'].lists);
+        }
+        if (index.categories.games?.subcategories) {
+            const gameSubs = index.categories.games.subcategories;
+            if (gameSubs['must-play']?.lists) await this.loadAndRenderGrid('games-must-play-grid', gameSubs['must-play'].lists);
+            if (gameSubs['genre']?.lists) await this.loadAndRenderGrid('games-genre-grid', gameSubs['genre'].lists);
+            if (gameSubs['platform']?.lists) await this.loadAndRenderGrid('games-platform-grid', gameSubs['platform'].lists);
+        }
+    },
+    async previewList(listId) {
+        let listData = null;
+        for (const key in this.cache) {
+            if (this.cache[key].id === listId) {
+                listData = this.cache[key];
+                break;
+            }
+        }
+        if (!listData) { alert('Liste yüklenemedi.'); return; }
+        const modal = document.createElement('div');
+        modal.className = 'modal';
+        modal.id = 'preview-modal';
+        modal.innerHTML = `
+            <div class="modal-content" style="max-width: 600px; max-height: 80vh; overflow-y: auto;">
+                <div class="modal-header">
+                    <h3>${listData.title}</h3>
+                    <button class="modal-close" onclick="document.getElementById('preview-modal').remove()">×</button>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">${listData.description}</p>
+                <div class="preview-items-list" style="max-height: 400px; overflow-y: auto;">
+                    ${listData.items.slice(0, 25).map((item, i) => `
+                        <div style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-color);">
+                            <div style="font-weight: 500;">${i + 1}. ${item.tr || item.title || item.name}</div>
+                        </div>
+                    `).join('')}
+                </div>
+                <div style="margin-top: 1rem; text-align: center;">
+                    <button class="btn btn-primary" onclick="CuratedLists.addListToCollections('${listId}'); document.getElementById('preview-modal').remove();">+ Koleksiyonuma Ekle</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+    },
+    async showListDetail(listId) { await this.previewList(listId); },
+    async addListToCollections(listId) {
+        let listData = null;
+        for (const key in this.cache) {
+            if (this.cache[key].id === listId) {
+                listData = this.cache[key];
+                break;
+            }
+        }
+        if (!listData) { alert('Liste yüklenemedi.'); return; }
+        const challenges = getUserChallenges();
+        if (challenges.some(c => c.curatedListId === listId)) {
+            this.openInCollection(listId);
+            return;
+        }
+        const newChallenge = {
+            id: Date.now().toString(),
+            title: listData.title,
+            category: listData.category,
+            curatedListId: listId,
+            createdAt: new Date().toISOString(),
+            items: listData.items.map((item, index) => ({
+                id: `${Date.now()}-${index}`,
+                name: item.tr || item.title || item.name,
+                completed: false,
+                note: ''
+            }))
+        };
+        challenges.push(newChallenge);
+        setUserChallenges(challenges);
+        switchToMyListsTab();
+        renderChallengesList();
+        updateStats();
+        showToast(`"${listData.title}" koleksiyonunuza eklendi!`);
+    }
+};
+
+// ============ Dashboard Tabs ============
+function switchToMyListsTab() {
+    document.querySelectorAll('.dashboard-tab').forEach(t => t.classList.remove('active'));
+    document.querySelector('.dashboard-tab[data-tab="my-lists"]')?.classList.add('active');
+    document.getElementById('my-lists-section')?.classList.remove('hidden');
+    document.getElementById('explore-section')?.classList.add('hidden');
+}
+
+function switchToExploreTab() {
+    document.querySelectorAll('.dashboard-tab').forEach(t => t.classList.remove('active'));
+    document.querySelector('.dashboard-tab[data-tab="explore"]')?.classList.add('active');
+    document.getElementById('my-lists-section')?.classList.add('hidden');
+    document.getElementById('explore-section')?.classList.remove('hidden');
+    CuratedLists.initExploreSection();
+}
+
+function initDashboardTabs() {
+    document.querySelectorAll('.dashboard-tab').forEach(tab => {
+        tab.addEventListener('click', function () {
+            if (this.dataset.tab === 'my-lists') switchToMyListsTab();
+            else if (this.dataset.tab === 'explore') switchToExploreTab();
+        });
+    });
+
+    document.querySelectorAll('.category-tab').forEach(tab => {
+        tab.addEventListener('click', function () {
+            document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            const cat = this.dataset.category;
+            const f = document.getElementById('film-lists-section');
+            const b = document.getElementById('book-lists-section');
+            const a = document.getElementById('anime-lists-section');
+            const g = document.getElementById('games-lists-section');
+
+            if (cat === 'all') { f?.classList.remove('hidden'); b?.classList.remove('hidden'); a?.classList.remove('hidden'); g?.classList.remove('hidden'); }
+            else if (cat === 'films') { f?.classList.remove('hidden'); b?.classList.add('hidden'); a?.classList.add('hidden'); g?.classList.add('hidden'); }
+            else if (cat === 'books') { f?.classList.add('hidden'); b?.classList.remove('hidden'); a?.classList.add('hidden'); g?.classList.add('hidden'); }
+            else if (cat === 'anime') { f?.classList.add('hidden'); b?.classList.add('hidden'); a?.classList.remove('hidden'); g?.classList.add('hidden'); }
+            else if (cat === 'games') { f?.classList.add('hidden'); b?.classList.add('hidden'); a?.classList.add('hidden'); g?.classList.remove('hidden'); }
+        });
+    });
+}
+
+function showToast(message) {
+    const existing = document.getElementById('toast-notification');
+    if (existing) existing.remove();
+    const toast = document.createElement('div');
+    toast.id = 'toast-notification';
+    toast.style.cssText = 'position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: var(--accent-gradient); color: white; padding: 1rem 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-lg); z-index: 10000;';
+    toast.textContent = message;
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
+}
+
+// ============ Backup & Restore (Export / Import) ============
+function exportData() {
+    const data = Storage.getData();
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `100-challenge-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    showToast('Yedek başarıyla indirildi!');
+}
+
+function importData(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const parsed = JSON.parse(e.target.result);
+            const valid = parsed && typeof parsed === 'object' && Object.values(parsed).some(v => Array.isArray(v));
+            if (!valid) throw new Error('Invalid backup shape');
+            Storage.saveData(parsed);
+            showDashboard();
+            showToast('Yedek başarıyla yüklendi!');
+        } catch (err) {
+            alert('Geçersiz yedek dosyası!');
+        }
+    };
+    reader.readAsText(file);
 }
 
 // ============ Modals ============
@@ -591,10 +957,8 @@ function escapeHtml(text) {
 
 // ============ Event Listeners ============
 function initEventListeners() {
-    // Add challenge btn
     DOM.addChallengeBtn.addEventListener('click', showNewChallengeModal);
 
-    // New challenge form
     DOM.newChallengeForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const category = document.getElementById('challenge-category').value;
@@ -606,26 +970,44 @@ function initEventListeners() {
         }
     });
 
-    // Back btn
     DOM.backBtn.addEventListener('click', () => {
         APP_STATE.currentChallenge = null;
         showDashboard();
     });
 
-    // Delete challenge
     DOM.deleteChallengeBtn.addEventListener('click', () => {
         if (APP_STATE.currentChallenge) {
             deleteChallenge(APP_STATE.currentChallenge.id);
         }
     });
 
-    // Random pick
-    DOM.randomPickBtn.addEventListener('click', pickRandomItem);
+    DOM.randomPickBtn.addEventListener('click', randomPick);
 
-    // Search items
+    DOM.addItemBtn.addEventListener('click', () => {
+        const text = DOM.newItemInput.value;
+        if (text.includes('\n')) {
+            addBulkItems(text);
+        } else if (text.trim()) {
+            addItem(text);
+        }
+        DOM.newItemInput.value = '';
+    });
+
+    DOM.newItemInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            const text = DOM.newItemInput.value;
+            if (text.includes('\n')) {
+                addBulkItems(text);
+            } else if (text.trim()) {
+                addItem(text);
+            }
+            DOM.newItemInput.value = '';
+        }
+    });
+
     DOM.searchItems.addEventListener('input', renderItems);
 
-    // Filter buttons
     DOM.filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             DOM.filterBtns.forEach(b => b.classList.remove('active'));
@@ -635,30 +1017,21 @@ function initEventListeners() {
         });
     });
 
-    // Add item form / button
-    DOM.addItemBtn.addEventListener('click', () => {
-        addItem(DOM.newItemInput.value);
-        DOM.newItemInput.value = '';
-    });
-    DOM.newItemInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            addItem(DOM.newItemInput.value);
-            DOM.newItemInput.value = '';
-        }
-    });
-
-    // Edit item form
     DOM.editItemForm.addEventListener('submit', (e) => {
         e.preventDefault();
         if (APP_STATE.editingItemId) {
-            updateItem(
-                APP_STATE.editingItemId,
-                DOM.editItemName.value,
-                DOM.editItemNote.value
-            );
+            updateItem(APP_STATE.editingItemId, DOM.editItemName.value, DOM.editItemNote.value);
             hideEditItemModal();
         }
     });
+
+    // Backup & Restore
+    const exportBtn = document.getElementById('export-btn');
+    const importBtn = document.getElementById('import-btn');
+    const importInput = document.getElementById('import-input');
+    if (exportBtn) exportBtn.addEventListener('click', exportData);
+    if (importBtn) importBtn.addEventListener('click', () => importInput.click());
+    if (importInput) importInput.addEventListener('change', importData);
 }
 
 // ============ Theme Management ============
@@ -683,6 +1056,7 @@ const Theme = {
 function initApp() {
     Theme.init();
     initEventListeners();
+    initDashboardTabs();
     showDashboard();
 }
 

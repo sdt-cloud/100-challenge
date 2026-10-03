@@ -1,64 +1,53 @@
-# 🚀 100 Challenge (Android & Web)
+# 🚀 100 Challenge — Android & Web
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20Web-blue.svg" alt="Platform">
-  <img src="https://img.shields.io/badge/APK-Ready%20to%20Download-success.svg" alt="APK Ready">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+  <a href="https://github.com/sdt-cloud/100-challenge/releases/latest"><strong>📥 SON APK'YI İNDİR — ANDROID</strong></a>
 </p>
 
----
+**APK kurulum:** Yukarıdaki bağlantıyı Android telefonda aç → `100-Challenge.apk` dosyasını indir → dosyaya dokunup yükle. Android izin isterse bu kaynaktan uygulama yüklemeye izin ver. GitHub hesabı istemeden indirmen gerekirse README bağlantısını tarayıcıda aç; Actions artefact'i indirmek için GitHub oturumu isteyebilir.
 
-## 📱 Android APK İndir / Download APK
+## Bu sürümde
+- Giriş/kayıt yok; listeler cihazda yerel saklanır.
+- Keşfet: tüm küratörlü film, kitap, anime ve oyun listeleri uygulama paketiyle gelir ve internet gerekmeden açılır.
+- İlk açılışta 22 hazır liste koleksiyona eklenir. Önceki APK'daki yerel listen varsa yeni sürüm onu korur ve eksik küratörlü listeleri ekler.
+- Birden çok hedefi satır satır yapıştırıp topluca ekleme.
+- **💾 Yedekle**: bütün yıl/listeleri JSON dosyası olarak dışa aktarır.
+- **📂 Geri Yükle**: JSON yedeğini cihaza geri yükler. Geri yükleme mevcut kayıtların üzerine yazar; önce dışa aktarmanı öneririz.
+- Filtreler, ilerleme yüzdesi, rastgele hedef seçimi ve açık/koyu tema.
 
-Uygulamayı hemen Android telefonunuza yükleyip test etmek için aşağıdaki butona tıklayarak GitHub Actions üzerinden son sürüm APK dosyasını indirebilirsiniz:
+## Yedekleme ve geri yükleme
+Uygulamada üstteki **Yedekle** düğmesine basıp JSON dosyasını güvenli bir yere kaydet. Yeni telefonda veya uygulamayı yeniden kurduktan sonra **Geri Yükle** ile dosyayı seç. Yerel uygulama verileri uygulama kaldırıldığında silinebileceğinden düzenli yedek al.
 
-👉 **[📥 100 Challenge APK İndir (GitHub Actions Releases)](https://github.com/sdt-cloud/100-challenge/actions)** *(En son başarılı derlemeden `100-Challenge-APK` artifact'ini indirebilirsiniz)*
+## Toplu hedef ekleme
+Bir listeyi aç, metin alanına her satıra bir hedef yaz/yapıştır ve **Ekle**'ye bas. Her satır ayrı hedef olur.
 
----
+## Geliştirici / Build
+- Vanilla JavaScript, HTML, CSS; Cordova Android wrapper
+- Curated JSON listeleri `data/` altında. `build_data_bundle.py` bunları `data-bundle.js` içine paketleyerek Android WebView'de yerel JSON fetch kısıtlamalarını önler.
+- GitHub Actions `main` branch'e her push'ta APK derler, Actions Artifact yükler ve test Release'ini günceller.
+- Son yayınlar: [GitHub Releases](https://github.com/sdt-cloud/100-challenge/releases)
+- Derlemeler: [GitHub Actions](https://github.com/sdt-cloud/100-challenge/actions)
 
-## 🌟 Proje Hakkında / About the Project
-
-**100 Challenge**, kişisel gelişim yolculuğunu eğlenceli ve takip edilebilir bir hale getiren modern bir mobil öncelikli web platformudur. Filmlerden kitaplara, oyunlardan animelere kadar ilerlemenizi kaydedebilir, istatistiklerinizi görebilir ve kendinize meydan okuyabilirsiniz. 
-
-> **Not:** Tamamen **yerel odaklı (local-first)** çalışır; giriş/kayıt gerektirmez, tüm veriler doğrudan telefonunuzda güvenle saklanır.
-
----
-
-## ✨ Öne Çıkan Özellikler / Key Features
-
-- **📱 Android Uyumlu & Yerel**: Giriş ekranı yok, doğrudan açılır ve veriler cihazınızda saklanır.
-- **📊 Gelişmiş İstatistikler**: Toplam tamamlanma oranınızı ve aktif listelerinizi anlık olarak takip edin.
-- **🔍 Keşfet & Listelerim**: Filmler, Kitaplar, Animeler ve Oyunlar için hazır listeler oluşturun veya ekleyin.
-- **📡 Canlı API Entegrasyonu**: OMDB, Jikan (MAL) ve RAWG API'leri ile içerik afişlerini otomatik yükleyin.
-- **🌓 Dinamik Tema**: Karanlık (dark) ve aydınlık (light) mod desteği.
-- **🎲 Rastgele Seçim**: Kararsız kaldığınızda listenizden sizin için rastgele bir hedef seçin.
-
----
-
-## 🛠️ Kullanılan Teknolojiler / Tech Stack
-
-- **HTML5, CSS3 & JavaScript (Vanilla JS)**: Hızlı, hafif ve akıcı performans.
-- **Apache Cordova**: Android yerel paketleme altyapısı.
-- **GitHub Actions (CI/CD)**: Her push işleminde otomatik Android APK derleme sistemi.
-- **LocalStorage**: Cihaz içi güvenli veri saklama.
-
----
-
-## 🚀 Hızlı Başlangıç / Quick Start
-
+## Geliştirme
 ```bash
-# Depoyu klonlayın
 git clone https://github.com/sdt-cloud/100-challenge.git
-
-# Dizine gidin
 cd 100-challenge
-
-# Tarayıcıda test edin
-open index.html
+python3 build_data_bundle.py
+# Web sunucusu üzerinden açmak önerilir (özellikle JSON fallback için)
+python3 -m http.server 8000
 ```
 
+## Lisans
+MIT — ayrıntı için [LICENSE](LICENSE).
+
 ---
 
-## 📄 Lisans / License
+# 🚀 100 Challenge — English
 
-Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
+[📥 Download the latest Android APK](https://github.com/sdt-cloud/100-challenge/releases/latest)
+
+This local-first app needs no account. Curated film, book, anime and game lists are bundled for offline Explore. Add many items by pasting one item per line. Use **Yedekle** to export all lists to JSON and **Geri Yükle** to restore a backup. Keep a backup before reinstalling; app-local data may be removed when the app is uninstalled.
+
+The APK is built by GitHub Actions; see [Releases](https://github.com/sdt-cloud/100-challenge/releases) or [Actions](https://github.com/sdt-cloud/100-challenge/actions).
+
+MIT License.

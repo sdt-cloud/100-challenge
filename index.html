@@ -28,6 +28,9 @@
                 </div>
                 <div class="header-right">
                     <span id="current-year" class="year-badge">2026</span>
+                    <button id="export-btn" class="btn btn-ghost" title="Verileri Yedekle (Dışa Aktar)">💾 Yedekle</button>
+                    <button id="import-btn" class="btn btn-ghost" title="Yedeği Geri Yükle (İçe Aktar)">📂 Geri Yükle</button>
+                    <input type="file" id="import-input" accept="application/json" style="display:none;">
                 </div>
             </header>
 
@@ -259,7 +262,8 @@
                     </div>
 
                     <div class="add-item-form">
-                        <input type="text" id="new-item-input" class="item-input" placeholder="Yeni madde ekle...">
+                        <textarea id="new-item-input" class="item-input" rows="1"
+                            placeholder="Yeni madde ekle... (Her satıra bir madde yazarak toplu ekleyebilirsin)"></textarea>
                         <button id="add-item-btn" class="btn btn-primary">Ekle</button>
                     </div>
 
@@ -339,6 +343,7 @@
         </div>
     </div>
 
+    <script src="data-bundle.js"></script>
     <script src="app.js"></script>
 </body>
 

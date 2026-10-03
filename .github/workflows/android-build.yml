@@ -76,9 +76,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release delete v1.0.0-test --yes --cleanup-tag || true
-          gh release create v1.0.0-test ./100-Challenge.apk \
-            --title "100 Challenge — Son Test Sürümü (APK)" \
-            --notes "Otomatik derlendi. Aşağıdaki APK dosyasını indirip telefona kurabilirsin.
+          TAG="apk-${GITHUB_RUN_NUMBER}-${GITHUB_RUN_ATTEMPT}"
+          gh release create "$TAG" ./100-Challenge.apk \
+            --title "100 Challenge — APK derleme #${GITHUB_RUN_NUMBER}" \
+            --notes "Otomatik derlendi. APK dosyasını indirip Android telefona kurabilirsin.
 
-          Değişiklikler: Keşfet bölümü düzeltildi, tüm hazır listeler uygulamayla geliyor, toplu madde ekleme ve yedekle/geri yükle eklendi."
+          Değişiklikler: Posterler görünür oldukça yüklenir; URL aramaları cihazda saklanır. API görseli yoksa film 🎬, anime 🎌, oyun 🎮 simgeleri gösterilir."
